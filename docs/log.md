@@ -2,6 +2,9 @@
 * Visited cacao Metta meditation. It revealed unexpected things inside of me. I feel shame for being a bad son for my father. I still cannot let my mother live as she is. I still am trying to achieve something partially to restore my father's masculine proud position instead of him.
 * After boxing my body was very tight in the morning, but proper warmup restored my ability to move freely and with pleasure. I made a good choice not to rush warmup, but to start it lazy and slow.
 * More and more I come to realization that before I find a way to live with myself only it does not make sense to fight my obsessive dependency on Arina or look for a better woman.
+* Reptiloid: started a doc about the planet traits. It looks like in the end I'll be able to connect all entities into a system after some time of planning. I've chosen this path for Reptiloid - slow, nerdy, without business related mentality. This way I can put my creativity and nerdy system thinking here without limit and think much more goal oriented and simpler solutions in the business projects.
+* I did 2 rapeh. Threw away the can with rapeh. I decided to make a change and to replace rapeh with meditation and breathwork for several months. I don't know for how long, but I know that for a long time. At least until I have noticeable effect in meditation and breathwork.
+* I went to the local monthly art marke and had relaxing and fun dance for a couple of hours. I think, I should add more dance in my life.
 
 ## 2026-05-20
 * Boxing workout in the morning
@@ -10,7 +13,7 @@
 * Did 1 rapeh.
 * Reptiloid: Created a doc about Life Forms and how genetics works in the game.
 * Walked 5km
-* Ceoflights: published 1 SEO page, requested feedback and changes in their scripts. Good enough volume for the limits of this project.
+* Ceoflights: published 1 SEO page, requested feedback and changes in their scripts. Good enough volume for the limits of this project. This is a big win, because I could not make a tiny step in this direction for days.
 * Ruminated about my sex fantasies. I came to a conclusion, that I trapped myself. I forbidded myself to have sex outside family for a while, I am not approaching Arina about this to hold my frame, and I am prohibiting myself to masturbate for all reasons like "I'm already 43", and "I must get a real sex", etc.
 * Talked to ChatGPT about semi-extreme adventure possibilities on the island with wife and shared this with my wife.
 

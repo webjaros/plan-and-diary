@@ -1,6 +1,6 @@
 # Personal Plan
 
-This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, wishes, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, open questions, and recent log entries.
+This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, wishes, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
 
 ## Desired Future
 
@@ -22,11 +22,14 @@ The future I want to build has:
 
 ## Nearest Steps
 
-1. Finish WarSettlers.
-2. Try to create an SEO page for CeoFlights.
-3. Sign the layoff document with Arina.
-4. Make a plan for the first steps of the ETL business.
-5. Check whether the next border run is scheduled.
+1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
+2. CeoFlights: finish SEO pages.
+3. ETL business: publish the landing, test, integrate analytics, start running ads.
+4. Check whether the next border run is scheduled.
+5. Organize Moreta payments.
+6. Reduce rapeh to at most 2 times per day.
+7. Make a plan of possible divorce scenarios.
+8. Prepare data (docs and notary) for the divorce.
 
 ## Projects
 
@@ -53,6 +56,7 @@ The future I want to build has:
 - Not playable yet, but the prototype clarified what the MVP should contain.
 - Niche product.
 - Somewhat similar to Plague Inc.
+- Chosen path: slow, nerdy, without business mentality — creativity and system thinking without limits; business projects stay more goal-oriented and simpler.
 
 ### ETL
 
@@ -62,6 +66,7 @@ The future I want to build has:
 - Chosen as a test for a scalable income source.
 - If marketing tests fail, the idea can be changed or pivoted.
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
+- Initial plan: series of tiny marketing experiments; landing prototype created.
 
 ### Personal and Company Brand
 
@@ -79,7 +84,7 @@ The future I want to build has:
 - 30-40 minutes of warmup every morning.
 - 5-10 km of walking daily.
 - Dance classes once a week.
-- Boxing 2-3 times a week starting next week.
+- Boxing 2-3 times a week.
 - Yoga and stretching most evenings.
 - Stay conscious about body recovery and biomechanics.
 
@@ -136,35 +141,91 @@ This must happen every day and must be protected.
 2. Choose ETL Shopify as a test for a scalable income source. If marketing tests fail, I can choose another idea or pivot. If marketing succeeds, I am not locked into Shopify forever and can create upsells or broaden the product later.
 3. Stay conscious about body recovery and biomechanics; otherwise, the physical activity plan is good enough for now.
 
+### 2026-05-21
+
+- Replace rapeh with meditation and breathwork for several months — at least until there is a noticeable effect. Threw away the rapeh can.
+
+## What Bothers Me
+
+1. I can't stop doing rapeh.
+2. I can't stop fantasizing about unusual sex with Arina.
+3. I can't stop hoping for Arina to understand and accept me with all my nuances.
+
 ## Backlog
 
 - Open a Wise account for WebLab so the Thai office can be paid from the company bank account.
 - Divorce Arina.
+- Pay dividends.
+- Visit an STI doctor.
 
 ## Open Questions
 
-From a bird's-eye view, there are no major open questions for now. Project details should be discussed separately.
+- Should I try delegating CeoFlights work to a junior developer with AI?
+- Would it be more antifragile to have working women?
+- What else should be done before talking about divorce with Arina?
+- I had a declared place of living in Vita Suslova's house for a couple of years. Even though I did not live there, there is a debt of 263 × 2 years for rubbish takeout services. Considering the state of the relationship with Arina, should I cover this or not?
 
 ## Log
 
-### 2026-05-16
+### 2026-05-21
 
-- Reptiloid: Started anew with Cursor. Created a generator of solar systems and a frontend to show the map.
-- CeoFlights: Fixed smaller things.
-- WarSettlers: Did not touch it.
-- Had an unwanted habit episode four times, which is definitely not what I want.
+- Visited cacao Metta meditation. Unexpected inner material surfaced: shame about being a bad son to my father; still trying to change my mother; partly striving to restore my father's masculine pride instead of him.
+- After boxing, body was very tight in the morning; a slow, lazy warmup restored free movement. Good choice not to rush warmup.
+- Growing realization: before finding a way to live with myself alone, it does not make sense to fight obsessive dependency on Arina or look for a better woman.
+- Reptiloid: started a doc about planet traits; path is slow and nerdy, connecting entities into a system over time.
+- Did rapeh twice, then threw away the can; decided to replace rapeh with meditation and breathwork for a long time.
+- Went to the local monthly art market; relaxing, fun dance for a couple of hours. Should add more dance to life.
 
-### 2026-05-17
+### 2026-05-20
 
-- Discussed "Arina quits the job" vs. "WebLab bankruptcy" with Vija. For now, decided to go with the first option.
+- Boxing workout in the morning.
+- Daughter asked if she could climb the mountain; did not reply. Maybe a bad idea. After the last fight with Arina, does not feel in charge much in the family.
+- Ate oat porridge — does not match strategy, but sometimes very attractive.
+- Did rapeh once.
+- Reptiloid: created a doc about Life Forms and how genetics works in the game.
+- Walked 5 km.
+- CeoFlights: published one SEO page, requested feedback and script changes. Good volume for project limits — a big win after days of no progress.
+- Ruminated about sex fantasies; concluded trapped between forbidding sex outside family, not approaching Arina to hold frame, and prohibiting masturbation for various reasons.
+- Talked to ChatGPT about semi-extreme adventure possibilities on the island with wife and shared with Arina.
+
+### 2026-05-19
+
+- Discussed hypothetical divorce complications with ChatGPT.
+- Reptiloid: added planet generation.
+- Walked 10 km.
+- Did rapeh five times.
+- Went to couple dancing class with Arina.
+- Discussed initial ETL business plan with ChatGPT; agreed on tiny marketing experiments; created landing prototype.
+- Possible constipation; need to drink more water.
+- Ruminated about fears of divorce and death.
+- Had foot massage.
+- Offered daughter a morning walk; she refused (iPad), then offered at 10 pm; refused because wanted evening alone and massage. Spent time convincing self not evil for refusing child's proposal.
+- Did nothing for CeoFlights.
+- Did not read Antifragile.
 
 ### 2026-05-18
 
 - Decided that Arina quits the job on May 27.
 - Started personal tax declaration with Vita.
-- Visited the Phangan immigration office. They requested that the TM30 paper be remade with the new passport number.
-- Decided not to cut fruit myself and to let the shop worker do it until I make enough money to have someone do it in my house.
-- Decided not to go carnivore because there are issues getting quality meat on the island, it creates cognitive load, and it is financially too stressful for now.
+- Visited Phangan immigration office. They requested that the TM30 paper be remade with the new passport number.
+- Decided not to cut fruit myself and to let the shop worker do it until making enough money to have someone do it at home.
+- Decided not to go carnivore — quality meat hard to get on the island, cognitive load, financially too stressful now.
 - Added more data to the Plan project.
-- Filed the 90-day report at Phangan Immigration.
-- Created a document for Arina's layoff and sent it to Vija.
+- Filed 90-day report at Phangan Immigration.
+- Created Arina layoff document and sent it to Vija.
+- WarSettlers: fixed design issues, added small features, messaged customer, waiting for feedback.
+- Messaged Agris with a tiny CeoFlights update — probably too small for the day.
+- No workouts; only warmup, evening stretching, and sauna.
+- Did rapeh three times.
+- Walked 6.8 km.
+
+### 2026-05-17
+
+- Discussed "Arina quits the job" vs. "WebLab bankruptcy" with Vija. For now, decided to go with the first option.
+
+### 2026-05-16
+
+- Reptiloid: started anew with Cursor. Created a generator of solar systems and a frontend to show the map.
+- CeoFlights: fixed smaller things.
+- WarSettlers: did not touch it.
+- Did rapeh four times, which is definitely not what I want.
