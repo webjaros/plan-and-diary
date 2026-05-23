@@ -24,12 +24,11 @@ The future I want to build has:
 
 1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
 2. CeoFlights: finish SEO pages.
-3. ETL business: publish the landing, test, integrate analytics, start running ads.
+3. ETL business: start running ads.
 4. Check whether the next border run is scheduled.
 5. Organize Moreta payments.
-6. Reduce rapeh to at most 2 times per day.
-7. Make a plan of possible divorce scenarios.
-8. Prepare data (docs and notary) for the divorce.
+6. Make a plan of possible divorce scenarios.
+7. Prepare data (docs and notary) for the divorce.
 
 ## Projects
 
@@ -66,7 +65,7 @@ The future I want to build has:
 - Chosen as a test for a scalable income source.
 - If marketing tests fail, the idea can be changed or pivoted.
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
-- Initial plan: series of tiny marketing experiments; landing prototype created.
+- Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics.
 
 ### Personal and Company Brand
 
@@ -133,6 +132,15 @@ This must happen every day and must be protected.
 
 - Owner of the CeoFlights business.
 
+### Artyom the Boxer
+
+- Boxing trainer I train with.
+
+### Kostya the Barber
+
+- Barber I attend.
+- Invited me to boxing with Artyom.
+
 ## Decisions
 
 ### 2026-05-16
@@ -144,6 +152,7 @@ This must happen every day and must be protected.
 ### 2026-05-21
 
 - Replace rapeh with meditation and breathwork for several months — at least until there is a noticeable effect. Threw away the rapeh can.
+- Will not ask Arina for sex anymore; her lack of excitement does not bother much given divorce thinking and not wanting more kids with her.
 
 ## What Bothers Me
 
@@ -167,6 +176,16 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-05-22
+
+- Boxing in the morning.
+- Instead of rapeh after boxing: meditative music and relaxed stretching; allowed self not to rush to the computer.
+- Reptiloid: created docs about the ship and weapons.
+- Had sex with Arina; much more sensual than yesterday.
+- ETL: published website to Cloudflare, added Google Analytics.
+- Sauna and ice bath, then danced for an hour at the local art market.
+- Ate quesadilla after 10 pm.
+
 ### 2026-05-21
 
 - Visited cacao Metta meditation. Unexpected inner material surfaced: shame about being a bad son to my father; still trying to change my mother; partly striving to restore my father's masculine pride instead of him.
@@ -175,6 +194,7 @@ This must happen every day and must be protected.
 - Reptiloid: started a doc about planet traits; path is slow and nerdy, connecting entities into a system over time.
 - Did rapeh twice, then threw away the can; decided to replace rapeh with meditation and breathwork for a long time.
 - Went to the local monthly art market; relaxing, fun dance for a couple of hours. Should add more dance to life.
+- Had sex with Arina, but she did it without excitement. Will not ask for this anymore; does not bother much given divorce thinking and not wanting kids with her.
 
 ### 2026-05-20
 

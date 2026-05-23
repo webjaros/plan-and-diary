@@ -17,3 +17,9 @@
 
 ## Agris Smukais
 * An owner of Ceoflights business.
+
+## Artyom the boxer
+The boxing trainer I'm training with.
+
+## Kostya the barber
+The barber I'm attending. Also he invited me to the boxing with Artyom.

@@ -1,3 +1,12 @@
+## 2026-05-22
+* Boxing in the morning
+* Instead of rapeh after boxing I was listening to meditative music in the headset and was doing relaxed stretching. I allowed myself to not rush to work in front of the computer.
+* Reptiloid: created docs about the ship and the weapons.
+* Had sex with Arina. It was much more sensual that yesterday.
+* ETL: published the website to Cloudflare, added Google Analytics.
+* I went to sauna and ice bath. After that I was dancing for an hour at the local art market.
+* Indulged into eating quesadilla after 10pm.
+
 ## 2026-05-21
 * Visited cacao Metta meditation. It revealed unexpected things inside of me. I feel shame for being a bad son for my father. I still cannot let my mother live as she is. I still am trying to achieve something partially to restore my father's masculine proud position instead of him.
 * After boxing my body was very tight in the morning, but proper warmup restored my ability to move freely and with pleasure. I made a good choice not to rush warmup, but to start it lazy and slow.
@@ -5,6 +14,7 @@
 * Reptiloid: started a doc about the planet traits. It looks like in the end I'll be able to connect all entities into a system after some time of planning. I've chosen this path for Reptiloid - slow, nerdy, without business related mentality. This way I can put my creativity and nerdy system thinking here without limit and think much more goal oriented and simpler solutions in the business projects.
 * I did 2 rapeh. Threw away the can with rapeh. I decided to make a change and to replace rapeh with meditation and breathwork for several months. I don't know for how long, but I know that for a long time. At least until I have noticeable effect in meditation and breathwork.
 * I went to the local monthly art marke and had relaxing and fun dance for a couple of hours. I think, I should add more dance in my life.
+* I had sex with Arina, but she obviously did this without any excitement. I won't ask for this anymore. It does not bother me much since I'm thinking about divorce and also I surely don't want kids with Arina.
 
 ## 2026-05-20
 * Boxing workout in the morning
