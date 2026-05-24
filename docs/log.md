@@ -1,3 +1,16 @@
+## 2026-05-24
+* Visited ecstatic dance. Was doins only things that I felt that my body wanted. It was veeeery pleasant because in boxing and in dance class I only do things that the trainer tells me to do. Also I found some kind of an answer to my question "What do do if not for connecting to other people?". And the answer is "Connecting with myself, starting with my body".
+* Reptiloid: assigned cradleandscorch.com domain to the website.
+* Went with my friends to sauna. Talking about Thailand, Koh Phangan, Vietnam, China.
+* My life is full of good things. But I rarely feel excitement. I don't know, if I should I concerned about this. Feeling excited made me do stupid and not pragmatic things in the past. I should either find a way to feel excitement in a more ecological way or find a way to live calmer life and feel good about it.
+* I did 2 rageh today. This is a step back in my plans. I try to not beat myself too much, but I feel disappointed about this.
+* Arina has monthly psychotherapist session on May 27. I planned to talk about divorce (not break up!) on May 27. Now I'm thinking should I do it before or after the session.
+* I think I'll skip boxing tomorrow. I want to keep my business things up to the schedule. Otherwise I will feel bad again.
+
+## 2026-05-23
+* After breakfast I did 4km walk. While walking I was training my mind to think about one sphere of my life only. I chose Reptiloid's next feature for this.
+* Forgot to finish this log.
+
 ## 2026-05-22
 * Boxing in the morning
 * Instead of rapeh after boxing I was listening to meditative music in the headset and was doing relaxed stretching. I allowed myself to not rush to work in front of the computer.

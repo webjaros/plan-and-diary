@@ -56,6 +56,7 @@ The future I want to build has:
 - Niche product.
 - Somewhat similar to Plague Inc.
 - Chosen path: slow, nerdy, without business mentality — creativity and system thinking without limits; business projects stay more goal-oriented and simpler.
+- Domain `cradleandscorch.com` assigned to the website.
 
 ### ETL
 
@@ -173,8 +174,26 @@ This must happen every day and must be protected.
 - Would it be more antifragile to have working women?
 - What else should be done before talking about divorce with Arina?
 - I had a declared place of living in Vita Suslova's house for a couple of years. Even though I did not live there, there is a debt of 263 × 2 years for rubbish takeout services. Considering the state of the relationship with Arina, should I cover this or not?
+- Should I make some project to leverage the downward trend in the real estate business on the island?
+- Should I talk to Arina about divorce before or after her therapist session on May 27?
 
 ## Log
+
+### 2026-05-24
+
+- Visited ecstatic dance; did only what the body wanted — very pleasant contrast to boxing and dance class where the trainer directs everything.
+- Found an answer to "What to do if not for connecting to other people?": connect with myself, starting with my body.
+- Reptiloid: assigned `cradleandscorch.com` domain to the website.
+- Sauna with friends; talked about Thailand, Koh Phangan, Vietnam, China.
+- Life is full of good things, but rarely feel excitement. Unsure if concerned — excitement led to stupid, unpragmatic choices in the past. Either find ecological excitement or learn to live calmly and feel good about it.
+- Did rapeh twice — a step back; disappointed but trying not to beat myself up too much.
+- Arina has a psychotherapist session on May 27. Planned to talk about divorce (not breakup) that day; now wondering whether to do it before or after her session.
+- Will skip boxing tomorrow to keep business work on schedule.
+
+### 2026-05-23
+
+- After breakfast, 4 km walk while training mind to focus on one life sphere at a time — chose Reptiloid's next feature.
+- Forgot to finish the log.
 
 ### 2026-05-22
 
