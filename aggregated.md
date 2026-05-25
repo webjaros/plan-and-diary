@@ -28,6 +28,8 @@ The future I want to build has:
 4. Make a plan of possible divorce scenarios.
 5. Prepare data (docs and notary) for the divorce.
 6. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
+7. Set up a day-finalizing routine.
+8. Pivot lifestyle toward using and caring for the body.
 
 ## Projects
 
