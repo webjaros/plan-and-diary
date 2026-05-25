@@ -1,6 +1,6 @@
 # Personal Plan
 
-This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, wishes, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
+This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, principles, wishes, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
 
 ## Desired Future
 
@@ -11,6 +11,58 @@ The future I want to build has:
 - Preferably at least one income source from a game.
 - Strong location independence.
 - Maximum leverage from modern AI capabilities.
+
+## Principles
+
+Working principles discovered through observation and experience — not goals, projects, or plans. They may evolve over time.
+
+### Reality Before Theory
+
+Observe reality before building explanations. When possible: run small experiments, collect evidence, observe outcomes, then form conclusions. Prefer evidence over assumptions.
+
+### Small Experiments Before Big Commitments
+
+Avoid large irreversible decisions based on imagination alone. Prefer prototypes, conversations, tests, trial periods, MVPs, and small bets. A week of experimentation is often worth more than months of speculation.
+
+### Sustainability Beats Intensity
+
+The best path is usually not the most intense one. Prefer approaches maintainable for months and years without constant willpower. Avoid systems that require heroic effort to survive.
+
+### Protect Recovery
+
+Recovery is not a reward for productivity — it is part of the system. Protect walking, movement, meditation, dance, music, exploration, social connection, and rest. Do not sacrifice recovery too easily for short-term output.
+
+### Build a Life, Not a Productivity Machine
+
+Projects exist to support life; life does not exist to support projects. Avoid turning every activity into optimization, measurement, monetization, or self-improvement. Leave room for play, curiosity, and enjoyment.
+
+### Conscious Anchors
+
+Total freedom is neither possible nor desirable. Instead of removing all anchors: choose them consciously, understand why they exist, periodically reevaluate them. Prefer chosen commitments over inherited obligations.
+
+### Use the Body as a Compass
+
+Pay attention to what increases vitality, mobility, presence, connection, and recovery. Do not live exclusively in concepts and plans. A meaningful life should be experienced physically, not only understood intellectually.
+
+### One Step Is Enough
+
+Do not require certainty about the entire path before moving. The next meaningful step is usually sufficient. Clarity often appears after action, not before it.
+
+### Finish Before Expanding
+
+Whenever possible: close loops, complete commitments, simplify obligations, reduce unfinished baggage. Unfinished commitments consume cognitive energy.
+
+### Create More Than Consume
+
+When in doubt, lean toward building, writing, coding, creating, and expressing. Creation tends to generate energy; passive consumption often dissipates it.
+
+### Kind Observation Over Self-Punishment
+
+Observe mistakes honestly. Avoid denial, rationalization, and self-attack. Accurate observation is usually more useful than guilt.
+
+### Presence Over Fantasy
+
+Pay attention to the life that is actually happening. Avoid spending excessive energy on imagined futures, relationships, catastrophes, or success. Reality is the primary source of information.
 
 ## Wishes
 
