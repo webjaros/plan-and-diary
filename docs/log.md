@@ -1,3 +1,18 @@
+## 2026-05-25
+
+* Finalized Arina's employment termination process.
+* ETL: created Google Ads campaign and linked it with Google Analytics.
+* CeoFlights: read extensive client feedback, reviewed it with Cursor; implementation postponed until tomorrow.
+* Reptiloid: no progress today.
+* Finally booked an STI doctor appointment after postponing it for a long time; visit scheduled for tomorrow.
+* Attended contact improvisation for the first time; enjoyed it and will likely continue occasionally. Realized lower back strength and stability need improvement.
+* Did rapeh three times. Not happy about it, but trying not to fall into self-judgment. Did not do any breathwork.
+* End-of-day reflection: despite several completed tasks and positive experiences, the day did not feel finished. Might need an evening shutdown ritual so body and mind can register that the day is ending instead of seeing an endless backlog of possible improvements.
+* Reflected on life direction. Old ambitions (wealth, major success, creating a huge game, extraordinary lifestyle) seem less emotionally important than before. Increasingly drawn toward understanding, improving, healing, and inhabiting the body more fully.
+* Reflected on freedom. Part of the motivation is still moving away from old obligations and identities. Perhaps the goal is not to remove all anchors, but to consciously choose new ones and understand why they exist.
+* set a reminder for my next border run
+* did person verification in Moreta and added 20 eur. Now I can pay with QR code in Thailand.
+
 ## 2026-05-24
 * Visited ecstatic dance. Was doins only things that I felt that my body wanted. It was veeeery pleasant because in boxing and in dance class I only do things that the trainer tells me to do. Also I found some kind of an answer to my question "What do do if not for connecting to other people?". And the answer is "Connecting with myself, starting with my body".
 * Reptiloid: assigned cradleandscorch.com domain to the website.

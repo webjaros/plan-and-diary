@@ -24,11 +24,10 @@ The future I want to build has:
 
 1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
 2. CeoFlights: finish SEO pages.
-3. ETL business: start running ads.
-4. Check whether the next border run is scheduled.
-5. Organize Moreta payments.
-6. Make a plan of possible divorce scenarios.
-7. Prepare data (docs and notary) for the divorce.
+3. ETL business: analyze ads and pivot if necessary.
+4. Make a plan of possible divorce scenarios.
+5. Prepare data (docs and notary) for the divorce.
+6. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
 
 ## Projects
 
@@ -66,7 +65,7 @@ The future I want to build has:
 - Chosen as a test for a scalable income source.
 - If marketing tests fail, the idea can be changed or pivoted.
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
-- Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics.
+- Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics; Google Ads campaign created and linked to Analytics.
 
 ### Personal and Company Brand
 
@@ -107,8 +106,7 @@ This must happen every day and must be protected.
 ### Arina Kuprijanova
 
 - My legal wife.
-- Works in WebLab, but effectively does nothing there.
-- I should finish this job contract.
+- Employment termination process finalized (May 25).
 
 ### Vija Juhnevica
 
@@ -166,7 +164,7 @@ This must happen every day and must be protected.
 - Open a Wise account for WebLab so the Thai office can be paid from the company bank account.
 - Divorce Arina.
 - Pay dividends.
-- Visit an STI doctor.
+- Visit an STI doctor (appointment booked for May 26).
 
 ## Open Questions
 
@@ -178,6 +176,21 @@ This must happen every day and must be protected.
 - Should I talk to Arina about divorce before or after her therapist session on May 27?
 
 ## Log
+
+### 2026-05-25
+
+- Finalized Arina's employment termination process.
+- ETL: created Google Ads campaign and linked it with Google Analytics.
+- CeoFlights: read extensive client feedback, reviewed with Cursor; implementation postponed until tomorrow.
+- Reptiloid: no progress today.
+- Booked STI doctor appointment after long postponement; visit scheduled for tomorrow.
+- First contact improvisation class — enjoyed it, will likely continue occasionally; lower back strength and stability need improvement.
+- Did rapeh three times; not happy about it, trying not to fall into self-judgment; did no breathwork.
+- End-of-day reflection: several completed tasks and positive experiences, but day did not feel finished. Might need an evening shutdown ritual so body and mind register the day ending instead of seeing an endless backlog.
+- Reflected on life direction: old ambitions (wealth, major success, huge game, extraordinary lifestyle) feel less emotionally important; increasingly drawn toward understanding, improving, healing, and inhabiting the body.
+- Reflected on freedom: part of motivation is still moving away from old obligations and identities; perhaps the goal is not removing all anchors but consciously choosing new ones and understanding why they exist.
+- Set reminder for next border run.
+- Completed Moreta person verification and added 20 EUR; can now pay with QR code in Thailand.
 
 ### 2026-05-24
 
