@@ -82,6 +82,7 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 6. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
 7. Set up a day-finalizing routine.
 8. Pivot lifestyle toward using and caring for the body.
+9. Try Wise verification for the company once again.
 
 ## Projects
 
@@ -99,6 +100,7 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 - Rate: 72 EUR/hour before dividend tax.
 - This income should be replaced as soon as possible.
 - Agris wants to replace me with an in-house developer or do everything himself with AI.
+- First batch of SEO pages deployed; SEO pages importer created.
 
 ### Reptiloid
 
@@ -120,6 +122,13 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 - If marketing tests fail, the idea can be changed or pivoted.
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
 - Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics; Google Ads campaign created and linked to Analytics.
+- Ads currently showing 0 impressions — needs improvement.
+
+### Business Class Tickets (SEO + AI)
+
+- New project started May 27.
+- SEO + AI business leveraging tech and airline ticket business expertise.
+- Niche chosen with ChatGPT; business description created; three domains purchased.
 
 ### Personal and Company Brand
 
@@ -176,7 +185,7 @@ This must happen every day and must be protected.
 
 - Arina's mother.
 
-### Elizabete Kuprijanova
+### Elizabete Kuprijanova (Liza, Beth)
 
 - My daughter with Arina.
 - Born on December 5, 2015.
@@ -217,8 +226,6 @@ This must happen every day and must be protected.
 
 - Open a Wise account for WebLab so the Thai office can be paid from the company bank account.
 - Divorce Arina.
-- Pay dividends.
-- Visit an STI doctor (appointment booked for May 26).
 
 ## Open Questions
 
@@ -230,6 +237,28 @@ This must happen every day and must be protected.
 - Should I talk to Arina about divorce before or after her therapist session on May 27?
 
 ## Log
+
+### 2026-05-27
+
+- Boxing workout — hard on endurance; will experiment with routine 24h before boxing for optimal preparation.
+- Dance class rehearsal at home.
+- Treated self with restaurant food and handmade chocolate.
+- 90-minute relaxing massage in the evening.
+- After massage, spent almost an hour convincing self not to need food or rapeh; eventually did three rapeh, but delaying the last one three hours after initial intent felt like a small win.
+- Had sex with Arina twice — still not very exciting.
+- Started working on possible divorce scenarios plan.
+- WarSettlers: customer call finally happened; a couple of follow-up items for tomorrow.
+- ETL: ads not showing (0 impressions); need to improve ads.
+- CeoFlights: deployed first batch of SEO pages, resized server, improved server template.
+- New project: SEO + AI business for business class tickets; discussed with ChatGPT, chose niche, created business description, bought three domains.
+- Managed not to eat since 5 pm.
+
+### 2026-05-26
+
+- Visited STI doctor.
+- CeoFlights: created SEO pages importer; sent several questions to Agris before going further.
+- ETL: added keywords to ads.
+- Did rapeh twice.
 
 ### 2026-05-25
 

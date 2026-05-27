@@ -11,7 +11,7 @@
 ## Vita Suslova
 * Arina's mother
 
-## Elizabete Kuprijanova
+## Elizabete Kuprijanova (Liza, Beth)
 * My and Arina's daughter
 * Born on Dec 5 2015
 

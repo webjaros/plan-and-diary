@@ -1,5 +1,26 @@
-## 2026-05-25
+## 2026-05-27
+* Boxing workout. Today it was hard from the standpoint of endurance. I will experiment with routine 24h before the boxing to figure out an optimal preparation.
+* Sex
+* Dancing classes rehearsal at home
+* Treated myself with restaurant food and hand made chocolate
+* Had 90 minute relaxing massage in the evening
+* After massage spent almost an hour convincing myself that I don't need neither food nor rapeh today
+* Had sex with Arina. Still not so exciting if to be honest.
+* Started working on the plan of the possible divorce scenarios.
+* WarSettlers: finally we had a call with the customer, he pointed out a couple of things that I will pay attention tomorrow.
+* ETL: ads are not showing (0 impressions). I have to improve the ads.
+* CeoFlights: deployed 1st batch of SEO pages, resized server for this, improved server template.
+* New project: I decided to start SEO + AI based business in the sphere of business class tickets, leveragin my tech and airline ticket business expertese. I discussed it with ChatGPT, chose a niche, created business description, bought 3 domains.
+* Eventually did 3 rapeh, but I consider delaying the last one 3 hours after the initial intent to be a small win.
+* I managed to not eat since 5pm.
 
+## 2026-05-26
+* Visited STI doctor
+* CeoFlights: created an importer fro SEO pages, send several questions to Agris before going further.
+* ETL: Added some keywords to ads
+* Did 2 rapeh
+
+## 2026-05-25
 * Finalized Arina's employment termination process.
 * ETL: created Google Ads campaign and linked it with Google Analytics.
 * CeoFlights: read extensive client feedback, reviewed it with Cursor; implementation postponed until tomorrow.

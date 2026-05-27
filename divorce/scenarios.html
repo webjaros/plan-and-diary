@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Divorce Scenarios Decision Tree</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --card: #ffffff;
+      --ink: #23201d;
+      --muted: #6f665d;
+      --line: #c9b9a6;
+      --primary: #7f4f24;
+      --primary-soft: #efe0d1;
+      --positive: #2f6f4e;
+      --positive-soft: #dceee4;
+      --caution: #8a5b14;
+      --caution-soft: #f2e5c8;
+      --shadow: 0 10px 30px rgb(38 28 17 / 10%);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+
+    header {
+      margin-bottom: 36px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .tree {
+      display: flex;
+      justify-content: flex-start;
+      overflow-x: auto;
+      padding: 12px 0 28px;
+    }
+
+    .tree ul {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      list-style: none;
+    }
+
+    .tree > ul {
+      min-width: max-content;
+    }
+
+    .tree li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 42px;
+      padding: 10px 0;
+      position: relative;
+    }
+
+    .tree li > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding-left: 38px;
+    }
+
+    .tree li > ul::before {
+      content: "";
+      position: absolute;
+      top: 38px;
+      bottom: 38px;
+      left: 18px;
+      border-left: 2px solid var(--line);
+    }
+
+    .tree li > ul > li::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      width: 20px;
+      border-top: 2px solid var(--line);
+    }
+
+    .tree li:has(> ul) > .node::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -42px;
+      width: 42px;
+      border-top: 2px solid var(--line);
+    }
+
+    .node {
+      position: relative;
+      flex: 0 0 260px;
+      width: 100%;
+      max-width: 260px;
+      min-height: 72px;
+      padding: 14px 16px;
+      border: 1px solid rgb(35 32 29 / 9%);
+      border-radius: 18px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .node strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    .node span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .start {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .start span {
+      color: rgb(255 255 255 / 78%);
+    }
+
+    .agree {
+      background: var(--positive-soft);
+      border-color: rgb(47 111 78 / 20%);
+    }
+
+    .agree strong {
+      color: var(--positive);
+    }
+
+    .disagree {
+      background: var(--caution-soft);
+      border-color: rgb(138 91 20 / 22%);
+    }
+
+    .disagree strong {
+      color: var(--caution);
+    }
+
+    .decision {
+      background: var(--primary-soft);
+      border-color: rgb(127 79 36 / 20%);
+    }
+
+    .decision strong {
+      color: var(--primary);
+    }
+
+    @media (max-width: 760px) {
+      main {
+        padding: 32px 16px 48px;
+      }
+
+      .tree {
+        justify-content: flex-start;
+      }
+
+      .tree li {
+        gap: 30px;
+      }
+
+      .node {
+        flex-basis: 220px;
+        max-width: 220px;
+        padding: 12px;
+      }
+
+      .tree li > ul {
+        padding-left: 28px;
+      }
+
+      .tree li > ul::before {
+        left: 13px;
+      }
+
+      .tree li > ul > li::before {
+        left: -15px;
+        width: 15px;
+      }
+
+      .tree li:has(> ul) > .node::after {
+        right: -30px;
+        width: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Possible Divorce Scenarios</h1>
+      <p class="subtitle">
+        A decision tree for the first conversation with Arina, starting from whether she agrees to handle the legal divorce remotely.
+      </p>
+    </header>
+
+    <section class="tree" aria-label="Decision tree for possible divorce scenarios">
+      <ul>
+        <li>
+          <div class="node start">
+            <strong>Tell Arina my intent</strong>
+            <span>First branch: remote legal divorce procedure</span>
+          </div>
+          <ul>
+            <li>
+              <div class="node agree">
+                <strong>She agrees</strong>
+                <span>Proceed with remote divorce planning</span>
+              </div>
+              <ul>
+                <li>
+                  <div class="node decision">
+                    <strong>Living after divorce</strong>
+                    <span>Choose the daily-life arrangement</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <div class="node">
+                        <strong>Continue as a family</strong>
+                        <span>Legal divorce, same household or family life</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="node">
+                        <strong>Separate daily life</strong>
+                        <span>Decide where Arina and Liza live</span>
+                      </div>
+                      <ul>
+                        <li>
+                          <div class="node">
+                            <strong>She stays on the island</strong>
+                            <span>Liza lives half the time with each parent</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="node">
+                            <strong>She leaves the island</strong>
+                            <span>Decide whether Liza goes or stays</span>
+                          </div>
+                          <ul>
+                            <li>
+                              <div class="node">
+                                <strong>She takes Liza</strong>
+                                <span>Liza leaves the island with Arina</span>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="node">
+                                <strong>Liza stays with me</strong>
+                                <span>Liza remains on the island</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="node decision">
+                    <strong>Guardianship documentation</strong>
+                    <span>Decide how Liza's guardianship is written</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <div class="node">
+                        <strong>Matches living arrangement</strong>
+                        <span>Documentation follows the chosen living plan</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="node">
+                        <strong>Separate written agreement</strong>
+                        <span>Guardianship terms documented separately</span>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="node disagree">
+                <strong>She does not agree</strong>
+                <span>Understand the objection before choosing next steps</span>
+              </div>
+              <ul>
+                <li>
+                  <div class="node decision">
+                    <strong>What does she object to?</strong>
+                    <span>Clarify the actual blocker</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <div class="node">
+                        <strong>The divorce itself</strong>
+                        <span>She does not want the legal divorce</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="node">
+                        <strong>The remote procedure</strong>
+                        <span>She may want another legal process</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="node">
+                        <strong>The living arrangement</strong>
+                        <span>She disagrees with the proposed daily life</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="node">
+                        <strong>The arrangement for Liza</strong>
+                        <span>She disagrees with the plan for Liza</span>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="node decision">
+                    <strong>Choose next step</strong>
+                    <span>Legal or practical response depends on the objection</span>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
