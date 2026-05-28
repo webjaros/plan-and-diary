@@ -1,5 +1,7 @@
 # Message Template to a Notary
 
+Subject: Jautājums par attālinātu laulības šķiršanu
+
 Labdien!
 
 Vēlētos noskaidrot, vai mūsu situācijā ir iespējams pilnībā attālināti noformēt laulības šķiršanu pie notāra.
