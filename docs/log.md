@@ -1,3 +1,6 @@
+## 2026-05-30
+* CeoFlights: made another round of changes, quite possibly the last ones in Batch 1.
+
 ## 2026-05-27
 * Boxing workout. Today it was hard from the standpoint of endurance. I will experiment with routine 24h before the boxing to figure out an optimal preparation.
 * Sex
