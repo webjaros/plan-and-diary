@@ -6,6 +6,7 @@
 * Sent necessary docs to Wise and talked to their agent. Waiting for an email from them.
 * Elevated Routes: discussed further strategy with ChatGPT
 * Windows business: discussed further strategy with ChatGPT
+* Did 2 rapeh, but I start noticing that I can achieve almost the same effect with sadhu boards or just meditation or rumination.
 
 ## 2026-05-31
 * I went to a nice cafe, did rapeh, worked with my list of inner motives without inner automated criticism, then discussed it with ChatGPT. I had some interesting findings about myself.
