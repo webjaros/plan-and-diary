@@ -249,11 +249,10 @@ This must happen every day and must be protected.
 ## Open Questions
 
 - Should I try delegating CeoFlights work to a junior developer with AI?
-- Would it be more antifragile to have working women?
+- Would it be more antifragile to have working women? Viable until earning in semi-automated mode; currently everything depends on my ability to do the work.
 - What else should be done before talking about divorce with Arina?
 - I had a declared place of living in Vita Suslova's house for a couple of years. Even though I did not live there, there is a debt of 263 × 2 years for rubbish takeout services. Considering the state of the relationship with Arina, should I cover this or not?
 - Should I make some project to leverage the downward trend in the real estate business on the island?
-- Should I talk to Arina about divorce before or after her therapist session on May 27?
 
 ## Log
 

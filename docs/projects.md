@@ -57,11 +57,10 @@ This must be every day, must be protected.
 
 ## Open questions
 * Should I try delegating Ceoflights things to a junior developer with AI?
-* Would it be more antifragile to have working women?
+* Would it be more antifragile to have working women? It would be a viable solution until I find a way to earn money in semi-automated mode. Currently, everything depends on my ability to do the work.
 * What else should be done before talking about divorce with Arina?
 * I had a declared place of living in Vita Suslova's house for a couple of years. Even though I did not live there, there is a debt of 263 * 2 years for the rubbish takeout services. Considering the state of our relationship with Arina, should I cover this or not?
 * Should I make some project to leverage down trend in the real estate business on the island?
-* Should I talk to Arina before or after the therapist session?
 
 ## Decisions 2026-05-16
 1. To choose Reptiloid for the sould project
