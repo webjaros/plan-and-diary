@@ -1,6 +1,6 @@
 # Personal Plan
 
-This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, principles, wishes, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
+This document aggregates the planning notes from `docs/` and related folders into one structured view. It captures the desired future, principles, wishes, unrestricted desires, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
 
 ## Desired Future
 
@@ -72,6 +72,19 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 4. Have more than enough money to cover my needs and wants.
 5. Fix my hips with Dr. Blum in Spain. This would take 3-4 months of living there, with two 300 EUR sessions every day, plus accommodation costs in Marbella.
 
+## What I Really Want (Unrestricted)
+
+A fuller unconstrained list lives in `what-i-really-want/text.md`. These are raw desires without filtering — not plans. Themes that appear there:
+
+- Deep games, creativity, and building things (Ultima Online, deepest games, Jarvis-like AI).
+- Adventure and exploration: expeditions, lost cities, Atlantis, pyramids, space, ocean depths, Polynesia, Easter Island.
+- Physical mastery and challenge: boxing, parkour, acrobatics, handstands, splits, freediving, survival without civilization, hunting/fishing.
+- Body restoration: biomechanics, hips, teeth, lower back strength, peak tone and capacity.
+- Freedom and inner work: vipassana, ceremonies (bufo, kambo, mushrooms), connecting with source, freedom from unconscious scripts.
+- Sensuality and experience: pleasure, unusual experiences, travel by plane/yacht/submarine, style, food, massage.
+- Connection: friends, animals, daughter adventures, influence, elite circles — and divorce from Arina while keeping connection.
+- Sheer aliveness: fear, surprise, the unusual, enjoying life without constant optimization.
+
 ## Nearest Steps
 
 1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
@@ -101,6 +114,7 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 - This income should be replaced as soon as possible.
 - Agris wants to replace me with an in-house developer or do everything himself with AI.
 - First batch of SEO pages deployed; SEO pages importer created.
+- Further SEO batches deployed; noticeably closer to client speed expectations (late May).
 
 ### Reptiloid
 
@@ -149,6 +163,7 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 - Boxing 2-3 times a week.
 - Yoga and stretching most evenings.
 - Stay conscious about body recovery and biomechanics.
+- When sitting for long periods (cafe, movies, work): interrupt regularly to warm up and address stiffness.
 
 ### Psyche Recovery
 
@@ -216,6 +231,10 @@ This must happen every day and must be protected.
 - Replace rapeh with meditation and breathwork for several months — at least until there is a noticeable effect. Threw away the rapeh can.
 - Will not ask Arina for sex anymore; her lack of excitement does not bother much given divorce thinking and not wanting more kids with her.
 
+### 2026-05-31
+
+- Enjoy life more deliberately (not only optimize and progress).
+
 ## What Bothers Me
 
 1. I can't stop doing rapeh.
@@ -237,6 +256,30 @@ This must happen every day and must be protected.
 - Should I talk to Arina about divorce before or after her therapist session on May 27?
 
 ## Log
+
+### 2026-06-01
+
+- Slept enough. Skipped morning boxing without guilt — chose what the body needed over "I must" and trainer expectations.
+- Discussed with ChatGPT how to develop inner motivation for routine sitting tasks.
+
+### 2026-05-31
+
+- Cafe session with rapeh; worked on list of inner motives without automated inner criticism, then discussed with ChatGPT — interesting self-findings.
+- Decided to enjoy life more: Indian restaurant with Arina, watched Crime 101 — pleasant evening.
+- Practiced interrupting long sitting for regular warmups to address stiffness.
+
+### 2026-05-30
+
+- CeoFlights: another round of changes — quite possibly the last ones in Batch 1.
+
+### 2026-05-29
+
+- CeoFlights: deployed another batch of SEO improvements; much closer to client speed expectations than a couple of weeks ago.
+- Two parties with Arina; at the second, played a game pretending not to be together while she flirted with others — monitored own sensations; afterward, wonderful sex on the beach.
+
+### 2026-05-28
+
+- Intentionally skipped logging to avoid the sensation of living only for progress.
 
 ### 2026-05-27
 
