@@ -87,19 +87,23 @@ A fuller unconstrained list lives in `my-motives.md`. These are raw desires with
 
 ## Nearest Steps
 
-1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
-2. CeoFlights: finish SEO pages.
+1. WarSettlers: ping them until they reply with something.
+2. CeoFlights: try selling something else.
 3. ETL business:
    - Check Google Ads after 1 day.
-   - Deploy MCP that shows campaign list.
 4. Divorce:
    - Contact 5 notaries.
    - Make a plan of possible scenarios.
    - Prepare data (docs and notary).
-5. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
-6. Set up a day-finalizing routine.
-7. Pivot lifestyle toward using and caring for the body.
-8. Try Wise verification for the company once again.
+5. Set up a day-finalizing routine.
+6. Pivot lifestyle toward using and caring for the body.
+7. Try Wise verification for the company once again.
+8. Elevated Routes: set up mobile development.
+9. Windows business:
+   - Set up mobile development.
+   - Buy a domain name.
+   - Set up production environment.
+10. Reptiloid: set up mobile development.
 
 ## Tech Tree
 
@@ -147,6 +151,17 @@ Simplified service architecture and discovery for apps and their connections. Fu
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
 - Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics; Google Ads campaign created and linked to Analytics.
 - Ads currently showing 0 impressions — needs improvement.
+- Added a new Broad Match ad group to Google Ads.
+
+### Elevated Routes
+
+- Strategy discussed with ChatGPT on June 1.
+- Next step: set up mobile development.
+
+### Windows Business
+
+- Strategy discussed with ChatGPT on June 1.
+- Next steps: set up mobile development, buy a domain name, and set up production environment.
 
 ### Business Class Tickets (SEO + AI)
 
@@ -270,8 +285,13 @@ This must happen every day and must be protected.
 
 - Slept enough. Skipped morning boxing without guilt — chose what the body needed over "I must" and trainer expectations.
 - Discussed with ChatGPT how to develop inner motivation for routine sitting tasks.
-- For the first time in my life, made an MCP server that can go to Google Ads and show the list of my companies; also set up GitHub Actions for project deployment for the first time.
+- Built first MCP server that can access Google Ads and show a list of companies.
+- Set up GitHub Actions for project deployment for the first time.
+- Waiting for Google to approve Basic Google Ads API access.
 - ETL: added a new Broad Match ad group to Google Ads.
+- Sent necessary documents to Wise and talked to their agent; waiting for an email.
+- Elevated Routes: discussed further strategy with ChatGPT.
+- Windows business: discussed further strategy with ChatGPT.
 
 ### 2026-05-31
 

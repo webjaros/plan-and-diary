@@ -1,8 +1,11 @@
 ## 2026-06-01
 * I slept enough. Skipped boxing in the morning, but I don't feel myself guilty, because I just chose what's best for my body right now without "I must" and "my trainer believes in me" and other bullshit.
 * I discussed how to develop inner motivation for routine tasks which require sitting with ChatGPT.
-* For the first time in my life I made an MCP server that can go to Google Ads and show the list of my companies, and for the first time in my life I set up GitHub Actions for project deployment.
+* For the first time in my life I made an MCP server that can go to Google Ads and show the list of my companies, and for the first time in my life I set up GitHub Actions for project deployment. Waiting for Google to approve Basic Google Ads API access.
 * ETL: added a new Broad Match ad group to Google Ads.
+* Sent necessary docs to Wise and talked to their agent. Waiting for an email from them.
+* Elevated Routes: discussed further strategy with ChatGPT
+* Windows business: discussed further strategy with ChatGPT
 
 ## 2026-05-31
 * I went to a nice cafe, did rapeh, worked with my list of inner motives without inner automated criticism, then discussed it with ChatGPT. I had some interesting findings about myself.
