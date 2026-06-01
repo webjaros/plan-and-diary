@@ -1,7 +1,7 @@
 1. Warsettlers: to finalize the initial order, get the final payment, discuss the maintenance phase
 1. Ceoflights: to finish SEO pages
 1. ETL business
- 1. to add one more ad group
+ 1. to check Google Ads after 1 day
  1. to deploy MCP that shows campaign list
 1. Divorce
  1. To contact 5 notaries

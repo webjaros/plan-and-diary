@@ -90,7 +90,7 @@ A fuller unconstrained list lives in `my-motives.md`. These are raw desires with
 1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
 2. CeoFlights: finish SEO pages.
 3. ETL business:
-   - Add one more ad group.
+   - Check Google Ads after 1 day.
    - Deploy MCP that shows campaign list.
 4. Divorce:
    - Contact 5 notaries.
@@ -271,6 +271,7 @@ This must happen every day and must be protected.
 - Slept enough. Skipped morning boxing without guilt — chose what the body needed over "I must" and trainer expectations.
 - Discussed with ChatGPT how to develop inner motivation for routine sitting tasks.
 - For the first time in my life, made an MCP server that can go to Google Ads and show the list of my companies; also set up GitHub Actions for project deployment for the first time.
+- ETL: added a new Broad Match ad group to Google Ads.
 
 ### 2026-05-31
 
