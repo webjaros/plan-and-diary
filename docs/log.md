@@ -7,6 +7,8 @@
 * Elevated Routes: discussed further strategy with ChatGPT
 * Windows business: discussed further strategy with ChatGPT
 * Did 2 rapeh, but I start noticing that I can achieve almost the same effect with sadhu boards or just meditation or rumination.
+* I am sick and tired of supporting CEO flights project in the middle of the night. I have to stop doing this and I must find a way to replace this income as soon as possible.
+* The prison is within myself. Once I stop thinking that I need to rapeh or sex fantasies for life, my mind and my life begins to change.
 
 ## 2026-05-31
 * I went to a nice cafe, did rapeh, worked with my list of inner motives without inner automated criticism, then discussed it with ChatGPT. I had some interesting findings about myself.
