@@ -2,6 +2,7 @@
 * I slept enough. Skipped boxing in the morning, but I don't feel myself guilty, because I just chose what's best for my body right now without "I must" and "my trainer believes in me" and other bullshit.
 * I discussed how to develop inner motivation for routine tasks which require sitting with ChatGPT.
 * For the first time in my life I made an MCP server that can go to Google Ads and show the list of my companies, and for the first time in my life I set up GitHub Actions for project deployment.
+* ETL: added a new Broad Match ad group to Google Ads.
 
 ## 2026-05-31
 * I went to a nice cafe, did rapeh, worked with my list of inner motives without inner automated criticism, then discussed it with ChatGPT. I had some interesting findings about myself.
