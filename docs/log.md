@@ -6,9 +6,7 @@
 * I went to a nice cafe, did rapeh, worked with my list of inner motives without inner automated criticism, then discussed it with ChatGPT. I had some interesting findings about myself.
 * I decided that I have to enjoy life more, so I took Arina to an indian restaurant, after that we watched a movie Crime 101. It was pleasant.
 * I interrupted sitting (either movie, or cafe, or anywhere else) regularly and warmed up, making sure I address stiffness which appears from long sitting. I think it's a good practice.
-
-## 2026-05-30
-* CeoFlights: made another round of changes, quite possibly the last ones in Batch 1.
+* I received a notice about my STI test, that I am clean. Which is surprising, because Arina's test 3 months ago was not so clean and we did not do anything about this.
 
 ## 2026-05-29
 * CeoFlights: deployed yet another pach of SEO improvements. In general I can feel that I'm much closer to client's expectations of speed than a couple of weeks ago.
@@ -16,8 +14,6 @@
 
 ## 2026-05-28
 * Skipping logging this day completely to avoid rising sensation of living just for progress.
-
- (Update plan and diary through 2026-06-01.)
 
 ## 2026-05-27
 * Boxing workout. Today it was hard from the standpoint of endurance. I will experiment with routine 24h before the boxing to figure out an optimal preparation.
