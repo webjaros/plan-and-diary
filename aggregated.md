@@ -1,6 +1,6 @@
 # Personal Plan
 
-This document aggregates the planning notes from `docs/` and related folders into one structured view. It captures the desired future, principles, wishes, unrestricted desires, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
+This document aggregates the planning notes from `docs/` and related folders into one structured view. It captures the desired future, principles, wishes, unrestricted desires, nearest steps, tech tree, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
 
 ## Desired Future
 
@@ -74,7 +74,7 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 
 ## What I Really Want (Unrestricted)
 
-A fuller unconstrained list lives in `what-i-really-want/text.md`. These are raw desires without filtering — not plans. Themes that appear there:
+A fuller unconstrained list lives in `my-motives.md`. These are raw desires without filtering — not plans. Themes that appear there:
 
 - Deep games, creativity, and building things (Ultima Online, deepest games, Jarvis-like AI).
 - Adventure and exploration: expeditions, lost cities, Atlantis, pyramids, space, ocean depths, Polynesia, Easter Island.
@@ -89,13 +89,23 @@ A fuller unconstrained list lives in `what-i-really-want/text.md`. These are raw
 
 1. WarSettlers: finalize the initial order, get the final payment, discuss the maintenance phase.
 2. CeoFlights: finish SEO pages.
-3. ETL business: analyze ads and pivot if necessary.
-4. Make a plan of possible divorce scenarios.
-5. Prepare data (docs and notary) for the divorce.
-6. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
-7. Set up a day-finalizing routine.
-8. Pivot lifestyle toward using and caring for the body.
-9. Try Wise verification for the company once again.
+3. ETL business:
+   - Add one more ad group.
+   - Deploy MCP that shows campaign list.
+4. Divorce:
+   - Contact 5 notaries.
+   - Make a plan of possible scenarios.
+   - Prepare data (docs and notary).
+5. Discuss with ChatGPT whether to start a landing page for another pet project while waiting for ETL ad results.
+6. Set up a day-finalizing routine.
+7. Pivot lifestyle toward using and caring for the body.
+8. Try Wise verification for the company once again.
+
+## Tech Tree
+
+Simplified service architecture and discovery for apps and their connections. Full detail in `tech-tree.md`.
+
+- GitHub connects to the WebLab AWS account using an OIDC role in the `test-infrastructure` stack in Frankfurt, so GitHub can deploy apps with short-lived access.
 
 ## Projects
 
