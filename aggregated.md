@@ -270,6 +270,7 @@ This must happen every day and must be protected.
 
 - Slept enough. Skipped morning boxing without guilt — chose what the body needed over "I must" and trainer expectations.
 - Discussed with ChatGPT how to develop inner motivation for routine sitting tasks.
+- For the first time in my life, made an MCP server that can go to Google Ads and show the list of my companies; also set up GitHub Actions for project deployment for the first time.
 
 ### 2026-05-31
 
