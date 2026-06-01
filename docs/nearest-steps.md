@@ -15,3 +15,4 @@
     1. to buy a domain name
     1. to set up prod env
 1. Reptiloid: to set up mobile development
+1. to discuss with gpt real estate market on the island
