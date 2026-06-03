@@ -281,6 +281,11 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-06-02
+
+- ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
+- Had a haircut, then went into nature and climbed a waterfall for about one hour, then walked along the beach; this gave me a 7.5-hour gap between breakfast and dinner.
+
 ### 2026-06-01
 
 - Slept enough. Skipped morning boxing without guilt — chose what the body needed over "I must" and trainer expectations.
