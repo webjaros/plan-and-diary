@@ -7,6 +7,10 @@
 * Went home and had the second meal for today at approximately 4pm. The first meal was approximately at 8:30am. Both meals were keto style, so maybe I am in ketosis or approaching it.
 * Had sex with my wife, but only because she initiated it. Otherwise I would not have it because I am already too tired and too sleepy.
 * In the evening I am going to the Lotus tea and music concert ceremony, which is made by my friends.
+* Reptiloid: set up a GitHub workflow for the backend.
+* In the sound healing I pulled two cards from the destiny deck. One was again about rebirth, forgetting and letting go of the old, and embracing now. The second one was about organizing everything so that I love it.
+* Ruminated about the possible divorce and came to the conclusion that I was too stiff and too tough-minded about my daughter's destiny. Maybe it will be even better for her to stay with her mother and be educated by her.
+* I could not resist the temptation to have a third meal today at 10pm: some cottage cheese, a couple of eggs, and a small amount of butter.
 
 ## 2026-06-02
 * ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
