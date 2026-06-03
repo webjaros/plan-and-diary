@@ -281,6 +281,17 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-06-03
+
+- Woke up at 5am; lay in bed for almost an hour, then got up at 6am.
+- CEOFlights: Agris reported that SEO pages are good now.
+- ETL: worked on Google Ads and created a separate campaign to test whether the account can show ads at all, because there is a weird impressions issue.
+- Went to boxing, then the swimming pool, then a relaxing massage.
+- Had a short walk.
+- Had the second meal around 4pm after the first around 8:30am; both meals were keto style, so maybe I am in ketosis or approaching it.
+- Had sex with my wife because she initiated it; otherwise I would not have done it because I was already too tired and sleepy.
+- Going in the evening to the Lotus tea and music concert ceremony made by my friends.
+
 ### 2026-06-02
 
 - ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.

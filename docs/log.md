@@ -1,8 +1,12 @@
 ## 2026-06-03
 * Woke up at 5am. Was lying in the bed for almost an hour thinking about this and that and trying to fall asleep. Got up at 6am.
 * CEOFlights: Agris reported that SEO pages are good now.
-* CatalogFixer: Created a new campaign with the broadest terms to test if account is capable of showing ads at all.
-* 
+* ETL: worked on the Google Ads campaign. Created a separate campaign to test if this Google Ads account is able to show ads at all, because currently there is a weird impressions issue.
+* Went to boxing, then to the swimming pool, then to a relaxing massage.
+* Had a short walk.
+* Went home and had the second meal for today at approximately 4pm. The first meal was approximately at 8:30am. Both meals were keto style, so maybe I am in ketosis or approaching it.
+* Had sex with my wife, but only because she initiated it. Otherwise I would not have it because I am already too tired and too sleepy.
+* In the evening I am going to the Lotus tea and music concert ceremony, which is made by my friends.
 
 ## 2026-06-02
 * ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
