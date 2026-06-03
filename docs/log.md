@@ -1,6 +1,15 @@
+## 2026-06-03
+* Woke up at 5am. Was lying in the bed for almost an hour thinking about this and that and trying to fall asleep. Got up at 6am.
+* CEOFlights: Agris reported that SEO pages are good now.
+* CatalogFixer: Created a new campaign with the broadest terms to test if account is capable of showing ads at all.
+* 
+
 ## 2026-06-02
 * ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
 * I had a haircut, then went into nature and climbed a waterfall for about one hour, then walked along the beach. This gave me a 7.5-hour gap between breakfast and dinner.
+* I really felt that the day is complete by 7pm
+* Watched movie Fall 2022. Not super interesting, but good enough.
+* CEOFlights: fixed yet another problem in SEO pages.
 
 ## 2026-06-01
 * I slept enough. Skipped boxing in the morning, but I don't feel myself guilty, because I just chose what's best for my body right now without "I must" and "my trainer believes in me" and other bullshit.
