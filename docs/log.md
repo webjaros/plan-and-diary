@@ -1,3 +1,11 @@
+## 2026-06-04
+* Got up at around 9am and did my warm-up.
+* Had breakfast: five eggs, cheese, avocado, and dragon fruit.
+* Walked 45 minutes to one of my favorite cafeterias, ordered decaf coffee and 75% chocolate with maca, and worked a bit in the cafe.
+* Planning to fast from 11:30am until around 7pm.
+* Finally fully verified my Wise account, paying 50 EUR for opening the account. Now I have account details and a virtual card, and I can use it.
+* Finalized moving my game development totally to Cursor online cloud agents without any local development at all, which is probably highly beneficial.
+
 ## 2026-06-03
 * Woke up at 5am. Was lying in the bed for almost an hour thinking about this and that and trying to fall asleep. Got up at 6am.
 * CEOFlights: Agris reported that SEO pages are good now.

@@ -281,6 +281,15 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-06-04
+
+- Got up around 9am and did warm-up.
+- Breakfast: five eggs, cheese, avocado, and dragon fruit.
+- Walked 45 minutes to one of my favorite cafeterias, ordered decaf coffee and 75% chocolate with maca, and worked a bit there.
+- Planning to fast from 11:30am until around 7pm.
+- Fully verified Wise account, paying 50 EUR for opening the account; now I have account details and a virtual card and can use it.
+- Finalized moving game development fully to Cursor online cloud agents without any local development, which is probably highly beneficial.
+
 ### 2026-06-03
 
 - Woke up at 5am; lay in bed for almost an hour, then got up at 6am.
