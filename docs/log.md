@@ -1,8 +1,24 @@
+## 2026-06-04
+* Got up at around 9am and did my warm-up.
+* Had breakfast: five eggs, cheese, avocado, and dragon fruit.
+* Walked 45 minutes to one of my favorite cafeterias, ordered decaf coffee and 75% chocolate with maca, and worked a bit in the cafe.
+* Planning to fast from 11:30am until around 7pm.
+* Finally fully verified my Wise account, paying 50 EUR for opening the account. Now I have account details and a virtual card, and I can use it.
+* Finalized moving my game development totally to Cursor online cloud agents without any local development at all, which is probably highly beneficial.
+
 ## 2026-06-03
 * Woke up at 5am. Was lying in the bed for almost an hour thinking about this and that and trying to fall asleep. Got up at 6am.
 * CEOFlights: Agris reported that SEO pages are good now.
-* CatalogFixer: Created a new campaign with the broadest terms to test if account is capable of showing ads at all.
-* 
+* ETL: worked on the Google Ads campaign. Created a separate campaign to test if this Google Ads account is able to show ads at all, because currently there is a weird impressions issue.
+* Went to boxing, then to the swimming pool, then to a relaxing massage.
+* Had a short walk.
+* Went home and had the second meal for today at approximately 4pm. The first meal was approximately at 8:30am. Both meals were keto style, so maybe I am in ketosis or approaching it.
+* Had sex with my wife, but only because she initiated it. Otherwise I would not have it because I am already too tired and too sleepy.
+* In the evening I am going to the Lotus tea and music concert ceremony, which is made by my friends.
+* Reptiloid: set up a GitHub workflow for the backend.
+* In the sound healing I pulled two cards from the destiny deck. One was again about rebirth, forgetting and letting go of the old, and embracing now. The second one was about organizing everything so that I love it.
+* Ruminated about the possible divorce and came to the conclusion that I was too stiff and too tough-minded about my daughter's destiny. Maybe it will be even better for her to stay with her mother and be educated by her.
+* I could not resist the temptation to have a third meal today at 10pm: some cottage cheese, a couple of eggs, and a small amount of butter.
 
 ## 2026-06-02
 * ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.

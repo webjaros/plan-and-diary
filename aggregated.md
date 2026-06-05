@@ -281,6 +281,30 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-06-04
+
+- Got up around 9am and did warm-up.
+- Breakfast: five eggs, cheese, avocado, and dragon fruit.
+- Walked 45 minutes to one of my favorite cafeterias, ordered decaf coffee and 75% chocolate with maca, and worked a bit there.
+- Planning to fast from 11:30am until around 7pm.
+- Fully verified Wise account, paying 50 EUR for opening the account; now I have account details and a virtual card and can use it.
+- Finalized moving game development fully to Cursor online cloud agents without any local development, which is probably highly beneficial.
+
+### 2026-06-03
+
+- Woke up at 5am; lay in bed for almost an hour, then got up at 6am.
+- CEOFlights: Agris reported that SEO pages are good now.
+- ETL: worked on Google Ads and created a separate campaign to test whether the account can show ads at all, because there is a weird impressions issue.
+- Went to boxing, then the swimming pool, then a relaxing massage.
+- Had a short walk.
+- Had the second meal around 4pm after the first around 8:30am; both meals were keto style, so maybe I am in ketosis or approaching it.
+- Had sex with my wife because she initiated it; otherwise I would not have done it because I was already too tired and sleepy.
+- Going in the evening to the Lotus tea and music concert ceremony made by my friends.
+- Reptiloid: set up a GitHub workflow for the backend.
+- At sound healing, pulled two cards from the destiny deck: one again about rebirth, forgetting and letting go of the old, and embracing now; the second about organizing everything so that I love it.
+- Ruminated about possible divorce and concluded that I may have been too stiff and tough-minded about my daughter's destiny; maybe it will be even better for her to stay with her mother and be educated by her.
+- Could not resist a third meal at 10pm: cottage cheese, a couple of eggs, and a small amount of butter.
+
 ### 2026-06-02
 
 - ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
