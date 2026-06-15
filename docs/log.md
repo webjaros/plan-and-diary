@@ -1,3 +1,10 @@
+## 2026-06-15
+- Bought gym membership for 3 months.
+- Decided to work on customer's projects only 2 days per week: on Tue and Thu.
+- Decided to work on my apps and games and only switch back to money seeking activities if Webautobid stops working with us.
+- Put my ideas about games into one dedicated folder.
+- Watched movie Perfect Days and discussed with ChatGPT some existential questions that this movie triggered in me.
+
 ## 2026-06-04
 * Got up at around 9am and did my warm-up.
 * Had breakfast: five eggs, cheese, avocado, and dragon fruit.

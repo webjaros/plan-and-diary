@@ -104,3 +104,8 @@
 - Научиться играть на хэнге лучше, чем новичек, но не выше среднего уровня.
 - Научиться влиять на решения людей при личном взаимодействии так, чтобы они этого не замечали.
 - Научиться вести жизнедеятельность и режим так, чтобы как можно чаще быть на пике тонуса и возможностей
+
+1. To transition from living off of the customers' projects to my own projects.
+1. To travel Bali, Indonesia, India, South America.
+1. To have more than enough money to cover my needs and wants.
+1. To fix my hips with Dr. Blum in Spain. It'll take 3-4 months of living there and 300 eur per session 2 sessions every day. Plus accomodation costs in Marbella, which is pretty high.

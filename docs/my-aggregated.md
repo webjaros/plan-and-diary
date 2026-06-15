@@ -1,6 +1,6 @@
 # Personal Plan
 
-This document aggregates the planning notes from `docs/` and related folders into one structured view. It captures the desired future, principles, wishes, unrestricted desires, nearest steps, tech tree, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
+This document aggregates the planning notes from `docs/` into one structured view. It captures the desired future, principles, wishes, unrestricted desires, nearest steps, active projects, supporting life areas, relevant people, decisions, backlog, what bothers me, open questions, and recent log entries.
 
 ## Desired Future
 
@@ -77,39 +77,34 @@ Pay attention to the life that is actually happening. Avoid spending excessive e
 A fuller unconstrained list lives in `my-motives.md`. These are raw desires without filtering — not plans. Themes that appear there:
 
 - Deep games, creativity, and building things (Ultima Online, deepest games, Jarvis-like AI).
-- Adventure and exploration: expeditions, lost cities, Atlantis, pyramids, space, ocean depths, Polynesia, Easter Island.
-- Physical mastery and challenge: boxing, parkour, acrobatics, handstands, splits, freediving, survival without civilization, hunting/fishing.
-- Body restoration: biomechanics, hips, teeth, lower back strength, peak tone and capacity.
-- Freedom and inner work: vipassana, ceremonies (bufo, kambo, mushrooms), connecting with source, freedom from unconscious scripts.
-- Sensuality and experience: pleasure, unusual experiences, travel by plane/yacht/submarine, style, food, massage.
+- Adventure and exploration: expeditions, lost cities, Atlantis, pyramids, space, ocean depths, Polynesia, Easter Island, universal travel.
+- Physical mastery and challenge: boxing, parkour, acrobatics, handstands, splits, freediving, survival without civilization, hunting/fishing, chariot racing.
+- Body restoration: biomechanics, hips, teeth, lower back strength, peak tone and capacity, DNA control, regrowing lost body parts.
+- Freedom and inner work: vipassana, ceremonies (bufo, kambo, mushrooms, aya), connecting with source, freedom from unconscious scripts.
+- Sensuality and experience: pleasure, unusual experiences, travel by plane/yacht/submarine/helicopter, style, food, massage, tattoo.
 - Connection: friends, animals, daughter adventures, influence, elite circles — and divorce from Arina while keeping connection.
 - Sheer aliveness: fear, surprise, the unusual, enjoying life without constant optimization.
 
 ## Nearest Steps
 
-1. WarSettlers: ping them until they reply with something.
-2. CeoFlights: try selling something else.
-3. ETL business:
-   - Check Google Ads after 1 day.
+1. WarSettlers: ping them until they reply with something. Target: finish within one week.
+2. CeoFlights: try selling something else. Replace this income as soon as possible.
+3. ETL business: check Google Ads after 1 day.
 4. Divorce:
    - Contact 5 notaries.
    - Make a plan of possible scenarios.
    - Prepare data (docs and notary).
 5. Set up a day-finalizing routine.
 6. Pivot lifestyle toward using and caring for the body.
-7. Try Wise verification for the company once again.
-8. Elevated Routes: set up mobile development.
-9. Windows business:
+7. Elevated Routes: set up mobile development.
+8. Windows business:
    - Set up mobile development.
    - Buy a domain name.
    - Set up production environment.
-10. Reptiloid: set up mobile development.
+9. Reptiloid: set up mobile development.
+10. Discuss with ChatGPT the real estate market on the island.
 
-## Tech Tree
-
-Simplified service architecture and discovery for apps and their connections. Full detail in `tech-tree.md`.
-
-- GitHub connects to the WebLab AWS account using an OIDC role in the `test-infrastructure` stack in Frankfurt, so GitHub can deploy apps with short-lived access.
+Completed recently: Wise company verification succeeded (June 4).
 
 ## Projects
 
@@ -117,7 +112,8 @@ Simplified service architecture and discovery for apps and their connections. Fu
 
 - Customer project.
 - Travian-like game.
-- Should be finished as soon as possible to free up cognitive energy.
+- Should be finished within one week to free up cognitive energy.
+- Customer call happened May 27; follow-up items identified.
 
 ### CeoFlights
 
@@ -129,6 +125,13 @@ Simplified service architecture and discovery for apps and their connections. Fu
 - Agris wants to replace me with an in-house developer or do everything himself with AI.
 - First batch of SEO pages deployed; SEO pages importer created.
 - Further SEO batches deployed; noticeably closer to client speed expectations (late May).
+- Agris reported SEO pages are good (June 3).
+- Still supporting the project in the middle of the night — this has to stop.
+
+### Game Ideas (Dedicated Folder)
+
+- Game concepts consolidated into one dedicated folder (June 15).
+- Reptiloid remains the chosen soul project; other game ideas live alongside it for future exploration.
 
 ### Reptiloid
 
@@ -140,6 +143,8 @@ Simplified service architecture and discovery for apps and their connections. Fu
 - Somewhat similar to Plague Inc.
 - Chosen path: slow, nerdy, without business mentality — creativity and system thinking without limits; business projects stay more goal-oriented and simpler.
 - Domain `cradleandscorch.com` assigned to the website.
+- GitHub workflow set up for the backend (June 3).
+- Game development moved fully to Cursor online cloud agents without local development (June 4).
 
 ### ETL
 
@@ -150,8 +155,9 @@ Simplified service architecture and discovery for apps and their connections. Fu
 - If marketing tests fail, the idea can be changed or pivoted.
 - If marketing succeeds, the product does not need to stay limited to Shopify forever; it can grow through upsells and broader use cases.
 - Initial plan: series of tiny marketing experiments; landing published to Cloudflare with Google Analytics; Google Ads campaign created and linked to Analytics.
-- Ads currently showing 0 impressions — needs improvement.
-- Added a new Broad Match ad group to Google Ads.
+- Ads had 0 impressions for a while; separate test campaign created to diagnose the account.
+- Broad Match ad group added; campaign edited to target worldwide with broad "Shopify" keyword.
+- Built first MCP server for Google Ads; waiting for Basic Google Ads API access approval.
 
 ### Elevated Routes
 
@@ -173,6 +179,10 @@ Simplified service architecture and discovery for apps and their connections. Fu
 
 - Help companies automate and optimize their processes, expenses, and operations.
 
+### Webautobid
+
+- Customer relationship referenced June 15: focus stays on own apps and games unless Webautobid stops working with us.
+
 ## Personal Foundations
 
 ### Personal and Family
@@ -185,7 +195,7 @@ Simplified service architecture and discovery for apps and their connections. Fu
 - 30-40 minutes of warmup every morning.
 - 5-10 km of walking daily.
 - Dance classes once a week.
-- Boxing 2-3 times a week.
+- Boxing 2-3 times a week (gym membership purchased for 3 months, June 15).
 - Yoga and stretching most evenings.
 - Stay conscious about body recovery and biomechanics.
 - When sitting for long periods (cafe, movies, work): interrupt regularly to warm up and address stiffness.
@@ -209,6 +219,7 @@ This must happen every day and must be protected.
 ### Arina Kuprijanova
 
 - My legal wife.
+- Works in WebLab but effectively doing nothing; the job contract should be finished.
 - Employment termination process finalized (May 25).
 
 ### Vija Juhnevica
@@ -243,7 +254,21 @@ This must happen every day and must be protected.
 - Barber I attend.
 - Invited me to boxing with Artyom.
 
+### Mark Barkan
+
+- Casino traffic arbitrage; own payment system; two-way money transfers; exchanges, dating, games.
+- Interested in the technical side; would also like user simulation.
+- Practiced hand-to-hand combat for 10 years; switched to pistols due to injuries.
+- We did a couple of projects together, but none were successful.
+
 ## Decisions
+
+### 2026-06-15
+
+1. Bought gym membership for 3 months.
+2. Work on customer projects only 2 days per week: Tuesday and Thursday.
+3. Work on my own apps and games; switch back to money-seeking activities only if Webautobid stops working with us.
+4. Consolidate game ideas into one dedicated folder.
 
 ### 2026-05-16
 
@@ -268,7 +293,7 @@ This must happen every day and must be protected.
 
 ## Backlog
 
-- Open a Wise account for WebLab so the Thai office can be paid from the company bank account.
+- Open a Wise account for WebLab so the Thai office can be paid from the company bank account. (Personal Wise account verified June 4; company account may still be pending.)
 - Divorce Arina.
 
 ## Open Questions
@@ -280,6 +305,14 @@ This must happen every day and must be protected.
 - Should I make some project to leverage the downward trend in the real estate business on the island?
 
 ## Log
+
+### 2026-06-15
+
+- Bought gym membership for 3 months.
+- Decided to work on customer projects only 2 days per week: Tuesday and Thursday.
+- Decided to work on my apps and games and only switch back to money-seeking activities if Webautobid stops working with us.
+- Put game ideas into one dedicated folder.
+- Watched *Perfect Days* and discussed existential questions it triggered with ChatGPT.
 
 ### 2026-06-04
 
@@ -293,7 +326,7 @@ This must happen every day and must be protected.
 ### 2026-06-03
 
 - Woke up at 5am; lay in bed for almost an hour, then got up at 6am.
-- CEOFlights: Agris reported that SEO pages are good now.
+- CeoFlights: Agris reported that SEO pages are good now.
 - ETL: worked on Google Ads and created a separate campaign to test whether the account can show ads at all, because there is a weird impressions issue.
 - Went to boxing, then the swimming pool, then a relaxing massage.
 - Had a short walk.
@@ -309,6 +342,9 @@ This must happen every day and must be protected.
 
 - ETL: edited the Google Ads campaign to target all the world and included the very broad keyword "Shopify" in it.
 - Had a haircut, then went into nature and climbed a waterfall for about one hour, then walked along the beach; this gave me a 7.5-hour gap between breakfast and dinner.
+- Really felt the day was complete by 7pm.
+- Watched movie Fall (2022) — not super interesting, but good enough.
+- CeoFlights: fixed yet another problem in SEO pages.
 
 ### 2026-06-01
 
@@ -322,6 +358,8 @@ This must happen every day and must be protected.
 - Elevated Routes: discussed further strategy with ChatGPT.
 - Windows business: discussed further strategy with ChatGPT.
 - Did rapeh twice, but started noticing that sadhu boards, meditation, or rumination can produce almost the same effect.
+- Sick and tired of supporting CeoFlights in the middle of the night — must stop and replace this income as soon as possible.
+- The prison is within myself: once I stop thinking I need rapeh or sex fantasies for life, my mind and life begin to change.
 
 ### 2026-05-31
 
@@ -329,10 +367,6 @@ This must happen every day and must be protected.
 - Decided to enjoy life more: Indian restaurant with Arina, watched Crime 101 — pleasant evening.
 - Practiced interrupting long sitting for regular warmups to address stiffness.
 - STI test results: clean. Surprising, because Arina's test three months ago was not clean and nothing was done about it at the time.
-
-### 2026-05-30
-
-- CeoFlights: another round of changes — quite possibly the last ones in Batch 1.
 
 ### 2026-05-29
 
@@ -350,7 +384,7 @@ This must happen every day and must be protected.
 - Treated self with restaurant food and handmade chocolate.
 - 90-minute relaxing massage in the evening.
 - After massage, spent almost an hour convincing self not to need food or rapeh; eventually did three rapeh, but delaying the last one three hours after initial intent felt like a small win.
-- Had sex with Arina twice — still not very exciting.
+- Had sex with Arina — still not very exciting.
 - Started working on possible divorce scenarios plan.
 - WarSettlers: customer call finally happened; a couple of follow-up items for tomorrow.
 - ETL: ads not showing (0 impressions); need to improve ads.

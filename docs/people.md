@@ -23,3 +23,8 @@ The boxing trainer I'm training with.
 
 ## Kostya the barber
 The barber I'm attending. Also he invited me to the boxing with Artyom.
+
+## Mark Barkan
+Арбитраж трафика для казино.  Своя платежка. Двухсторонняя отправка денег. Биржи, знакомства, игры. Интересует техническая часть. Было бы хорошо ещё имитацию пользователей.
+Занимался рукопашкой 10 лет. Перешёл на пистолет, потому что травмы.
+We did a couple of projects, but none of them were successful.
