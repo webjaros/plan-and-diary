@@ -1,9 +1,23 @@
+## 2026-06-16
+- Managed to get Release Ritual app to get automatically delivered to TestFlight on every push.
+- Visited a Zouk intro lesson. The tutor told me that I should come more because he sees that I'm into it.
+- Visited gym. Very gently, because I still got virus.
+- Spent some time in SPA: sauna, ice bath, jacuzzi, etc.
+- Did work for CEOFlights.
+- Spent a day without rapeh.
+- Could not get in contact with the daughter. Too little time. To little sync attempt from my side. Pitty.
+- I feel anger and despair. While I'm trying to make money Arina pursues her passions and builds contact with Betty. And she's not grateful for this. On the contrary, she takes this as my debt.
+
 ## 2026-06-15
 - Bought gym membership for 3 months.
 - Decided to work on customer's projects only 2 days per week: on Tue and Thu.
 - Decided to work on my apps and games and only switch back to money seeking activities if Webautobid stops working with us.
 - Put my ideas about games into one dedicated folder.
 - Watched movie Perfect Days and discussed with ChatGPT some existential questions that this movie triggered in me.
+- Made Safari my default browser on my iPhone and my Mac.
+
+## 2026-06-14
+- Finished company verification with Wise and payed one Thai payment using it.
 
 ## 2026-06-04
 * Got up at around 9am and did my warm-up.

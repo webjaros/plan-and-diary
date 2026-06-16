@@ -87,24 +87,16 @@ A fuller unconstrained list lives in `my-motives.md`. These are raw desires with
 
 ## Nearest Steps
 
-1. WarSettlers: ping them until they reply with something. Target: finish within one week.
-2. CeoFlights: try selling something else. Replace this income as soon as possible.
-3. ETL business: check Google Ads after 1 day.
-4. Divorce:
+1. WarSettlers: implement something about heroes per the customer's request.
+2. Divorce:
    - Contact 5 notaries.
    - Make a plan of possible scenarios.
    - Prepare data (docs and notary).
-5. Set up a day-finalizing routine.
-6. Pivot lifestyle toward using and caring for the body.
-7. Elevated Routes: set up mobile development.
-8. Windows business:
-   - Set up mobile development.
-   - Buy a domain name.
-   - Set up production environment.
-9. Reptiloid: set up mobile development.
-10. Discuss with ChatGPT the real estate market on the island.
+3. Set up a day-finalizing routine.
+4. Pivot lifestyle toward using and caring for the body.
+5. Publish Release Ritual to the App Store.
 
-Completed recently: Wise company verification succeeded (June 4).
+Completed recently: personal Wise account verified (June 4); company Wise verification finished and first Thai payment made (June 14).
 
 ## Projects
 
@@ -112,8 +104,14 @@ Completed recently: Wise company verification succeeded (June 4).
 
 - Customer project.
 - Travian-like game.
-- Should be finished within one week to free up cognitive energy.
-- Customer call happened May 27; follow-up items identified.
+- Should be finished ASAP to free up cognitive energy.
+- Customer call happened May 27; next step is implementing heroes per their request.
+
+### Release Ritual
+
+- Own app project.
+- TestFlight delivery automated on every push (June 16).
+- Next step: publish to the App Store.
 
 ### CeoFlights
 
@@ -189,13 +187,14 @@ Completed recently: Wise company verification succeeded (June 4).
 
 - Living arrangements, visas, and house organization.
 - Schooling and raising daughter.
+- Need more intentional time and sync attempts with daughter — recent days felt too little contact.
 
 ### Physical Development
 
 - 30-40 minutes of warmup every morning.
 - 5-10 km of walking daily.
-- Dance classes once a week.
-- Boxing 2-3 times a week (gym membership purchased for 3 months, June 15).
+- Dance classes once a week; tried Zouk intro lesson (June 16) — tutor encouraged coming more.
+- Boxing 2-3 times a week (gym membership purchased for 3 months, June 15); currently training gently while recovering from a virus.
 - Yoga and stretching most evenings.
 - Stay conscious about body recovery and biomechanics.
 - When sitting for long periods (cafe, movies, work): interrupt regularly to warm up and address stiffness.
@@ -221,6 +220,7 @@ This must happen every day and must be protected.
 - My legal wife.
 - Works in WebLab but effectively doing nothing; the job contract should be finished.
 - Employment termination process finalized (May 25).
+- While I focus on earning, she pursues her passions and builds contact with Betty; does not seem grateful — treats my work as a debt owed to her.
 
 ### Vija Juhnevica
 
@@ -269,6 +269,7 @@ This must happen every day and must be protected.
 2. Work on customer projects only 2 days per week: Tuesday and Thursday.
 3. Work on my own apps and games; switch back to money-seeking activities only if Webautobid stops working with us.
 4. Consolidate game ideas into one dedicated folder.
+5. Make Safari the default browser on iPhone and Mac.
 
 ### 2026-05-16
 
@@ -293,7 +294,6 @@ This must happen every day and must be protected.
 
 ## Backlog
 
-- Open a Wise account for WebLab so the Thai office can be paid from the company bank account. (Personal Wise account verified June 4; company account may still be pending.)
 - Divorce Arina.
 
 ## Open Questions
@@ -306,6 +306,17 @@ This must happen every day and must be protected.
 
 ## Log
 
+### 2026-06-16
+
+- Got Release Ritual app to automatically deliver to TestFlight on every push.
+- Visited a Zouk intro lesson; tutor said to come more — he sees I'm into it.
+- Visited gym very gently while still recovering from a virus.
+- Spent time in SPA: sauna, ice bath, jacuzzi, etc.
+- Did work for CeoFlights.
+- Spent a day without rapeh.
+- Could not get in contact with daughter — too little time and too little sync attempt from my side; pity.
+- Felt anger and despair: while trying to make money, Arina pursues her passions and builds contact with Betty, is not grateful, and treats my work as her debt.
+
 ### 2026-06-15
 
 - Bought gym membership for 3 months.
@@ -313,6 +324,11 @@ This must happen every day and must be protected.
 - Decided to work on my apps and games and only switch back to money-seeking activities if Webautobid stops working with us.
 - Put game ideas into one dedicated folder.
 - Watched *Perfect Days* and discussed existential questions it triggered with ChatGPT.
+- Made Safari the default browser on iPhone and Mac.
+
+### 2026-06-14
+
+- Finished company verification with Wise and paid one Thai payment using it.
 
 ### 2026-06-04
 
