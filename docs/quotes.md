@@ -280,3 +280,11 @@ Don't react. Observe.
 Только истинно верующий в женьшень осознаёт свою беспомощность и ничтожество в этом мире и может уповать только на её дары.
 Они себя записали в боги, а вы стесняетесь даже трубку положить.
 — Vasily M
+
+1. If you died today, your job would replace you within a week and no one would know you're gone.
+2. People only give a fuck about themselves. So use it to your advantage and appeal to their selfish desires.
+That's how you win.
+— Tim Denning
+
+Мы живем всего один раз.
+Неверно! Умираем мы один раз. А живем — каждый день!
