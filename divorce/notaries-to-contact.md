@@ -4,6 +4,18 @@ First five for the remote-divorce feasibility check. Any Latvian notary can do t
 
 Ask one question first: have they finished a fully remote divorce after 1 March 2026, both spouses abroad, one minor child?
 
+## Status
+
+| Notary | Status | Reply |
+| --- | --- | --- |
+| Jānis Skrastiņš | waiting | |
+| Aigars Kaupe | waiting | |
+| Kristīne Šapčenko | waiting | |
+| Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
+| Mārtiņš Limbēns | waiting | |
+
+Status: `waiting` · `no` · `yes`
+
 ## 1. Jānis Skrastiņš — Riga
 
 - Profile: https://www.latvijasnotars.lv/janis.skrastins
@@ -43,6 +55,8 @@ Ask one question first: have they finished a fully remote divorce after 1 March 
 - Phone: +371 65422187
 - Email: Inese.Purvinska@LatvijasNotars.lv
 - Why: largest Daugavpils office; best local hours for Thailand
+- Status: no
+- Reply (25 Aug 13:34): does not provide videoconference services; told us to contact a notary who does
 
 ## 5. Mārtiņš Limbēns — Daugavpils
 

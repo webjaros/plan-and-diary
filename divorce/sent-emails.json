@@ -57,7 +57,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "68bee7b1-735b-49a3-bfca-d4869ca883b7",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-08-25T13:34:00+07:00",
+      "status": "no",
+      "summary": "Does not provide videoconference services. Told us to contact a notary who does.",
+      "text": "Labrīt! Zvērināta notāre Inese Purvinska videokonferences režīmā pakalpojumus nesniedz. Jums jāgriežas pie zvērināta notāra, kurš sniedz šāda veida pakalpojumu. Cieņā, Zvērinātas notāres birojs"
+    }
   },
   {
     "sentAt": "2026-08-25T05:50:08.082Z",
