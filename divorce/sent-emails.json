@@ -1,0 +1,74 @@
+[
+  {
+    "sentAt": "2026-08-25T05:47:27.488Z",
+    "to": "webjaros@gmail.com",
+    "name": "Test",
+    "template": "first-email",
+    "subject": "[TEST] Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": true,
+    "resendId": "24840c4f-2aaa-405f-b4af-9be40fa9a717",
+    "error": null
+  },
+  {
+    "sentAt": "2026-08-25T05:49:56.504Z",
+    "to": "Janis.Skrastins@LatvijasNotars.lv",
+    "name": "Jānis Skrastiņš",
+    "template": "first-email",
+    "subject": "Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": false,
+    "resendId": "8544b74d-4975-449b-bd3f-8a2aa90ead7e",
+    "error": null
+  },
+  {
+    "sentAt": "2026-08-25T05:49:59.775Z",
+    "to": "Aigars.Kaupe@LatvijasNotars.lv",
+    "name": "Aigars Kaupe",
+    "template": "first-email",
+    "subject": "Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": false,
+    "resendId": "9c3b9666-7c78-4f2a-92d6-8fb11170ea0b",
+    "error": null
+  },
+  {
+    "sentAt": "2026-08-25T05:50:02.921Z",
+    "to": "Kristine.Sapcenko@LatvijasNotars.lv",
+    "name": "Kristīne Šapčenko",
+    "template": "first-email",
+    "subject": "Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": false,
+    "resendId": "6213be8d-b2aa-4d35-9dc6-00546c62529e",
+    "error": null
+  },
+  {
+    "sentAt": "2026-08-25T05:50:05.510Z",
+    "to": "Inese.Purvinska@LatvijasNotars.lv",
+    "name": "Inese Purvinska",
+    "template": "first-email",
+    "subject": "Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": false,
+    "resendId": "68bee7b1-735b-49a3-bfca-d4869ca883b7",
+    "error": null
+  },
+  {
+    "sentAt": "2026-08-25T05:50:08.082Z",
+    "to": "Martins.Limbens@LatvijasNotars.lv",
+    "name": "Mārtiņš Limbēns",
+    "template": "first-email",
+    "subject": "Attālināta laulības šķiršana",
+    "text": "Labdien!\n\nVai Jūs šķirat laulības attālināti? Abi esam Latvijas pilsoņi, dzīvojam Taizemē, ir nepilngadīgs bērns.\n\n* vīrs: Jaroslavs Kuprijanovs, 12.03.1983., 120383-10265\n* sieva: Arina Kuprijanova (Suslova), 23.02.1985., 230285-10646\n* laulība: 15.06.2012., Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350\n* bērns: Elizabete Kuprijanova, 05.12.2015., 051215-25245, LVDA100813\n\nJa jā — atbildiet, lūdzu, un detaļas pārrunāsim tālāk.\n\nPaldies!\nJaroslavs Kuprijanovs",
+    "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
+    "test": false,
+    "resendId": "5caf5569-52ca-42c0-8ba9-de92a5559ee1",
+    "error": null
+  }
+]

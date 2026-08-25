@@ -5,3 +5,5 @@
 *.wav
 .DS_Store
 .whisper-cache/
+.env
+node_modules/
