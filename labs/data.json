@@ -1,0 +1,2228 @@
+{
+  "subject": {
+    "name": "Jaroslav",
+    "full_name": "Jaroslavs Kuprijanovs",
+    "dob": "1983-03-12"
+  },
+  "disclaimer": "Personal lab log. Reference ranges vary by lab and units. Not medical advice.",
+  "categories": [
+    {
+      "id": "red_series",
+      "name": "Red Series"
+    },
+    {
+      "id": "white_series",
+      "name": "White Series"
+    },
+    {
+      "id": "platelets",
+      "name": "Platelets Series"
+    },
+    {
+      "id": "esr",
+      "name": "ESR"
+    },
+    {
+      "id": "esr_westergren",
+      "name": "Hematology Westergreen"
+    },
+    {
+      "id": "coagulation",
+      "name": "Basic coagulation"
+    },
+    {
+      "id": "biochemistry",
+      "name": "Basic biochemistry"
+    },
+    {
+      "id": "glucose_metabolism",
+      "name": "Glucose metabolism"
+    },
+    {
+      "id": "ions",
+      "name": "Ions"
+    },
+    {
+      "id": "vitals",
+      "name": "Vitals"
+    },
+    {
+      "id": "clinical",
+      "name": "Clinical findings"
+    },
+    {
+      "id": "enzymes",
+      "name": "Enzymes"
+    },
+    {
+      "id": "iron",
+      "name": "Iron Metabolism"
+    },
+    {
+      "id": "lipids",
+      "name": "Lipid metabolism"
+    },
+    {
+      "id": "rheumatic",
+      "name": "Rheumatic tests"
+    },
+    {
+      "id": "sex_hormones",
+      "name": "Sex hormones"
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid profile"
+    },
+    {
+      "id": "proteins",
+      "name": "Proteins"
+    },
+    {
+      "id": "tumor_markers",
+      "name": "Tumor markers"
+    },
+    {
+      "id": "prostate",
+      "name": "Prostate profile"
+    },
+    {
+      "id": "vitamins",
+      "name": "Vitamins"
+    },
+    {
+      "id": "urine",
+      "name": "Urine analysis"
+    },
+    {
+      "id": "bacteriology",
+      "name": "Bacteriology"
+    },
+    {
+      "id": "fungus",
+      "name": "Fungus"
+    },
+    {
+      "id": "parasitology",
+      "name": "Parasitology"
+    },
+    {
+      "id": "bacterial_serology",
+      "name": "Bacterial serology"
+    },
+    {
+      "id": "autoimmune",
+      "name": "Autoimmune"
+    },
+    {
+      "id": "viral_serology",
+      "name": "Viral serology"
+    },
+    {
+      "id": "molecular",
+      "name": "Molecular biology"
+    },
+    {
+      "id": "stool",
+      "name": "Stool"
+    },
+    {
+      "id": "infectious_serology",
+      "name": "Infectious serology"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "rbc",
+      "category": "red_series",
+      "name": "RBCs",
+      "unit": "×10⁶/µL",
+      "range": {
+        "label": "4.3 - 5.9",
+        "min": 4.3,
+        "max": 5.9
+      }
+    },
+    {
+      "id": "hemoglobin",
+      "category": "red_series",
+      "name": "Hemoglobin",
+      "unit": "g/dL",
+      "range": {
+        "label": "13 - 17",
+        "min": 13,
+        "max": 17
+      }
+    },
+    {
+      "id": "hematocrit",
+      "category": "red_series",
+      "name": "Hematocrit",
+      "unit": "%",
+      "range": {
+        "label": "39 - 50",
+        "min": 39,
+        "max": 50
+      }
+    },
+    {
+      "id": "mcv",
+      "category": "red_series",
+      "name": "Mean corpuscular volume (MCV)",
+      "unit": "fL",
+      "range": {
+        "label": "80 - 100",
+        "min": 80,
+        "max": 100
+      }
+    },
+    {
+      "id": "mch",
+      "category": "red_series",
+      "name": "Mean corpuscular hemoglobin (MCH)",
+      "unit": "pg",
+      "range": {
+        "label": "27 - 32",
+        "min": 27,
+        "max": 32
+      }
+    },
+    {
+      "id": "mchc",
+      "category": "red_series",
+      "name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "unit": "g/dL",
+      "range": {
+        "label": "31.5 - 34.5",
+        "min": 31.5,
+        "max": 34.5
+      }
+    },
+    {
+      "id": "rdw",
+      "category": "red_series",
+      "name": "RDW",
+      "unit": "%",
+      "range": {
+        "label": "11.2 - 15.2",
+        "min": 11.2,
+        "max": 15.2
+      }
+    },
+    {
+      "id": "rdw_sd",
+      "category": "red_series",
+      "name": "RDW-SD",
+      "unit": "fL",
+      "range": {
+        "label": "37-48",
+        "min": 37,
+        "max": 48
+      }
+    },
+    {
+      "id": "rdw_cv",
+      "category": "red_series",
+      "name": "RDW-CV",
+      "unit": "%",
+      "range": {
+        "label": "11.8-15.5",
+        "min": 11.8,
+        "max": 15.5
+      }
+    },
+    {
+      "id": "reticulocytes",
+      "category": "red_series",
+      "name": "Reticulocyte count in blood",
+      "unit": "%",
+      "range": {
+        "label": "0.5-1.5",
+        "min": 0.5,
+        "max": 1.5
+      }
+    },
+    {
+      "id": "wbc",
+      "category": "white_series",
+      "name": "WBCs",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "3.5 - 11",
+        "min": 3.5,
+        "max": 11
+      }
+    },
+    {
+      "id": "pct_segmented",
+      "category": "white_series",
+      "name": "% segmented",
+      "unit": "%",
+      "range": {
+        "label": "55 - 65",
+        "min": 55,
+        "max": 65
+      }
+    },
+    {
+      "id": "pct_lymphocytes",
+      "category": "white_series",
+      "name": "% lymphocytes",
+      "unit": "%",
+      "range": {
+        "label": "23 - 35",
+        "min": 23,
+        "max": 35
+      }
+    },
+    {
+      "id": "pct_monocytes",
+      "category": "white_series",
+      "name": "% monocytes",
+      "unit": "%",
+      "range": {
+        "label": "4 - 12.1",
+        "min": 4,
+        "max": 12.1
+      }
+    },
+    {
+      "id": "pct_eosinophils",
+      "category": "white_series",
+      "name": "% eosinophils",
+      "unit": "%",
+      "range": {
+        "label": "0.5 - 4",
+        "min": 0.5,
+        "max": 4
+      }
+    },
+    {
+      "id": "pct_basophils",
+      "category": "white_series",
+      "name": "% basophils",
+      "unit": "%",
+      "range": {
+        "label": "0 - 2",
+        "min": 0,
+        "max": 2
+      }
+    },
+    {
+      "id": "neutrophils_abs",
+      "category": "white_series",
+      "name": "Neutrophils (Absolute V.)",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "1.5 - 8.8",
+        "min": 1.5,
+        "max": 8.8
+      }
+    },
+    {
+      "id": "lymphocytes_abs",
+      "category": "white_series",
+      "name": "Lymphocytes (Absolute V.)",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "1.0 - 5.0",
+        "min": 1,
+        "max": 5
+      }
+    },
+    {
+      "id": "monocytes_abs",
+      "category": "white_series",
+      "name": "Monocytes (Absolute V.)",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "0.1 - 1.0",
+        "min": 0.1,
+        "max": 1
+      }
+    },
+    {
+      "id": "eosinophils_abs",
+      "category": "white_series",
+      "name": "Eosinophils (Absolute V.)",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "0 - 0.5",
+        "min": 0,
+        "max": 0.5
+      }
+    },
+    {
+      "id": "basophils_abs",
+      "category": "white_series",
+      "name": "Basophils (Absolute V.)",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "0 - 0.1",
+        "min": 0,
+        "max": 0.1
+      }
+    },
+    {
+      "id": "platelets",
+      "category": "platelets",
+      "name": "Platelets",
+      "unit": "×10³/µL",
+      "range": {
+        "label": "150 - 450",
+        "min": 150,
+        "max": 450
+      }
+    },
+    {
+      "id": "mpv",
+      "category": "platelets",
+      "name": "Mean Platelet Volume (MPV)",
+      "unit": "fL",
+      "range": {
+        "label": "5.9 - 9.9",
+        "min": 5.9,
+        "max": 9.9
+      }
+    },
+    {
+      "id": "pdw",
+      "category": "platelets",
+      "name": "PDW",
+      "unit": "%",
+      "range": {
+        "label": "9-17",
+        "min": 9,
+        "max": 17
+      }
+    },
+    {
+      "id": "plateletcrit",
+      "category": "platelets",
+      "name": "Plateletcrit",
+      "unit": "%",
+      "range": {
+        "label": "0.17-0.37",
+        "min": 0.17,
+        "max": 0.37
+      }
+    },
+    {
+      "id": "p_lcr",
+      "category": "platelets",
+      "name": "P-LCR",
+      "unit": "%",
+      "range": {
+        "label": "13-43",
+        "min": 13,
+        "max": 43
+      }
+    },
+    {
+      "id": "esr",
+      "category": "esr",
+      "name": "Sedimentation rate at 1 hour (ESR)",
+      "unit": "mm/h",
+      "range": {
+        "label": "< 20",
+        "max": 20
+      }
+    },
+    {
+      "id": "esr_first_hour",
+      "category": "esr_westergren",
+      "name": "First hour"
+    },
+    {
+      "id": "esr_second_hour",
+      "category": "esr_westergren",
+      "name": "Second hour"
+    },
+    {
+      "id": "katz_index",
+      "category": "esr_westergren",
+      "name": "Katz Index"
+    },
+    {
+      "id": "prothrombin_time",
+      "category": "coagulation",
+      "name": "Prothrombin Time",
+      "unit": "s",
+      "range": {
+        "label": "10-14",
+        "min": 10,
+        "max": 14
+      }
+    },
+    {
+      "id": "quick_index",
+      "category": "coagulation",
+      "name": "Quick Index",
+      "unit": "%",
+      "range": {
+        "label": "70-130",
+        "min": 70,
+        "max": 130
+      }
+    },
+    {
+      "id": "inr",
+      "category": "coagulation",
+      "name": "INR",
+      "range": {
+        "label": "0.85-1.15",
+        "min": 0.85,
+        "max": 1.15
+      }
+    },
+    {
+      "id": "fibrinogen",
+      "category": "coagulation",
+      "name": "Plasma fibrinogen",
+      "range": {
+        "label": "150-300",
+        "min": 150,
+        "max": 300
+      }
+    },
+    {
+      "id": "aptt",
+      "category": "coagulation",
+      "name": "Activated partial thromboplastin time (aPTT)",
+      "unit": "s",
+      "range": {
+        "label": "26-36",
+        "min": 26,
+        "max": 36
+      }
+    },
+    {
+      "id": "ttp_ratio",
+      "category": "coagulation",
+      "name": "TTP Ratio",
+      "range": {
+        "label": "< 1.3",
+        "max": 1.3
+      }
+    },
+    {
+      "id": "glucose",
+      "category": "biochemistry",
+      "name": "Serum glucose",
+      "unit": "mg/dL",
+      "range": {
+        "label": "70-106",
+        "min": 70,
+        "max": 106
+      }
+    },
+    {
+      "id": "hba1c",
+      "category": "biochemistry",
+      "name": "HbA1c",
+      "unit": "%",
+      "range": {
+        "label": "4.5 - 6.2",
+        "min": 4.5,
+        "max": 6.2
+      }
+    },
+    {
+      "id": "urea",
+      "category": "biochemistry",
+      "name": "Urea serum",
+      "unit": "mg/dL",
+      "range": {
+        "label": "19-50",
+        "min": 19,
+        "max": 50
+      }
+    },
+    {
+      "id": "bun",
+      "category": "biochemistry",
+      "name": "BUN (Blood Urea Nitrogen) serum",
+      "unit": "mg/dL",
+      "range": {
+        "label": "9-23",
+        "min": 9,
+        "max": 23
+      }
+    },
+    {
+      "id": "creatinine",
+      "category": "biochemistry",
+      "name": "Serum creatinine",
+      "unit": "mg/dL",
+      "range": {
+        "label": "0.7-1.3",
+        "min": 0.7,
+        "max": 1.3
+      }
+    },
+    {
+      "id": "gfr_ckd_epi",
+      "category": "biochemistry",
+      "name": "Glomerular filtration rate (CKD-EPI)",
+      "unit": "mL/min/1.73m²",
+      "range": {
+        "label": "≥ 90",
+        "min": 90
+      }
+    },
+    {
+      "id": "gfr_mdrd",
+      "category": "biochemistry",
+      "name": "Glomerular filtration rate (MDRD)",
+      "unit": "mL/min/1.73m²",
+      "range": {
+        "label": "≥ 70",
+        "min": 70
+      }
+    },
+    {
+      "id": "uric_acid",
+      "category": "biochemistry",
+      "name": "Serum uric acid",
+      "unit": "mg/dL",
+      "range": {
+        "label": "3.7-7",
+        "min": 3.7,
+        "max": 7
+      }
+    },
+    {
+      "id": "bilirubin_total",
+      "category": "biochemistry",
+      "name": "Total serum bilirubin",
+      "unit": "mg/dL",
+      "range": {
+        "label": "0.3-1.2",
+        "min": 0.3,
+        "max": 1.2
+      }
+    },
+    {
+      "id": "bilirubin_direct",
+      "category": "biochemistry",
+      "name": "Direct serum bilirubin",
+      "unit": "mg/dL",
+      "range": {
+        "label": "0-0.2",
+        "min": 0,
+        "max": 0.2
+      }
+    },
+    {
+      "id": "albumin",
+      "category": "biochemistry",
+      "name": "Serum albumin",
+      "unit": "g/dL",
+      "range": {
+        "label": "3.2-4.8",
+        "min": 3.2,
+        "max": 4.8
+      }
+    },
+    {
+      "id": "calcium",
+      "category": "biochemistry",
+      "name": "Serum calcium",
+      "unit": "mg/dL",
+      "range": {
+        "label": "8.6 - 10",
+        "min": 8.6,
+        "max": 10
+      }
+    },
+    {
+      "id": "magnesium",
+      "category": "biochemistry",
+      "name": "Serum magnesium",
+      "range": {
+        "label": "1.3 - 2.7",
+        "min": 1.3,
+        "max": 2.7
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "ldh",
+      "category": "biochemistry",
+      "name": "Lactate dehydrogenase (LDH)",
+      "unit": "U/L",
+      "range": {
+        "label": "85 - 227",
+        "min": 85,
+        "max": 227
+      }
+    },
+    {
+      "id": "chloride",
+      "category": "biochemistry",
+      "name": "Chloride",
+      "unit": "mmol/L",
+      "range": {
+        "label": "96 - 110",
+        "min": 96,
+        "max": 110
+      }
+    },
+    {
+      "id": "hba1c_percent",
+      "category": "glucose_metabolism",
+      "name": "Percentage of glycated hemoglobin (A1c) in whole blood",
+      "unit": "%",
+      "range": {
+        "label": "4 - 6",
+        "min": 4,
+        "max": 6
+      }
+    },
+    {
+      "id": "sodium",
+      "category": "ions",
+      "name": "Sodium serum",
+      "unit": "mmol/L",
+      "range": {
+        "label": "132-146",
+        "min": 132,
+        "max": 146
+      }
+    },
+    {
+      "id": "potassium",
+      "category": "ions",
+      "name": "Serum potassium",
+      "unit": "mmol/L",
+      "range": {
+        "label": "3.7-5.2",
+        "min": 3.7,
+        "max": 5.2
+      }
+    },
+    {
+      "id": "tco2",
+      "category": "ions",
+      "name": "TCO2",
+      "unit": "mEq/L",
+      "range": {
+        "label": "18-30",
+        "min": 18,
+        "max": 30
+      }
+    },
+    {
+      "id": "anion_gap",
+      "category": "ions",
+      "name": "Anion gap",
+      "unit": "mEq/L",
+      "range": {
+        "label": "8.0-18.0",
+        "min": 8,
+        "max": 18
+      }
+    },
+    {
+      "id": "temperature",
+      "category": "vitals",
+      "name": "Body temperature",
+      "unit": "°C",
+      "range": {
+        "label": "36.1-37.2",
+        "min": 36.1,
+        "max": 37.2
+      }
+    },
+    {
+      "id": "blood_pressure",
+      "category": "vitals",
+      "name": "Blood pressure",
+      "unit": "mmHg"
+    },
+    {
+      "id": "pulse",
+      "category": "vitals",
+      "name": "Pulse",
+      "unit": "bpm",
+      "range": {
+        "label": "60-100",
+        "min": 60,
+        "max": 100
+      }
+    },
+    {
+      "id": "respiratory_rate",
+      "category": "vitals",
+      "name": "Respiratory rate",
+      "unit": "/min",
+      "range": {
+        "label": "12-20",
+        "min": 12,
+        "max": 20
+      }
+    },
+    {
+      "id": "spo2",
+      "category": "vitals",
+      "name": "Oxygen saturation",
+      "unit": "%",
+      "range": {
+        "label": "≥ 95",
+        "min": 95
+      }
+    },
+    {
+      "id": "ecg",
+      "category": "clinical",
+      "name": "ECG"
+    },
+    {
+      "id": "cxr",
+      "category": "clinical",
+      "name": "Chest X-ray"
+    },
+    {
+      "id": "ast",
+      "category": "enzymes",
+      "name": "AST (GOT) serum",
+      "unit": "U/L",
+      "range": {
+        "label": "0-34",
+        "min": 0,
+        "max": 34
+      }
+    },
+    {
+      "id": "alt",
+      "category": "enzymes",
+      "name": "ALT (GPT) serum",
+      "unit": "U/L",
+      "range": {
+        "label": "10-49",
+        "min": 10,
+        "max": 49
+      }
+    },
+    {
+      "id": "alp",
+      "category": "enzymes",
+      "name": "Serum alkaline phosphatase",
+      "unit": "U/L",
+      "range": {
+        "label": "45-129",
+        "min": 45,
+        "max": 129
+      }
+    },
+    {
+      "id": "ggt",
+      "category": "enzymes",
+      "name": "Gamma-GT serum",
+      "unit": "U/L",
+      "range": {
+        "label": "0-73",
+        "min": 0,
+        "max": 73
+      }
+    },
+    {
+      "id": "amylase",
+      "category": "enzymes",
+      "name": "Serum amylase",
+      "unit": "U/L",
+      "range": {
+        "label": "30 - 118",
+        "min": 30,
+        "max": 118
+      }
+    },
+    {
+      "id": "ck",
+      "category": "enzymes",
+      "name": "Creatine kinase (CK)",
+      "unit": "U/L",
+      "range": {
+        "label": "35 - 232",
+        "min": 35,
+        "max": 232
+      }
+    },
+    {
+      "id": "iron",
+      "category": "iron",
+      "name": "Serum iron",
+      "unit": "µg/dL",
+      "range": {
+        "label": "65-175",
+        "min": 65,
+        "max": 175
+      }
+    },
+    {
+      "id": "ferritin",
+      "category": "iron",
+      "name": "Serum ferritin",
+      "unit": "ng/mL",
+      "range": {
+        "label": "20-250",
+        "min": 20,
+        "max": 250
+      }
+    },
+    {
+      "id": "folic_acid",
+      "category": "iron",
+      "name": "Folic acid",
+      "range": {
+        "label": "> 5.38",
+        "min": 5.38
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "cholesterol_total",
+      "category": "lipids",
+      "name": "Total serum cholesterol",
+      "unit": "mg/dL",
+      "range": {
+        "label": "< 200",
+        "max": 200
+      }
+    },
+    {
+      "id": "triglycerides",
+      "category": "lipids",
+      "name": "Serum triglycerides",
+      "unit": "mg/dL",
+      "range": {
+        "label": "< 200 (< 150 for high cardiovascular risk)",
+        "max": 200
+      }
+    },
+    {
+      "id": "hdl",
+      "category": "lipids",
+      "name": "HDL Serum Cholesterol",
+      "unit": "mg/dL",
+      "range": {
+        "label": "> 45 (35–55 moderate risk, > 55 no risk, < 35 high risk)",
+        "min": 45
+      }
+    },
+    {
+      "id": "ldl",
+      "category": "lipids",
+      "name": "LDL Cholesterol (Friedewald Formula)",
+      "unit": "mg/dL",
+      "range": {
+        "label": "< 155",
+        "max": 155
+      }
+    },
+    {
+      "id": "atherogenic_index",
+      "category": "lipids",
+      "name": "Atherogenicity index. Cholesterol/HDL ratio",
+      "range": {
+        "label": "0.0 - 5.0",
+        "min": 0,
+        "max": 5
+      }
+    },
+    {
+      "id": "rheumatoid_factor",
+      "category": "rheumatic",
+      "name": "Rheumatoid factor",
+      "range": {
+        "label": "< 14",
+        "max": 14
+      }
+    },
+    {
+      "id": "testosterone_total",
+      "category": "sex_hormones",
+      "name": "Total serum testosterone",
+      "range": {
+        "label": "2.49 - 8.36 5.72-26.14"
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "shbg",
+      "category": "sex_hormones",
+      "name": "Sex hormone binding globulin",
+      "range": {
+        "label": "14.55-94.64 138.28-899.08"
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "testosterone_e",
+      "category": "sex_hormones",
+      "name": "Testosterone (E)",
+      "range": {
+        "label": "164,940 - 753,380"
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "tsh",
+      "category": "thyroid",
+      "name": "TSH serum",
+      "unit": "µIU/mL",
+      "range": {
+        "label": "0.270 - 4.2",
+        "min": 0.27,
+        "max": 4.2
+      }
+    },
+    {
+      "id": "free_t4",
+      "category": "thyroid",
+      "name": "Serum free T4",
+      "range": {
+        "label": "0.78 - 1.80",
+        "min": 0.78,
+        "max": 1.8
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "free_t3",
+      "category": "thyroid",
+      "name": "Serum free T3",
+      "range": {
+        "label": "2.0-4.4",
+        "min": 2,
+        "max": 4.4
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "anti_tpo",
+      "category": "thyroid",
+      "name": "Anti-TPO antibodies",
+      "range": {
+        "label": "< 34: Negative",
+        "max": 34
+      }
+    },
+    {
+      "id": "anti_tg",
+      "category": "thyroid",
+      "name": "Anti-thyroglobulin antibodies",
+      "range": {
+        "label": "< 115: Negative",
+        "max": 115
+      }
+    },
+    {
+      "id": "crp",
+      "category": "proteins",
+      "name": "Serum C-reactive protein",
+      "unit": "mg/dL",
+      "range": {
+        "label": "0 - 0.5",
+        "min": 0,
+        "max": 0.5
+      }
+    },
+    {
+      "id": "protein_total",
+      "category": "proteins",
+      "name": "Total serum proteins",
+      "unit": "g/dL",
+      "range": {
+        "label": "5.7 - 8.2",
+        "min": 5.7,
+        "max": 8.2
+      }
+    },
+    {
+      "id": "cea",
+      "category": "tumor_markers",
+      "name": "CEA serum",
+      "unit": "ng/mL",
+      "range": {
+        "label": "< 5",
+        "max": 5
+      }
+    },
+    {
+      "id": "ca125",
+      "category": "tumor_markers",
+      "name": "CA 125 serum",
+      "unit": "U/mL",
+      "range": {
+        "label": "< 35",
+        "max": 35
+      }
+    },
+    {
+      "id": "psa",
+      "category": "prostate",
+      "name": "PSA serum",
+      "unit": "ng/mL",
+      "range": {
+        "label": "< 4",
+        "max": 4
+      }
+    },
+    {
+      "id": "psa_free",
+      "category": "prostate",
+      "name": "Free PSA serum",
+      "unit": "ng/mL"
+    },
+    {
+      "id": "psa_free_ratio",
+      "category": "prostate",
+      "name": "PSA Free/PSA Total",
+      "unit": "%"
+    },
+    {
+      "id": "folic_acid_serum",
+      "category": "vitamins",
+      "name": "Folic acid serum",
+      "range": {
+        "label": "0.35 - 3.37",
+        "min": 0.35,
+        "max": 3.37
+      },
+      "unit_caution": true
+    },
+    {
+      "id": "vitamin_b12",
+      "category": "vitamins",
+      "name": "Serum Vitamin B12",
+      "unit": "pg/mL",
+      "range": {
+        "label": "221 - 911",
+        "min": 221,
+        "max": 911
+      }
+    },
+    {
+      "id": "vitamin_d",
+      "category": "vitamins",
+      "name": "Vitamin D 25-Hydroxy serum",
+      "unit": "ng/mL",
+      "range": {
+        "label": "20 - 50",
+        "min": 20,
+        "max": 50
+      }
+    },
+    {
+      "id": "urine_density",
+      "category": "urine",
+      "name": "Urine density",
+      "range": {
+        "label": "1.010 - 1.030",
+        "min": 1.01,
+        "max": 1.03
+      }
+    },
+    {
+      "id": "urine_ph",
+      "category": "urine",
+      "name": "Urine pH",
+      "range": {
+        "label": "5 - 8",
+        "min": 5,
+        "max": 8
+      }
+    },
+    {
+      "id": "urine_protein",
+      "category": "urine",
+      "name": "Urine proteins",
+      "range": {
+        "label": "< 15",
+        "max": 15
+      }
+    },
+    {
+      "id": "urine_glucose",
+      "category": "urine",
+      "name": "Urine glucose"
+    },
+    {
+      "id": "urine_ketones",
+      "category": "urine",
+      "name": "Ketone bodies in urine"
+    },
+    {
+      "id": "urine_bilirubin",
+      "category": "urine",
+      "name": "Bilirubin in urine"
+    },
+    {
+      "id": "urine_blood",
+      "category": "urine",
+      "name": "Blood in urine"
+    },
+    {
+      "id": "urine_nitrites",
+      "category": "urine",
+      "name": "Nitrites in urine"
+    },
+    {
+      "id": "urine_urobilinogen",
+      "category": "urine",
+      "name": "Urobilinogen in urine",
+      "range": {
+        "label": "< 1",
+        "max": 1
+      }
+    },
+    {
+      "id": "urine_leukocytes",
+      "category": "urine",
+      "name": "Leukocytes in urine"
+    },
+    {
+      "id": "urine_sediment",
+      "category": "urine",
+      "name": "Urine sediment"
+    },
+    {
+      "id": "urine_rbc_field",
+      "category": "urine",
+      "name": "Red blood cells/field"
+    },
+    {
+      "id": "urine_squamous",
+      "category": "urine",
+      "name": "Squamous epithelial cells/field"
+    },
+    {
+      "id": "urine_transitional",
+      "category": "urine",
+      "name": "Transitional epithelial cells/field"
+    },
+    {
+      "id": "urine_germs",
+      "category": "urine",
+      "name": "Germs/field"
+    },
+    {
+      "id": "urine_crystals",
+      "category": "urine",
+      "name": "Crystals/field"
+    },
+    {
+      "id": "urine_casts",
+      "category": "urine",
+      "name": "Cylinders/field"
+    },
+    {
+      "id": "urine_other",
+      "category": "urine",
+      "name": "Others"
+    },
+    {
+      "id": "stool_occult_misc",
+      "category": "urine",
+      "name": "Occult blood in stool"
+    },
+    {
+      "id": "urethral_exudate",
+      "category": "bacteriology",
+      "name": "Sample: URETHRAL EXUDATE"
+    },
+    {
+      "id": "isolated_microorganism",
+      "category": "bacteriology",
+      "name": "Isolated microorganism:"
+    },
+    {
+      "id": "urine_culture",
+      "category": "bacteriology",
+      "name": "Sample: URINE Culture result or number of colonies"
+    },
+    {
+      "id": "urethral_fungal_culture",
+      "category": "fungus",
+      "name": "Sample: Urethral Exudate Fungal Culture"
+    },
+    {
+      "id": "parasitology",
+      "category": "parasitology",
+      "name": "Parasitological examination"
+    },
+    {
+      "id": "rpr",
+      "category": "bacterial_serology",
+      "name": "RPR serum"
+    },
+    {
+      "id": "ana",
+      "category": "autoimmune",
+      "name": "Antinuclear antibodies (ANA) serum"
+    },
+    {
+      "id": "hbsag",
+      "category": "viral_serology",
+      "name": "Hepatitis B antigen. Serum surface"
+    },
+    {
+      "id": "hbc_total",
+      "category": "viral_serology",
+      "name": "Hepatitis B Core total serum antibodies"
+    },
+    {
+      "id": "hbs_antibody",
+      "category": "viral_serology",
+      "name": "Hepatitis B surface antibodies quantitative serum",
+      "range": {
+        "label": "≥ 10: protective",
+        "min": 10
+      }
+    },
+    {
+      "id": "hcv",
+      "category": "viral_serology",
+      "name": "Hepatitis C total serum antibodies"
+    },
+    {
+      "id": "hiv",
+      "category": "viral_serology",
+      "name": "HIV ag. p24 + HIV-1/2 ac. Serum"
+    },
+    {
+      "id": "n_gonorrhoeae_pcr",
+      "category": "molecular",
+      "name": "Study of N. gonorrhoeae by PCR"
+    },
+    {
+      "id": "m_genitalium_pcr",
+      "category": "molecular",
+      "name": "Study of Mycoplasma genitalium by PCR"
+    },
+    {
+      "id": "m_hominis_pcr",
+      "category": "molecular",
+      "name": "Mycoplasma hominis (PCR)"
+    },
+    {
+      "id": "u_parvum_pcr",
+      "category": "molecular",
+      "name": "Ureaplasma parvum (PCR)"
+    },
+    {
+      "id": "u_urealyticum_pcr",
+      "category": "molecular",
+      "name": "Ureaplasma urealyticum (PCR)"
+    },
+    {
+      "id": "t_vaginalis_pcr",
+      "category": "molecular",
+      "name": "Trichomonas vaginalis (PCR)"
+    },
+    {
+      "id": "c_trachomatis_pcr",
+      "category": "molecular",
+      "name": "Chlamydia trachomatis (PCR)"
+    },
+    {
+      "id": "stool_occult_1",
+      "category": "stool",
+      "name": "Occult bleeding in stool"
+    },
+    {
+      "id": "stool_occult_2",
+      "category": "stool",
+      "name": "Occult bleeding in stool (2nd sample)"
+    },
+    {
+      "id": "stool_occult_3",
+      "category": "stool",
+      "name": "Occult bleeding in stool (3rd sample)"
+    },
+    {
+      "id": "stool_bacteriology",
+      "category": "stool",
+      "name": "Bacteriology"
+    },
+    {
+      "id": "stool_parasites_1",
+      "category": "stool",
+      "name": "Parasites in stool (1st sample)"
+    },
+    {
+      "id": "stool_parasites_2",
+      "category": "stool",
+      "name": "Parasites in stool (2nd sample)"
+    },
+    {
+      "id": "stool_parasites_3",
+      "category": "stool",
+      "name": "Parasites in stool (3rd sample)"
+    },
+    {
+      "id": "graham_1",
+      "category": "stool",
+      "name": "Graham Test"
+    },
+    {
+      "id": "graham_2",
+      "category": "stool",
+      "name": "Graham test 2nd sample"
+    },
+    {
+      "id": "graham_3",
+      "category": "stool",
+      "name": "Graham test 3rd sample"
+    },
+    {
+      "id": "syphilis_rpr",
+      "category": "infectious_serology",
+      "name": "Syphilis (RPR)"
+    },
+    {
+      "id": "hbsag_infectious",
+      "category": "infectious_serology",
+      "name": "Hepatitis B Surface Ag (HBsAg)"
+    }
+  ],
+  "visits": [
+    {
+      "date": "2018-01-29",
+      "results": {
+        "rbc": 5.1,
+        "hemoglobin": 14.6,
+        "hematocrit": 42,
+        "mcv": 83,
+        "mch": 29,
+        "mchc": 34.4,
+        "rdw": 12.1,
+        "wbc": 8.18,
+        "pct_segmented": 55.3,
+        "pct_lymphocytes": 31.7,
+        "pct_monocytes": 10.5,
+        "pct_eosinophils": 1.8,
+        "pct_basophils": 0.7,
+        "neutrophils_abs": 4.52,
+        "lymphocytes_abs": 2.59,
+        "monocytes_abs": 0.86,
+        "eosinophils_abs": 0.15,
+        "basophils_abs": 0.06,
+        "platelets": 201,
+        "esr": 4,
+        "psa": 0.77
+      }
+    },
+    {
+      "date": "2018-02-13",
+      "results": {
+        "creatinine": 0.95,
+        "gfr_ckd_epi": 146,
+        "magnesium": 0.91,
+        "hba1c_percent": 4.88,
+        "potassium": 5.9,
+        "ast": 29,
+        "alt": 24,
+        "cholesterol_total": "Normal",
+        "triglycerides": 97,
+        "hdl": "Normal",
+        "ldl": 134,
+        "tsh": 3.3,
+        "crp": 0.4,
+        "vitamin_d": 14.8
+      }
+    },
+    {
+      "date": "2018-03-19",
+      "results": {
+        "rbc": 4.5,
+        "hemoglobin": 12.7,
+        "hematocrit": 39,
+        "mcv": 87,
+        "mch": 28,
+        "mchc": 32.6,
+        "rdw": 12.9,
+        "wbc": 7.48,
+        "pct_segmented": 55.5,
+        "pct_lymphocytes": 33.7,
+        "pct_monocytes": 7.6,
+        "pct_eosinophils": 2.4,
+        "pct_basophils": 0.8,
+        "neutrophils_abs": 4.15,
+        "lymphocytes_abs": 2.52,
+        "monocytes_abs": 0.57,
+        "eosinophils_abs": 0.18,
+        "basophils_abs": 0.06,
+        "platelets": 352,
+        "esr": 22,
+        "creatinine": 0.88,
+        "gfr_ckd_epi": 156,
+        "uric_acid": "Normal",
+        "potassium": 6.1,
+        "ast": 20,
+        "alt": 27,
+        "ferritin": 307,
+        "triglycerides": 85,
+        "tsh": 2.5,
+        "free_t4": 1.48,
+        "free_t3": 4.3
+      }
+    },
+    {
+      "date": "2018-11-09",
+      "results": {
+        "rbc": 5.13,
+        "hemoglobin": 14.8,
+        "hematocrit": 43.6,
+        "mcv": 85.1,
+        "mch": 28.9,
+        "mchc": 34.2,
+        "rdw": 13.6,
+        "wbc": 11.11,
+        "pct_segmented": 75,
+        "pct_lymphocytes": 18,
+        "pct_monocytes": 5,
+        "pct_eosinophils": 2,
+        "pct_basophils": 0,
+        "platelets": 225,
+        "mpv": 10.2,
+        "glucose": 94,
+        "creatinine": 1.11,
+        "gfr_ckd_epi": 75,
+        "uric_acid": 5.1,
+        "hba1c_percent": 5.2,
+        "sodium": 139,
+        "potassium": 5.4,
+        "alt": 14,
+        "amylase": 61,
+        "cholesterol_total": 170,
+        "triglycerides": 72,
+        "hdl": 60,
+        "ldl": 96,
+        "tsh": 3.608,
+        "crp": 2.83
+      }
+    },
+    {
+      "date": "2019-05-16",
+      "results": {
+        "rbc": 5,
+        "hemoglobin": 14.2,
+        "hematocrit": 42,
+        "mcv": 84,
+        "mch": 29,
+        "mchc": 34.1,
+        "rdw": 12.5,
+        "wbc": 5.89,
+        "pct_segmented": 51.6,
+        "pct_lymphocytes": 34,
+        "pct_monocytes": 10.9,
+        "pct_eosinophils": 2.5,
+        "pct_basophils": 1,
+        "neutrophils_abs": 3.04,
+        "lymphocytes_abs": 2,
+        "monocytes_abs": 0.64,
+        "eosinophils_abs": 0.15,
+        "basophils_abs": 0.06,
+        "platelets": 247,
+        "urea": "Normal",
+        "creatinine": "Normal",
+        "gfr_ckd_epi": 154,
+        "uric_acid": "Normal",
+        "bilirubin_total": "Normal",
+        "magnesium": "Normal",
+        "hba1c_percent": 3.7,
+        "ast": 28,
+        "alt": 0,
+        "iron": 120,
+        "ferritin": 189,
+        "tsh": 3.8,
+        "cea": 1.1,
+        "psa": 0.69,
+        "folic_acid_serum": 1.27,
+        "vitamin_b12": 948,
+        "vitamin_d": 33.7,
+        "hiv": "Negative",
+        "stool_occult_1": "Negative",
+        "stool_occult_2": "Negative",
+        "stool_occult_3": "Negative",
+        "stool_bacteriology": "Negative",
+        "stool_parasites_1": "Negative",
+        "stool_parasites_2": "Negative",
+        "stool_parasites_3": "Negative",
+        "graham_1": "Negative",
+        "graham_2": "Negative",
+        "graham_3": "Negative"
+      }
+    },
+    {
+      "date": "2019-09-02",
+      "results": {
+        "rbc": 4.63,
+        "hemoglobin": 13.3,
+        "hematocrit": 39.6,
+        "mcv": 85.5,
+        "mch": 28.7,
+        "mchc": 33.6,
+        "rdw": 13.5,
+        "wbc": 5.4,
+        "pct_segmented": 52.8,
+        "pct_lymphocytes": 32.2,
+        "pct_monocytes": 10.6,
+        "pct_eosinophils": 3.7,
+        "pct_basophils": 0.7,
+        "neutrophils_abs": 2.85,
+        "lymphocytes_abs": 1.74,
+        "monocytes_abs": 0.57,
+        "eosinophils_abs": 0.2,
+        "basophils_abs": 0.04,
+        "platelets": 194,
+        "mpv": 12.9,
+        "esr_first_hour": "6 mm",
+        "esr_second_hour": "21 mm",
+        "katz_index": "8 mm",
+        "glucose": 92.4,
+        "creatinine": 1.07,
+        "gfr_ckd_epi": 83.1,
+        "uric_acid": 4.94,
+        "bilirubin_total": 1.14,
+        "alt": 12.9,
+        "alp": 66,
+        "ggt": 11.3,
+        "cholesterol_total": 256.2,
+        "triglycerides": 78,
+        "hdl": 47.7,
+        "ldl": 192.9,
+        "tsh": 2.95,
+        "crp": 0.2,
+        "psa": 0.64,
+        "urine_density": 1.01,
+        "urine_ph": 5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "15 mg/dL",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Normal",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements."
+      }
+    },
+    {
+      "date": "2021-01-14",
+      "results": {
+        "rbc": 5.1,
+        "hemoglobin": 14.3,
+        "hematocrit": 42.8,
+        "mcv": 84.8,
+        "mch": 28.3,
+        "mchc": 33.4,
+        "rdw": 12.3,
+        "wbc": 5.75,
+        "pct_segmented": 50.5,
+        "pct_lymphocytes": 34.3,
+        "pct_monocytes": 11.3,
+        "pct_eosinophils": 3,
+        "pct_basophils": 0.9,
+        "neutrophils_abs": 2.9,
+        "lymphocytes_abs": 2,
+        "monocytes_abs": 0.7,
+        "eosinophils_abs": 0.2,
+        "basophils_abs": 0.1,
+        "platelets": 215,
+        "mpv": 11,
+        "esr": 2,
+        "prothrombin_time": 12.3,
+        "quick_index": 94.2,
+        "inr": 1.03,
+        "fibrinogen": 284,
+        "aptt": 31.9,
+        "ttp_ratio": 1.03,
+        "glucose": 91,
+        "urea": 35,
+        "bun": 16,
+        "creatinine": 0.9,
+        "gfr_ckd_epi": 108.01,
+        "uric_acid": 4.4,
+        "bilirubin_total": 0.6,
+        "bilirubin_direct": 0.3,
+        "albumin": 4.8,
+        "sodium": 137,
+        "potassium": 4.6,
+        "ast": 23,
+        "alt": 14,
+        "alp": 96,
+        "ggt": 15,
+        "iron": 120,
+        "ferritin": 268,
+        "cholesterol_total": 232,
+        "triglycerides": 52,
+        "hdl": 79,
+        "ldl": 143,
+        "rheumatoid_factor": "<10",
+        "tsh": 3.65,
+        "crp": 0.06,
+        "protein_total": 7.7,
+        "urine_density": 1.02,
+        "urine_ph": 5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "ana": "Negative"
+      }
+    },
+    {
+      "date": "2021-03-25",
+      "results": {
+        "rbc": 4.9,
+        "hemoglobin": 13.8,
+        "hematocrit": 42.5,
+        "mcv": 86,
+        "mch": 27.9,
+        "mchc": 32.5,
+        "rdw": 12.6,
+        "wbc": 5.88,
+        "pct_segmented": 53.1,
+        "pct_lymphocytes": 31.6,
+        "pct_monocytes": 10.7,
+        "pct_eosinophils": 3.7,
+        "pct_basophils": 0.9,
+        "neutrophils_abs": 3.1,
+        "lymphocytes_abs": 1.9,
+        "monocytes_abs": 0.6,
+        "eosinophils_abs": 0.2,
+        "basophils_abs": 0.1,
+        "platelets": 216,
+        "mpv": 11.3,
+        "esr": 2,
+        "glucose": 92,
+        "urea": 28,
+        "bun": 13,
+        "creatinine": 0.8,
+        "gfr_ckd_epi": 113.36,
+        "uric_acid": 4.7,
+        "bilirubin_total": 0.7,
+        "bilirubin_direct": 0.3,
+        "sodium": 140,
+        "potassium": 4.8,
+        "ast": 24,
+        "alt": 12,
+        "alp": 83,
+        "ggt": 14,
+        "amylase": 63,
+        "iron": 105,
+        "cholesterol_total": 242,
+        "triglycerides": 47,
+        "hdl": 78,
+        "ldl": 155,
+        "tsh": 3.47,
+        "free_t4": 1.19,
+        "psa": 0.81,
+        "psa_free": 0.18,
+        "psa_free_ratio": 22.22,
+        "urine_density": 1.02,
+        "urine_ph": 5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "hbsag": "Negative",
+        "hbc_total": "Negative",
+        "hbs_antibody": "<2",
+        "hcv": "Negative",
+        "hiv": "Negative"
+      }
+    },
+    {
+      "date": "2021-08-16",
+      "results": {
+        "rbc": 4.7,
+        "hemoglobin": 13.2,
+        "hematocrit": 41,
+        "mcv": 88,
+        "mch": 28,
+        "mchc": 31.9,
+        "rdw": 12.3,
+        "wbc": 5.91,
+        "pct_segmented": 48.5,
+        "pct_lymphocytes": 35,
+        "pct_monocytes": 9.6,
+        "pct_eosinophils": 5.9,
+        "pct_basophils": 1,
+        "lymphocytes_abs": 2.07,
+        "monocytes_abs": 0.57,
+        "eosinophils_abs": 0.35,
+        "basophils_abs": 0.06,
+        "platelets": 212,
+        "mpv": 11.4,
+        "ast": 22,
+        "alt": 14,
+        "alp": 62,
+        "ggt": 12,
+        "amylase": 65
+      }
+    },
+    {
+      "date": "2022-01-05",
+      "results": {
+        "psa": 0.61,
+        "psa_free": 0.2,
+        "psa_free_ratio": 32.79,
+        "urine_density": 1.02,
+        "urine_ph": 6,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "urethral_exudate": "Gram staining:\nNo negative gram diplococci\nNo polymorphonuclear leukocytes are observed",
+        "isolated_microorganism": "Isolated microorganism:\nHaemophilus sp.",
+        "urine_culture": "Negative",
+        "urethral_fungal_culture": "Negative",
+        "parasitology": "Negative",
+        "rpr": "Negative",
+        "hbsag": "Negative",
+        "hbc_total": "Negative",
+        "hbs_antibody": "<2",
+        "hcv": "Negative",
+        "hiv": "Negative",
+        "n_gonorrhoeae_pcr": "Negative",
+        "m_genitalium_pcr": "Negative",
+        "m_hominis_pcr": "Negative",
+        "u_parvum_pcr": "Negative",
+        "u_urealyticum_pcr": "Negative",
+        "t_vaginalis_pcr": "Negative",
+        "c_trachomatis_pcr": "Negative"
+      }
+    },
+    {
+      "date": "2022-02-10",
+      "results": {
+        "urine_density": 1.015,
+        "urine_ph": 6.5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "urethral_exudate": "Gram staining:\nNo negative gram diplococci\nNo polymorphonuclear leukocytes are observed\nBacteriological culture:\nUsual saprophytic bacterial flora.",
+        "urine_culture": "Negative",
+        "urethral_fungal_culture": "Negative",
+        "parasitology": "Negative"
+      }
+    },
+    {
+      "date": "2022-03-02",
+      "results": {
+        "rbc": 5,
+        "hemoglobin": 14.6,
+        "hematocrit": 43.5,
+        "mcv": 87.5,
+        "mch": 29.4,
+        "mchc": 33.6,
+        "rdw": 12.4,
+        "wbc": 5.68,
+        "pct_segmented": 49,
+        "pct_lymphocytes": 38.2,
+        "pct_monocytes": 8.6,
+        "pct_eosinophils": 3.3,
+        "pct_basophils": 0.9,
+        "neutrophils_abs": 2.8,
+        "lymphocytes_abs": 2.2,
+        "monocytes_abs": 0.5,
+        "eosinophils_abs": 0.2,
+        "basophils_abs": 0.1,
+        "platelets": 185,
+        "mpv": 11.4,
+        "esr": 2,
+        "glucose": 82,
+        "uric_acid": 4.1,
+        "calcium": 9.9,
+        "magnesium": 2.1,
+        "hba1c_percent": 5.51,
+        "sodium": 140,
+        "potassium": 4.5,
+        "ast": 21,
+        "alt": 15,
+        "ggt": 20,
+        "iron": 148,
+        "ferritin": 238,
+        "cholesterol_total": 200,
+        "triglycerides": 55,
+        "hdl": 80,
+        "ldl": 109,
+        "testosterone_total": 8.18,
+        "tsh": 4.37,
+        "crp": 0.06,
+        "cea": 1.6,
+        "ca125": 9,
+        "psa": 0.94,
+        "folic_acid_serum": 7.4,
+        "vitamin_b12": 752,
+        "vitamin_d": 20.65,
+        "urine_density": 1.02,
+        "urine_ph": 6,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements."
+      }
+    },
+    {
+      "date": "2022-05-13",
+      "results": {
+        "tsh": 2.89,
+        "free_t4": 1.28,
+        "free_t3": 2.46,
+        "anti_tpo": 41.6,
+        "anti_tg": 177
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "results": {
+        "rbc": 4.47,
+        "hemoglobin": 12.9,
+        "hematocrit": 40.9,
+        "mcv": 91.5,
+        "mch": 28.9,
+        "mchc": 31.5,
+        "rdw_sd": 40.6,
+        "rdw_cv": 13.6,
+        "wbc": 4.41,
+        "pct_segmented": 47.3,
+        "pct_lymphocytes": 40.4,
+        "pct_monocytes": 7.6,
+        "pct_eosinophils": 3.4,
+        "pct_basophils": 1.3,
+        "neutrophils_abs": 2.08,
+        "lymphocytes_abs": 1.78,
+        "monocytes_abs": 0.34,
+        "eosinophils_abs": 0.15,
+        "basophils_abs": 0.06,
+        "platelets": 181,
+        "mpv": 9.4,
+        "pdw": 16.5,
+        "plateletcrit": 0.17,
+        "p_lcr": 32,
+        "esr_first_hour": "7 mm",
+        "esr_second_hour": "21 mm",
+        "katz_index": "9 mm",
+        "glucose": 89.3,
+        "creatinine": 1.12,
+        "gfr_mdrd": 77.6,
+        "uric_acid": 3.96,
+        "bilirubin_total": 0.78,
+        "alt": 21.4,
+        "alp": 51.8,
+        "ggt": 20.6,
+        "cholesterol_total": 215,
+        "triglycerides": 53.1,
+        "hdl": 62.4,
+        "ldl": 142,
+        "testosterone_total": 22.57,
+        "shbg": 140.23,
+        "tsh": 2.86,
+        "crp": 0.8,
+        "psa": 0.38,
+        "urine_density": 1.02,
+        "urine_ph": 5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "urine_rbc_field": "They are not observed.",
+        "urine_squamous": "They are not observed.",
+        "urine_transitional": "They are not observed.",
+        "urine_germs": "They are not observed.",
+        "urine_crystals": "They are not observed.",
+        "urine_casts": "They are not observed.",
+        "urine_other": "They are not observed.",
+        "stool_occult_misc": "They are not observed."
+      }
+    },
+    {
+      "date": "2022-11-16",
+      "results": {
+        "rbc": 4.7,
+        "hemoglobin": 13.9,
+        "hematocrit": 41.8,
+        "mcv": 88.4,
+        "mch": 29.4,
+        "mchc": 33.3,
+        "rdw": 12.4,
+        "reticulocytes": 1.53,
+        "wbc": 5.51,
+        "pct_segmented": 52.7,
+        "pct_lymphocytes": 33.4,
+        "pct_monocytes": 9.4,
+        "pct_eosinophils": 3.4,
+        "pct_basophils": 1.1,
+        "neutrophils_abs": 2.9,
+        "lymphocytes_abs": 1.8,
+        "monocytes_abs": 0.5,
+        "eosinophils_abs": 0.2,
+        "basophils_abs": 0.1,
+        "platelets": 196,
+        "mpv": 11.5,
+        "prothrombin_time": 12.3,
+        "quick_index": 95.2,
+        "inr": 1.04,
+        "fibrinogen": 340,
+        "aptt": 33.4,
+        "ttp_ratio": 1.08,
+        "glucose": 93,
+        "urea": 37,
+        "bun": 17,
+        "creatinine": 0.9,
+        "gfr_ckd_epi": 107.16,
+        "uric_acid": 4.6,
+        "bilirubin_total": 0.6,
+        "bilirubin_direct": 0.2,
+        "hba1c_percent": 5.42,
+        "sodium": 137,
+        "potassium": 5.5,
+        "ast": 20,
+        "alt": 15,
+        "ggt": 19,
+        "amylase": 68,
+        "iron": 106,
+        "ferritin": 228,
+        "cholesterol_total": 209,
+        "triglycerides": 40,
+        "hdl": 86,
+        "ldl": 115,
+        "tsh": 2.83,
+        "free_t4": 5.3,
+        "free_t3": 0.7,
+        "psa": 0.62,
+        "psa_free": 0.17,
+        "psa_free_ratio": 27.42,
+        "vitamin_b12": 788,
+        "urine_density": 1.015,
+        "urine_ph": 5,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": 5,
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Sediment without abnormal elements.",
+        "stool_occult_1": "Negative",
+        "stool_occult_2": "Negative",
+        "stool_occult_3": "Negative",
+        "stool_bacteriology": "Negative for Salmonella, Shigella, Yersinia, Campylobacter and Aeromonas.",
+        "stool_parasites_1": "Negative",
+        "stool_parasites_2": "Negative",
+        "stool_parasites_3": "Negative",
+        "graham_1": "No Enterobius vermicularis eggs are observed."
+      }
+    },
+    {
+      "date": "2023-08-02",
+      "results": {
+        "rbc": 4.68,
+        "hemoglobin": 13.8,
+        "hematocrit": 41.3,
+        "mcv": 88.2,
+        "mch": 29.5,
+        "mchc": 33.4,
+        "rdw": 13,
+        "wbc": 6.8,
+        "pct_segmented": 62.5,
+        "pct_lymphocytes": 25.7,
+        "pct_monocytes": 9,
+        "pct_eosinophils": 2.2,
+        "pct_basophils": 0.6,
+        "neutrophils_abs": 4.25,
+        "lymphocytes_abs": 1.75,
+        "monocytes_abs": 0.61,
+        "eosinophils_abs": 0.15,
+        "basophils_abs": 0.04,
+        "platelets": 230,
+        "mpv": 11,
+        "esr": 18,
+        "prothrombin_time": 14.7,
+        "quick_index": 85,
+        "inr": 1.11,
+        "aptt": 37.4,
+        "ttp_ratio": 1.07,
+        "glucose": 84,
+        "urea": 42,
+        "creatinine": 1.14,
+        "gfr_mdrd": 71.1,
+        "uric_acid": 4.8,
+        "ast": 22,
+        "alt": 20,
+        "amylase": 70.9,
+        "cholesterol_total": 187,
+        "triglycerides": 84,
+        "hdl": 66.5,
+        "ldl": 103.7,
+        "atherogenic_index": 2.8,
+        "protein_total": 7.4,
+        "psa": 0.68,
+        "urine_density": 1.018,
+        "urine_ph": 8,
+        "urine_protein": "Negative",
+        "urine_glucose": "Negative",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Positive",
+        "urine_urobilinogen": "Negative",
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "They are not observed.",
+        "urine_rbc_field": "They are not observed.",
+        "urine_crystals": "They are not observed."
+      }
+    },
+    {
+      "date": "2023-12-18",
+      "results": {
+        "rbc": 4.98,
+        "hemoglobin": 14.6,
+        "hematocrit": 41.4,
+        "mcv": 83.1,
+        "mch": 29.4,
+        "mchc": 35.4,
+        "rdw": 12.1,
+        "wbc": 5.22,
+        "pct_segmented": 51,
+        "pct_lymphocytes": 37,
+        "pct_monocytes": 11,
+        "pct_eosinophils": 2.7,
+        "pct_basophils": 0.9,
+        "neutrophils_abs": 2.68,
+        "lymphocytes_abs": 1.96,
+        "monocytes_abs": 0.59,
+        "eosinophils_abs": 0.12,
+        "basophils_abs": 0.04,
+        "platelets": 186,
+        "mpv": 10.9,
+        "prothrombin_time": 10.9,
+        "quick_index": 97.7,
+        "inr": 0.95,
+        "aptt": 32.4,
+        "glucose": 89,
+        "hba1c": 5.5,
+        "urea": 34,
+        "creatinine": 1.08,
+        "bilirubin_total": 0.6,
+        "calcium": 9.5,
+        "ldh": 204,
+        "chloride": 101,
+        "sodium": 137,
+        "potassium": 4.6,
+        "alt": 38,
+        "alp": 71,
+        "amylase": 57,
+        "ck": 370,
+        "iron": 117,
+        "folic_acid": 14.74,
+        "cholesterol_total": 225,
+        "triglycerides": 44,
+        "hdl": 77,
+        "ldl": 139.2,
+        "testosterone_e": 899.49,
+        "tsh": 2.45,
+        "psa": 0.48,
+        "vitamin_b12": 549,
+        "vitamin_d": 49.26,
+        "urine_density": 1.02,
+        "urine_ph": 6,
+        "urine_protein": "Negative",
+        "urine_glucose": "Normal",
+        "urine_ketones": "Negative",
+        "urine_bilirubin": "Negative",
+        "urine_blood": "Negative",
+        "urine_nitrites": "Negative",
+        "urine_urobilinogen": 0.2,
+        "urine_leukocytes": "Negative",
+        "urine_sediment": "Not applicable",
+        "syphilis_rpr": "Negative",
+        "hbsag_infectious": "Negative"
+      }
+    },
+    {
+      "date": "2024-09-24",
+      "lab": "N Lab Clinic for Bluecross International Clinic, Koh Phangan",
+      "physician": "Kritsada Saiyasart, MD",
+      "complaint": "Cough and difficult breathing for 3 weeks",
+      "diagnosis": [
+        "Suspicion of gastroesophageal reflux disease (GERD)",
+        "Premature ventricular contraction (PVC)"
+      ],
+      "medications": [
+        "Omeprazole 1×2 oral before meals, #60",
+        "Air-X 1×3 oral, #20"
+      ],
+      "notes": "Dry cough, dyspnea, and epigastric heartburn for 3 weeks. No trauma, no prior treatment, no drug allergy. Exam: not distressed, HEENT/abdomen WNL, lungs equal air entry, heart S1 S2 no murmur. Cardiology referral for PVC; lifestyle modification and PPI for GERD.",
+      "results": {
+        "rbc": 5.18,
+        "hemoglobin": 13.7,
+        "hematocrit": 41.6,
+        "mcv": 80,
+        "mch": 26,
+        "mchc": 33,
+        "rdw": 13.6,
+        "wbc": 5.89,
+        "pct_segmented": 61,
+        "pct_lymphocytes": 30,
+        "pct_monocytes": 6,
+        "pct_eosinophils": 3,
+        "pct_basophils": 0,
+        "platelets": 207,
+        "mpv": 11,
+        "bun": 12,
+        "creatinine": 1.1,
+        "gfr_ckd_epi": 86.49,
+        "sodium": 134.8,
+        "potassium": 4.4,
+        "chloride": 101.7,
+        "tco2": 25.7,
+        "anion_gap": 11.8,
+        "temperature": 36.8,
+        "blood_pressure": "113/75",
+        "pulse": 52,
+        "respiratory_rate": 18,
+        "spo2": 98,
+        "ecg": "PVCs present; no ST-segment change",
+        "cxr": "No active pulmonary disease"
+      }
+    }
+  ]
+}

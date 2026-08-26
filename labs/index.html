@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab timeline</title>
+  <style>
+    :root {
+      --paper: #f4efe6;
+      --ink: #1c1916;
+      --muted: #6b645c;
+      --rule: #ddd4c6;
+      --chip: #e7dfd2;
+      --high: #8f2d2d;
+      --high-bg: #f3d6d0;
+      --low: #1d4a73;
+      --low-bg: #d5e4f2;
+      --warn: #8a5a12;
+      --warn-bg: #f3e2c4;
+      --ok-line: #3d6b4f;
+      --select: #efe6d4;
+      --sticky: #f4efe6;
+      --header: #ebe4d7;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      font: 15px/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    header {
+      padding: 10px 16px 8px;
+      border-bottom: 1px solid var(--rule);
+      flex: 0 0 auto;
+    }
+    header h1 {
+      font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin: 0 0 2px;
+    }
+    .sub { color: var(--muted); font-size: 13px; }
+    .sub a { color: var(--ink); }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    button, .file-btn {
+      font: inherit;
+      font-size: 13px;
+      background: var(--chip);
+      border: 1px solid var(--rule);
+      color: var(--ink);
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button[aria-pressed="true"], .chip.active {
+      background: var(--ink);
+      color: var(--paper);
+      border-color: var(--ink);
+    }
+    button:hover, .file-btn:hover { filter: brightness(0.97); }
+    .disclaimer { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
+
+    .latest {
+      margin: 8px 16px 0;
+      padding: 8px 12px;
+      border: 1px solid var(--rule);
+      background: #faf6ee;
+      flex: 0 0 auto;
+    }
+    .latest h2 { display: none; }
+    .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; font-size: 13px; }
+    .stat b { font-variant-numeric: tabular-nums; }
+    .chips { display: flex; flex-wrap: nowrap; gap: 6px; overflow-x: auto; }
+    .flag-chip {
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 2px;
+      border: 0;
+      cursor: pointer;
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+    .flag-chip.high { background: var(--high-bg); color: var(--high); }
+    .flag-chip.low { background: var(--low-bg); color: var(--low); }
+    .flag-chip.warn { background: var(--warn-bg); color: var(--warn); }
+    .quiet { color: var(--muted); font-size: 13px; }
+    .visit-extra {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+      max-height: 7.5em;
+      overflow: auto;
+    }
+    .visit-extra b { color: var(--ink); font-weight: 600; }
+
+    .toolbar {
+      padding: 8px 16px 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      align-items: center;
+      flex: 0 0 auto;
+      z-index: 6;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+    }
+    .toolbar input[type="search"] {
+      font: inherit;
+      padding: 5px 8px;
+      border: 1px solid var(--rule);
+      background: #fff;
+      min-width: 160px;
+      color: var(--ink);
+    }
+    .cats {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 6px;
+      overflow-x: auto;
+      width: 100%;
+      padding-bottom: 4px;
+    }
+    .cats .chip { flex: 0 0 auto; white-space: nowrap; }
+    .chip {
+      font-size: 12px;
+      padding: 3px 8px;
+      background: transparent;
+    }
+    label.check { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(0, 1fr);
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .layout.with-detail {
+      grid-template-columns: 1fr minmax(280px, 340px);
+    }
+    .table-wrap {
+      overflow: auto;
+      min-height: 0;
+      height: 100%;
+      border-top: 1px solid var(--rule);
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      min-width: 100%;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--rule);
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      background: var(--header);
+      font-weight: 600;
+      font-size: 11px;
+      text-align: right;
+      line-height: 1.25;
+    }
+    thead th .y { display: block; color: var(--muted); font-weight: 500; }
+    th.metric, td.metric, th.spark, td.spark {
+      text-align: left;
+      position: sticky;
+      background: var(--sticky);
+    }
+    th.metric, td.metric { left: 0; z-index: 2; min-width: 220px; max-width: 260px; white-space: normal; }
+    th.spark, td.spark { left: 260px; z-index: 2; width: 78px; padding-left: 0; padding-right: 8px; }
+    thead th.metric, thead th.spark { z-index: 4; background: var(--header); }
+    td.metric .name { display: block; }
+    td.metric .meta { display: block; font-size: 11px; color: var(--muted); }
+    td.val {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum";
+    }
+    td.val.empty { color: #c4bbb0; }
+    td.val.high { background: var(--high-bg); color: var(--high); }
+    td.val.low { background: var(--low-bg); color: var(--low); }
+    td.val.warn { background: var(--warn-bg); color: var(--warn); }
+    td.val.text { white-space: nowrap; max-width: 140px; overflow: hidden; text-overflow: ellipsis; }
+    tr.selected td { background: var(--select); }
+    tr.selected td.metric, tr.selected td.spark { background: var(--select); }
+    tbody tr { cursor: pointer; }
+    tbody tr:hover td.metric, tbody tr:hover td.spark, tbody tr:hover td.val.empty {
+      background: #efe9dc;
+    }
+    .delta { font-size: 10px; color: var(--muted); margin-left: 4px; }
+    .cat-row td {
+      background: var(--header);
+      font-size: 11px;
+      font-weight: 650;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: default;
+      position: sticky;
+      left: 0;
+    }
+    .spark svg { display: block; }
+    .spark svg polyline { fill: none; stroke: var(--ink); stroke-width: 1.25; }
+    .spark svg line { stroke: var(--ok-line); stroke-width: 1; opacity: 0.35; }
+
+    .detail {
+      border-left: 1px solid var(--rule);
+      padding: 16px 18px 32px;
+      overflow: auto;
+      min-height: 0;
+      height: 100%;
+      background: #faf6ee;
+    }
+    .detail h2 { font-size: 18px; font-family: Georgia, serif; font-weight: 500; margin: 0 0 6px; }
+    .detail .meta { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+    .detail .id {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 12px;
+      background: var(--chip);
+      padding: 2px 6px;
+    }
+    .history { list-style: none; margin: 12px 0 0; padding: 0; }
+    .history li {
+      display: grid;
+      grid-template-columns: 7.5rem 1fr;
+      gap: 8px;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--rule);
+      font-variant-numeric: tabular-nums;
+    }
+    .history .d { color: var(--muted); }
+    .history .v { white-space: pre-wrap; }
+    .history .v.high { color: var(--high); }
+    .history .v.low { color: var(--low); }
+    .history .v.warn { color: var(--warn); }
+    .caution {
+      font-size: 12px;
+      color: var(--warn);
+      margin: 8px 0;
+    }
+
+    .empty-state {
+      margin: 32px 24px;
+      padding: 28px;
+      border: 1px dashed var(--rule);
+      text-align: center;
+    }
+    details.help {
+      position: relative;
+    }
+    details.help summary {
+      list-style: none;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 5px 10px;
+      background: var(--chip);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+    }
+    details.help summary::-webkit-details-marker { display: none; }
+    details.help .help-body {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 6px);
+      width: min(420px, 90vw);
+      background: #faf6ee;
+      border: 1px solid var(--rule);
+      padding: 12px;
+      z-index: 20;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    details.help pre {
+      background: #fff;
+      border: 1px solid var(--rule);
+      padding: 12px;
+      overflow: auto;
+      color: var(--ink);
+      font-size: 12px;
+    }
+    .hidden { display: none !important; }
+    @media (max-width: 860px) {
+      .layout.with-detail { grid-template-columns: 1fr; }
+      .detail {
+        border-left: 0;
+        border-top: 1px solid var(--rule);
+        max-height: none;
+      }
+      th.spark, td.spark { display: none; }
+      th.metric, td.metric { max-width: 160px; min-width: 140px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="row">
+      <div>
+        <h1 id="title">Lab timeline</h1>
+        <div class="sub" id="subtitle"></div>
+      </div>
+      <div class="actions">
+        <label class="file-btn">
+          Open JSON
+          <input id="file" type="file" accept="application/json,.json" class="hidden">
+        </label>
+        <details class="help">
+          <summary>Add a visit</summary>
+          <div class="help-body">
+            <p>Edit <code>labs/data.json</code>. Append an object to <code>visits</code> (newest last is fine). Only include metrics that were measured. Use the metric <code>id</code> shown in the side panel.</p>
+            <pre>{
+  "date": "2026-08-26",
+  "lab": "optional",
+  "notes": "",
+  "results": {
+    "hemoglobin": 14.1,
+    "psa": 0.52,
+    "tsh": 2.1
+  }
+}</pre>
+            <p>New analyte: add it once under <code>metrics</code>, then use that <code>id</code> in <code>results</code>. Reload this page (or Open JSON again).</p>
+          </div>
+        </details>
+      </div>
+    </div>
+    <p class="disclaimer" id="disclaimer"></p>
+  </header>
+
+  <section class="latest hidden" id="latest"></section>
+
+  <div class="toolbar hidden" id="toolbar">
+    <input type="search" id="search" placeholder="Search metrics…" autocomplete="off">
+    <label class="check"><input type="checkbox" id="out-only"> <span id="out-label">Outside range / notable</span></label>
+    <div class="cats" id="cats"></div>
+  </div>
+
+  <div class="empty-state" id="empty">
+    <p>Loading <code>data.json</code>… If you opened this file directly, use <b>Open JSON</b> and pick <code>labs/data.json</code>.</p>
+  </div>
+
+  <div class="layout" id="layout">
+    <div class="table-wrap hidden" id="table-wrap"></div>
+    <aside class="detail hidden" id="detail"></aside>
+  </div>
+
+  <script>
+    const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+    const state = {
+      data: null,
+      query: "",
+      category: "all",
+      outOnly: false,
+      selected: null,
+    };
+
+    const $ = (id) => document.getElementById(id);
+
+    const esc = (value) => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;");
+
+    const displayName = (obj) => {
+      if (!obj) return "";
+      if (typeof obj === "string") return obj;
+      return obj.en || obj.es || "";
+    };
+
+    const metricName = (metric) => displayName(metric.name);
+
+    const catName = (cat) => displayName(cat && cat.name);
+
+    const formatDate = (iso, withYear = true) => {
+      const [y, m, d] = iso.split("-").map(Number);
+      const mon = MONTHS[m - 1];
+      return withYear ? `${d} ${mon} ${y}` : `${d} ${mon}`;
+    };
+
+    const formatValue = (value) => {
+      if (typeof value === "number") return String(value);
+      return String(value);
+    };
+
+    const flagOf = (metric, value) => {
+      if (value == null) return "";
+      if (typeof value !== "number") {
+        const s = String(value).trim().toLowerCase();
+        if (s === "positive") return "warn";
+        return "text";
+      }
+      if (metric.unit_caution) return "";
+      const range = metric.range;
+      if (!range) return "";
+      if (range.min != null && value < range.min) return "low";
+      if (range.max != null && value > range.max) return "high";
+      return "";
+    };
+
+    const rangeLabel = (metric) => {
+      if (!metric.range) return "";
+      const unit = metric.unit ? ` ${metric.unit}` : "";
+      return metric.range.label + unit;
+    };
+
+    const chronoVisits = () => [...state.data.visits].sort((a, b) => a.date.localeCompare(b.date));
+
+    const newestFirst = () => [...state.data.visits].sort((a, b) => b.date.localeCompare(a.date));
+
+    const numericSeries = (metricId) => chronoVisits()
+      .map((visit) => visit.results[metricId])
+      .filter((value) => typeof value === "number");
+
+    const sparkline = (metric) => {
+      const nums = numericSeries(metric.id);
+      if (nums.length < 2) return "";
+      const min = Math.min(...nums);
+      const max = Math.max(...nums);
+      const w = 72;
+      const h = 20;
+      const p = 1;
+      const points = nums.map((value, i) => {
+        const x = p + (i / (nums.length - 1)) * (w - 2 * p);
+        const y = max === min ? h / 2 : p + (1 - (value - min) / (max - min)) * (h - 2 * p);
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      });
+      let band = "";
+      const range = metric.range;
+      if (range && !metric.unit_caution && (range.min != null || range.max != null) && max !== min) {
+        const lo = range.min != null ? range.min : min;
+        const hi = range.max != null ? range.max : max;
+        const y1 = p + (1 - (Math.min(max, Math.max(min, hi)) - min) / (max - min)) * (h - 2 * p);
+        const y2 = p + (1 - (Math.min(max, Math.max(min, lo)) - min) / (max - min)) * (h - 2 * p);
+        band = `<rect x="0" y="${Math.min(y1, y2).toFixed(1)}" width="${w}" height="${Math.abs(y2 - y1).toFixed(1)}" fill="#3d6b4f" opacity="0.12"/>`;
+      }
+      return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${band}<polyline points="${points.join(" ")}"/></svg>`;
+    };
+
+    const previousNumber = (metricId, date) => {
+      const older = chronoVisits().filter((visit) => visit.date < date);
+      for (let i = older.length - 1; i >= 0; i -= 1) {
+        const value = older[i].results[metricId];
+        if (typeof value === "number") return value;
+      }
+      return null;
+    };
+
+    const isNotable = (metric, visit) => {
+      const value = visit.results[metric.id];
+      if (value == null) return false;
+      const flag = flagOf(metric, value);
+      return flag === "high" || flag === "low" || flag === "warn";
+    };
+
+    const matchesQuery = (metric, cat) => {
+      const q = state.query.trim().toLowerCase();
+      if (!q) return true;
+      const hay = [
+        metric.id,
+        metricName(metric),
+        cat && catName(cat),
+        metric.unit,
+      ].filter(Boolean).join(" ").toLowerCase();
+      return hay.includes(q);
+    };
+
+    const renderLatest = () => {
+      const visits = newestFirst();
+      const latest = visits[0];
+      if (!latest) {
+        $("latest").classList.add("hidden");
+        return;
+      }
+      const metrics = Object.fromEntries(state.data.metrics.map((m) => [m.id, m]));
+      const flags = [];
+      Object.entries(latest.results).forEach(([id, value]) => {
+        const metric = metrics[id];
+        if (!metric) return;
+        const flag = flagOf(metric, value);
+        if (flag === "high" || flag === "low" || flag === "warn") {
+          flags.push({ metric, value, flag });
+        }
+      });
+      const measured = Object.keys(latest.results).length;
+      const chips = flags.map(({ metric, value, flag }) =>
+        `<button type="button" class="flag-chip ${flag}" data-select="${esc(metric.id)}">${esc(metricName(metric))} ${esc(formatValue(value))}</button>`
+      ).join("");
+      const extraBits = [];
+      if (latest.lab) extraBits.push(esc(latest.lab));
+      if (latest.physician) extraBits.push(esc(latest.physician));
+      if (latest.complaint) extraBits.push(`<b>CC</b> ${esc(latest.complaint)}`);
+      if (latest.diagnosis && latest.diagnosis.length) {
+        extraBits.push(`<b>Dx</b> ${latest.diagnosis.map(esc).join("; ")}`);
+      }
+      if (latest.medications && latest.medications.length) {
+        extraBits.push(`<b>Rx</b> ${latest.medications.map(esc).join("; ")}`);
+      }
+      if (latest.notes) extraBits.push(esc(latest.notes));
+      const extra = extraBits.length ? `<div class="visit-extra">${extraBits.join(" · ")}</div>` : "";
+      $("latest").classList.remove("hidden");
+      $("latest").innerHTML = `
+        <h2>Latest visit</h2>
+        <div class="stats">
+          <div><b>${esc(formatDate(latest.date))}</b></div>
+          <div>${measured} measured</div>
+          <div><b>${flags.length}</b> outside range / notable</div>
+        </div>
+        ${chips ? `<div class="chips">${chips}</div>` : `<div class="quiet">Nothing outside range on this visit (using usual units).</div>`}
+        ${extra}
+      `;
+    };
+
+    const renderToolbar = () => {
+      $("toolbar").classList.remove("hidden");
+      const cats = state.data.categories.map((cat) => {
+        const active = state.category === cat.id ? " active" : "";
+        return `<button type="button" class="chip${active}" data-cat="${esc(cat.id)}">${esc(catName(cat))}</button>`;
+      }).join("");
+      const allActive = state.category === "all" ? " active" : "";
+      $("cats").innerHTML = `<button type="button" class="chip${allActive}" data-cat="all">All</button>${cats}`;
+    };
+
+    const renderTable = () => {
+      const visits = newestFirst();
+      const catById = Object.fromEntries(state.data.categories.map((c) => [c.id, c]));
+      const headers = visits.map((visit) => {
+        const [y] = [visit.date.slice(0, 4)];
+        return `<th>${esc(formatDate(visit.date, false))}<span class="y">${esc(y)}</span></th>`;
+      }).join("");
+
+      let body = "";
+      let lastCat = null;
+      state.data.metrics.forEach((metric) => {
+        const cat = catById[metric.category];
+        if (state.category !== "all" && metric.category !== state.category) return;
+        if (!matchesQuery(metric, cat)) return;
+        const any = visits.some((visit) => visit.results[metric.id] != null);
+        if (!any) return;
+        if (state.outOnly) {
+          const notable = visits.some((visit) => isNotable(metric, visit));
+          if (!notable) return;
+        }
+        if (metric.category !== lastCat) {
+          lastCat = metric.category;
+          const label = cat ? catName(cat) : metric.category;
+          body += `<tr class="cat-row"><td class="metric" colspan="${visits.length + 2}">${esc(label)}</td></tr>`;
+        }
+        const selected = state.selected === metric.id ? " selected" : "";
+        const cells = visits.map((visit, index) => {
+          const value = visit.results[metric.id];
+          if (value == null) return `<td class="val empty">—</td>`;
+          const flag = flagOf(metric, value);
+          const klass = ["val", flag, typeof value === "string" ? "text" : ""].filter(Boolean).join(" ");
+          let delta = "";
+          if (index === 0 && typeof value === "number") {
+            const prev = previousNumber(metric.id, visit.date);
+            if (prev != null && prev !== value) {
+              const diff = value - prev;
+              const sign = diff > 0 ? "+" : "";
+              delta = `<span class="delta">${sign}${Number.isInteger(diff) ? diff : diff.toFixed(2)}</span>`;
+            }
+          }
+          const title = typeof value === "string" ? esc(value) : "";
+          return `<td class="${klass}" title="${title}">${esc(formatValue(value))}${delta}</td>`;
+        }).join("");
+        const range = metric.range ? esc(metric.range.label) : "";
+        const unit = metric.unit ? esc(metric.unit) : "";
+        body += `<tr class="${selected}" data-id="${esc(metric.id)}">
+          <td class="metric">
+            <span class="name">${esc(metricName(metric))}</span>
+            <span class="meta">${range}${unit ? " · " + unit : ""}${metric.unit_caution ? " · units vary" : ""}</span>
+          </td>
+          <td class="spark">${sparkline(metric)}</td>
+          ${cells}
+        </tr>`;
+      });
+
+      $("table-wrap").classList.remove("hidden");
+      $("table-wrap").innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th class="metric">Metric</th>
+              <th class="spark"></th>
+              ${headers}
+            </tr>
+          </thead>
+          <tbody>${body || `<tr><td class="metric">No matches</td></tr>`}</tbody>
+        </table>
+      `;
+    };
+
+    const renderDetail = () => {
+      const pane = $("detail");
+      const metric = state.data.metrics.find((m) => m.id === state.selected);
+      if (!metric) {
+        pane.classList.add("hidden");
+        $("layout").classList.remove("with-detail");
+        return;
+      }
+      $("layout").classList.add("with-detail");
+      pane.classList.remove("hidden");
+      const items = chronoVisits()
+        .filter((visit) => visit.results[metric.id] != null)
+        .map((visit) => {
+          const value = visit.results[metric.id];
+          const flag = flagOf(metric, value);
+          return `<li><span class="d">${esc(formatDate(visit.date))}</span><span class="v ${flag}">${esc(formatValue(value))}</span></li>`;
+        }).join("");
+      const caution = metric.unit_caution
+        ? `<p class="caution">Units or ranges for this analyte are not consistent across labs. Out-of-range colouring is skipped.</p>`
+        : "";
+      pane.innerHTML = `
+        <h2>${esc(metricName(metric))}</h2>
+        <div class="meta">${esc(rangeLabel(metric))}</div>
+        ${caution}
+        <div>id <button type="button" class="id" id="copy-id" title="Copy id">${esc(metric.id)}</button></div>
+        <div style="margin-top:12px">${sparkline(metric)}</div>
+        <ol class="history">${items}</ol>
+      `;
+    };
+
+    const render = () => {
+      if (!state.data) return;
+      $("title").textContent = `${state.data.subject.name} · lab timeline`;
+      document.title = $("title").textContent;
+      const dates = chronoVisits().map((v) => v.date);
+      $("subtitle").textContent = `${dates.length} visits · ${formatDate(dates[0])} – ${formatDate(dates[dates.length - 1])}`;
+      $("disclaimer").textContent = state.data.disclaimer || "";
+      $("empty").classList.add("hidden");
+      renderLatest();
+      renderToolbar();
+      renderTable();
+      renderDetail();
+    };
+
+    const useData = (data) => {
+      if (!data || !Array.isArray(data.metrics) || !Array.isArray(data.visits)) {
+        throw new Error("JSON must have metrics[] and visits[]");
+      }
+      state.data = data;
+      render();
+    };
+
+    const loadFromFile = (file) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          localStorage.setItem("labs-data", reader.result);
+          useData(data);
+        } catch (err) {
+          alert("Could not parse JSON: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    };
+
+    $("search").addEventListener("input", (event) => {
+      state.query = event.target.value;
+      renderTable();
+    });
+    $("out-only").addEventListener("change", (event) => {
+      state.outOnly = event.target.checked;
+      renderTable();
+    });
+    $("cats").addEventListener("click", (event) => {
+      const btn = event.target.closest("[data-cat]");
+      if (!btn) return;
+      state.category = btn.getAttribute("data-cat");
+      renderToolbar();
+      renderTable();
+    });
+    $("table-wrap").addEventListener("click", (event) => {
+      const row = event.target.closest("tr[data-id]");
+      if (!row) return;
+      state.selected = row.getAttribute("data-id");
+      renderTable();
+      renderDetail();
+    });
+    $("latest").addEventListener("click", (event) => {
+      const btn = event.target.closest("[data-select]");
+      if (!btn) return;
+      state.selected = btn.getAttribute("data-select");
+      const metric = state.data.metrics.find((m) => m.id === state.selected);
+      if (metric) state.category = metric.category;
+      render();
+      const row = document.querySelector(`tr[data-id="${state.selected}"]`);
+      if (row) row.scrollIntoView({ block: "center" });
+    });
+    $("detail").addEventListener("click", async (event) => {
+      if (event.target.id !== "copy-id") return;
+      try {
+        await navigator.clipboard.writeText(event.target.textContent);
+        event.target.textContent = "copied";
+        setTimeout(() => { event.target.textContent = state.selected; }, 800);
+      } catch {
+        /* ignore */
+      }
+    });
+    $("file").addEventListener("change", (event) => {
+      const file = event.target.files && event.target.files[0];
+      if (file) loadFromFile(file);
+    });
+
+    const boot = async () => {
+      try {
+        const res = await fetch("data.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(String(res.status));
+        useData(await res.json());
+        return;
+      } catch {
+        /* file:// or missing */
+      }
+      const cached = localStorage.getItem("labs-data");
+      if (cached) {
+        try {
+          useData(JSON.parse(cached));
+          return;
+        } catch {
+          /* ignore */
+        }
+      }
+      $("empty").innerHTML = `<p>Could not load <code>data.json</code> (normal if you double-clicked the HTML file). Use <b>Open JSON</b> and choose <code>labs/data.json</code>, or serve the folder: <code>python3 -m http.server</code>.</p>`;
+    };
+
+    boot();
+  </script>
+</body>
+</html>
