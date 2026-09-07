@@ -6,6 +6,6 @@ This folder is dedicated to the divorce with Arina.
 
 ## Current state
 
-I know that I want divorce legally, but I am ok to contilue living as a family.
+I want a legal divorce and to keep living as a family.
 
-I did not talk to Arina about this yet. First, I want to prepare to all possible scenarios.
+Talked to Arina (early Sep 2026). No objections: she understands the intent is to remove the official marriage and continue living as we do now.

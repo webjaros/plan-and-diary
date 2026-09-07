@@ -12,7 +12,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | --- | --- | --- |
 | Jānis Skrastiņš | waiting | wave 1, 25 Aug |
 | Aigars Kaupe | yes | Can divorce with them. Wants child residence, maintenance, access, property. 27 Aug 14:58 |
-| Kristīne Šapčenko | yes | Remote yes if both have e-signature. 28 Aug 21:58 |
+| Kristīne Šapčenko | yes | Remote yes if both have e-signature. Follow-up sent 7 Sep: same household, 234 EUR?, total cost. |
 | Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
 | Mārtiņš Limbēns | waiting | wave 1, 25 Aug |
 | Ingūna Bobrovska | no | Remote not possible: cannot verify child-support amount in Thailand / Thai vs Latvian rules. 27 Aug |
@@ -21,7 +21,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Evija Birzule | waiting | wave 2, 27 Aug |
 | Ilze Popele | waiting | wave 2, 27 Aug |
 | Arlita Mintāle | no | No remote/digital signing; in person only. 27 Aug 15:55 |
-| Inese Jaunzeme | yes | Asks if both have e-signatures and can join latvijasnotars.lv video. 27 Aug 15:36 |
+| Inese Jaunzeme | yes | Video if e-signatures. Follow-up sent 7 Sep: same household, 234 EUR?, total cost. |
 | Rihards Mintāls | waiting | wave 2, 27 Aug |
 | Eduards Virko | waiting | wave 2, 27 Aug |
 | Irēna Ziringa | waiting | wave 2, 27 Aug |
@@ -63,6 +63,7 @@ Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 - Why: Russian and English; mobile number; staffed office
 - Status: yes
 - Reply (28 Aug 21:58): if both have e-signature, they can dissolve the marriage remotely
+- Follow-up (7 Sep): eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost
 
 ### 4. Inese Purvinska — Daugavpils
 
@@ -168,6 +169,7 @@ Same first email. Skipped Aizvieto listings. Did not re-email wave 1.
 - Why: English; late hours; back from vacation
 - Status: yes
 - Reply (27 Aug 15:36): office asks whether both have electronic signatures and can join a videoconference on latvijasnotars.lv. Signed by Anna Marija Onckule
+- Follow-up (7 Sep): eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost
 
 ### 13. Rihards Mintāls — Riga
 

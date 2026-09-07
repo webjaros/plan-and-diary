@@ -57,6 +57,12 @@
       "status": "yes",
       "summary": "If both have e-signature, they can dissolve the marriage remotely.",
       "text": "Labdien. Ja Jums abiem ir e-paraksts, tad varam laulību šķirt attālināti."
+    },
+    "followUp": {
+      "sentAt": "2026-09-07T03:53:00+07:00",
+      "via": "gmail",
+      "template": "same-household-follow-up",
+      "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {
@@ -201,6 +207,12 @@
       "status": "yes",
       "summary": "Asks whether both have electronic signatures and can join a videoconference on the latvijasnotars.lv platform. Signed by Anna Marija Onckule for Jaunzeme's office.",
       "text": "Labdien! Vai Jums abiem ir elektroniskie paraksti un iespēja pieslēgties videokonferencei latvijasnotars.lv platformā?"
+    },
+    "followUp": {
+      "sentAt": "2026-09-07T03:53:00+07:00",
+      "via": "gmail",
+      "template": "same-household-follow-up",
+      "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {

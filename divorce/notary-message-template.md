@@ -26,6 +26,19 @@ Jaroslavs Kuprijanovs
 
 Vai Jūs pēc 1. marta esat šķīruši laulību attālināti, kad abi laulātie ir ārvalstīs un ir nepilngadīgs bērns?
 
+## Follow-up after a remote yes (sent 7 Sep 2026 to Jaunzeme and Šapčenko)
+
+Labdien!
+
+Jā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.
+
+Turpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?
+
+Lūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).
+
+Paldies!
+Jaroslavs Kuprijanovs
+
 ## After someone replies yes
 
 Send only then. Or ask on the call.
