@@ -25,6 +25,16 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Rihards Mintāls | waiting | wave 2, 27 Aug |
 | Eduards Virko | waiting | wave 2, 27 Aug |
 | Irēna Ziringa | waiting | wave 2, 27 Aug |
+| Hermanis Vidžups | waiting | wave 3, 7 Sep |
+| Laila Lapiņa | waiting | wave 3, 7 Sep |
+| Iluta Sauliete | waiting | wave 3, 7 Sep |
+| Inese Moroza | waiting | wave 3, 7 Sep |
+| Evita Mančinska | waiting | wave 3, 7 Sep |
+| Linda Eglīte | waiting | wave 3, 7 Sep |
+| Dace Elksne | waiting | wave 3, 7 Sep |
+| Guna Stikute | waiting | wave 3, 7 Sep |
+| Ilze Metuzāle | waiting | wave 3, 7 Sep |
+| Kristīne Kreile | waiting | wave 3, 7 Sep |
 
 Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 
@@ -201,12 +211,110 @@ Same first email. Skipped Aizvieto listings. Did not re-email wave 1.
 - Email: Irena.Ziringa@LatvijasNotars.lv
 - Why: staffed office; in office 27 Aug
 
+## Wave 3 — 7 Sep 2026
+
+Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-email waves 1–2.
+
+### 16. Hermanis Vidžups — Riga
+
+- Profile: https://www.latvijasnotars.lv/hermanis.vidzups
+- Address: Republikas laukums 2A, Rīga
+- Languages: LV, RU
+- Hours: Mon–Thu 10:00–17:00; Fri 10:00–16:00
+- Phone: +371 67228816
+- Email: Hermanis.Vidzups@LatvijasNotars.lv
+
+### 17. Laila Lapiņa — Riga
+
+- Profile: https://www.latvijasnotars.lv/laila.lapina
+- Address: Pērses iela 14-4, Rīga
+- Languages: LV, RU
+- Hours: Mon/Wed 12:00–18:00; Tue/Thu 10:00–16:00; Fri 9:00–15:00
+- Phone: +371 29177069
+- Email: Laila.Lapina@LatvijasNotars.lv
+
+### 18. Iluta Sauliete — Riga
+
+- Profile: https://www.latvijasnotars.lv/iluta.sauliete
+- Address: Brīvības gatve 209, Rīga
+- Languages: LV, RU, EN
+- Hours: Mon 11:00–18:00; Tue–Thu 10:00–17:00; Fri 10:00–15:00
+- Phone: +371 20228844
+- Email: Iluta.Sauliete@LatvijasNotars.lv
+
+### 19. Inese Moroza — Riga
+
+- Profile: https://www.latvijasnotars.lv/inese.moroza
+- Address: Raiņa bulvāris 2-3, Rīga
+- Languages: LV, RU, EN
+- Hours: 10:00–17:00
+- Phone: +371 26346535, +371 26454309
+- Email: Inese.Moroza@LatvijasNotars.lv
+
+### 20. Evita Mančinska — Riga
+
+- Profile: https://www.latvijasnotars.lv/evita.mancinska
+- Address: Stabu iela 19-108, Rīga
+- Languages: LV, RU
+- Hours: Mon/Wed/Fri 10:00–15:00; Tue/Thu 12:00–17:00
+- Phone: +371 67297303
+- Email: Evita.Mancinska@LatvijasNotars.lv
+
+### 21. Linda Eglīte — Riga
+
+- Profile: https://www.latvijasnotars.lv/linda.eglite
+- Address: Cēsu iela 31 k-9, Rīga
+- Languages: LV, RU, EN
+- Hours: Mon 12:00–19:00; Tue–Thu 10:00–17:00; Fri 9:00–14:00
+- Phone: +371 23550990, +371 67276020
+- Email: Linda.Eglite@LatvijasNotars.lv
+- Why: covering Gita Rubīna 7–18 Sep; late Monday hours
+
+### 22. Dace Elksne — Riga
+
+- Profile: https://www.latvijasnotars.lv/dace.elksne
+- Address: Skolas iela 31-1, Rīga
+- Languages: LV, RU, EN
+- Hours: Mon–Thu 10:00–17:00; Fri 10:00–15:00
+- Phone: +371 25665531, +371 67271066
+- Email: Dace.Elksne@LatvijasNotars.lv
+- Why: Gada notārs 2024
+
+### 23. Guna Stikute — Riga
+
+- Profile: https://www.latvijasnotars.lv/guna.stikute
+- Address: Kr. Barona iela 28A-2, Rīga
+- Languages: LV, RU
+- Hours: Mon–Thu 9:00–17:00; Fri 9:00–16:00
+- Phone: +371 67331600, +371 25633091
+- Email: Guna.Stikute@LatvijasNotars.lv
+
+### 24. Ilze Metuzāle — Riga
+
+- Profile: https://www.latvijasnotars.lv/ilze.metuzale
+- Address: Cēsu iela 31 k-9, Rīga
+- Languages: LV, RU, EN
+- Hours: Mon/Tue/Thu 10:00–16:00; Wed 12:00–18:00; Fri 9:00–16:00
+- Phone: +371 67288031
+- Email: Ilze.Metuzale@LatvijasNotars.lv
+- Why: Gada notārs 2017/2018
+
+### 25. Kristīne Kreile — Riga
+
+- Profile: https://www.latvijasnotars.lv/kristine.kreile
+- Address: Pulkveža Brieža iela 6-10, Rīga
+- Languages: LV, RU
+- Hours: Mon/Tue/Thu 9:00–17:00; Wed 13:00–20:00; Fri video only 9:00–17:00
+- Phone: +371 67821655
+- Email: Kristine.Kreile@LatvijasNotars.lv
+- Why: already advertises videoconference Fridays
+
 ## Backups
 
 Skip if already emailed. Skip Aizvieto.
 
-- Gita Rubīna, Riga, Ukrainas neatkarības 4-2A. 10:00–17:00. +371 27074427. Gita.Rubina@LatvijasNotars.lv
-- Hermanis Vidžups, Riga, Republikas laukums 2A. 10:00–17:00. +371 67228816. Hermanis.Vidzups@LatvijasNotars.lv
-- Laila Lapiņa, Riga, Pērses 14-4. 10:00–16:00. +371 29177069. Laila.Lapina@LatvijasNotars.lv
-- Iluta Sauliete, Riga, Brīvības gatve 209. 10:00–17:00. +371 20228844. Iluta.Sauliete@LatvijasNotars.lv
-- Inese Moroza, Riga, Raiņa bulvāris 2-3. 10:00–17:00. +371 26346535. Inese.Moroza@LatvijasNotars.lv
+- Gita Rubīna, Riga — away 7–18 Sep, covered by Linda Eglīte. Gita.Rubina@LatvijasNotars.lv
+- Ilona Grikke, Riga, Latgales 240. +371 67242214. Ilona.Grikke@LatvijasNotars.lv
+- Agita Macijevska, Riga. +371 26414333. Agita.Macijevska@LatvijasNotars.lv
+- Inga Dobbermane, Riga. +371 29109780. Inga.Dobbermane@LatvijasNotars.lv
+- Sandra Eilande, Riga. +371 67225512. Sandra.Eilande@LatvijasNotars.lv
