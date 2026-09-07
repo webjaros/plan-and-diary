@@ -12,7 +12,7 @@ To focus energy, I give up or pause many things I want to do at the same time. T
 
 ## Give up or pause
 
-- Body: boxing, freediving
+- Body: combat sports (including boxing) until the end of 2028; freediving
 - Djembe
 - Business:
   - idea of my own airline tickets agency
@@ -32,4 +32,6 @@ To focus energy, I give up or pause many things I want to do at the same time. T
 
 ## Later notes
 
-_Add dated refinements below._
+### 2026-09-07
+
+No combat sports for 2 years, until the end of 2028. Right now, 2 years seems a reasonable time to fix mobility, flexibility, stretching, and symmetry.
