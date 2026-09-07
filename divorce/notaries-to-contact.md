@@ -27,7 +27,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Irēna Ziringa | waiting | wave 2, 27 Aug |
 | Hermanis Vidžups | waiting | wave 3, 7 Sep |
 | Laila Lapiņa | waiting | wave 3, 7 Sep |
-| Iluta Sauliete | waiting | wave 3, 7 Sep |
+| Iluta Sauliete | no | Will not take the case: says she must assess Thai parental-responsibility law and does not know it. 7 Sep 23:10 |
 | Inese Moroza | yes | Remote with e-signature/Smart ID. Follow-up sent 7 Sep 20:49: same household, 234 EUR?, total cost. |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
@@ -241,6 +241,8 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Hours: Mon 11:00–18:00; Tue–Thu 10:00–17:00; Fri 10:00–15:00
 - Phone: +371 20228844
 - Email: Iluta.Sauliete@LatvijasNotars.lv
+- Status: no
+- Reply (7 Sep 23:10): will not take the case. Child deed required; because the family lives in Thailand she says they must assess Thai law on parental responsibility and they do not have that knowledge
 
 ### 19. Inese Moroza — Riga
 

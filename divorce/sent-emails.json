@@ -285,7 +285,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "103d5ccd-7e05-4197-9217-40e82d84f843",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-07T23:10:00+07:00",
+      "status": "no",
+      "summary": "Will not take the case. Divorce at a notary needs a child deed; because the family lives in Thailand they say they must assess Thai parental-responsibility law and they do not have that knowledge.",
+      "text": "Labdien! Paldies par Jūsu vēstuli. Pamatojoties uz Jūsu sniegto informāciju, laulības šķiršana pie notāra būtu iespējama tikai tad, ja abi laulātie savstarpēji vienojas par laulības šķiršanu un noslēdz notariāla akta formā noformētu vienošanos, kas nodrošina nepilngadīga bērna vislabākās intereses. Šajā vienošanās dokumentā ir jāparedz jautājumi par bērna aizgādību, dzīvesvietu, saskarsmes tiesībām un uzturlīdzekļiem. Tā kā Jūsu ģimene dzīvo Taizemē, šādā situācijā ir nepieciešams izvērtēt arī Taizemes tiesību aktu piemērošanu attiecībā uz vecāku atbildību un bērna tiesībām. Diemžēl mūsu birojam nav zināšanu par Taizemes ģimenes tiesību regulējumu, tādēļ mēs šādos pārrobežu gadījumos nevaram sniegt nepieciešamo juridisko izvērtējumu un palīdzēt sagatavot vienošanos par bērnu. Līdz ar to diemžēl nevarēsim uzņemties šīs laulības šķiršanas lietas kārtošanu."
+    }
   },
   {
     "sentAt": "2026-09-07T04:02:31.781Z",
