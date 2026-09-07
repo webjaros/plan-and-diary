@@ -26,7 +26,7 @@ Jaroslavs Kuprijanovs
 
 Vai Jūs pēc 1. marta esat šķīruši laulību attālināti, kad abi laulātie ir ārvalstīs un ir nepilngadīgs bērns?
 
-## Follow-up after a remote yes (sent 7 Sep 2026 to Jaunzeme and Šapčenko)
+## Follow-up after a remote yes (sent 7 Sep 2026 to Jaunzeme, Šapčenko, and Moroza)
 
 Labdien!
 

@@ -303,6 +303,12 @@
       "status": "yes",
       "summary": "Yes, can sign everything via videoconference with e-signature/Smart ID. If minor child involved, agreement needed for custody, support, access rights.",
       "text": "Labdien!\nJa jums ir e-paraksts vai smart ID, tad varam visu videokonferencē parakstīt. Ja ir nepilngadīgs bērns, tad nepieciešama vienošanās par bērna aizgādību, saskaršanas tiesībām un bērna uzturlīdzekļi. Vienošanās par bērna aizgādību, saskaršanas tiesībām un bērna uzturlīdzekļu izkļaujami īsā sadaļā noteiktājā kārtībā. Vienošanās saturā ieklāujami īsā sadaļā noteiktājā kārtībā, bet attiecībā uz saskarsmes tiesībām — arī noteikumi par saskarsmes izmantošanas kārtību, laiku un vietu, kā arī pienākumu un izdevumu sadali starp pusēm tiesību īstenošanai."
+    },
+    "followUp": {
+      "sentAt": "2026-09-07T20:49:00+07:00",
+      "via": "gmail",
+      "template": "same-household-follow-up",
+      "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {

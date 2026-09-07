@@ -28,7 +28,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Hermanis Vidžups | waiting | wave 3, 7 Sep |
 | Laila Lapiņa | waiting | wave 3, 7 Sep |
 | Iluta Sauliete | waiting | wave 3, 7 Sep |
-| Inese Moroza | yes | Remote with e-signature/Smart ID. Needs child custody, support, access agreements. 7 Sep 17:43 |
+| Inese Moroza | yes | Remote with e-signature/Smart ID. Follow-up sent 7 Sep 20:49: same household, 234 EUR?, total cost. |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
 | Dace Elksne | waiting | wave 3, 7 Sep |
@@ -250,6 +250,9 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Hours: 10:00–17:00
 - Phone: +371 26346535, +371 26454309
 - Email: Inese.Moroza@LatvijasNotars.lv
+- Status: yes
+- Reply (7 Sep 17:43): remote via videoconference with e-signature/Smart ID; child custody, access, and maintenance deed required
+- Follow-up (7 Sep 20:49): eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost
 
 ### 20. Evita Mančinska — Riga
 
