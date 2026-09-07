@@ -297,7 +297,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "e47dae2e-3872-40c9-838c-73c5174a0aab",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-07T17:43:00+07:00",
+      "status": "yes",
+      "summary": "Yes, can sign everything via videoconference with e-signature/Smart ID. If minor child involved, agreement needed for custody, support, access rights.",
+      "text": "Labdien!\nJa jums ir e-paraksts vai smart ID, tad varam visu videokonferencē parakstīt. Ja ir nepilngadīgs bērns, tad nepieciešama vienošanās par bērna aizgādību, saskaršanas tiesībām un bērna uzturlīdzekļi. Vienošanās par bērna aizgādību, saskaršanas tiesībām un bērna uzturlīdzekļu izkļaujami īsā sadaļā noteiktājā kārtībā. Vienošanās saturā ieklāujami īsā sadaļā noteiktājā kārtībā, bet attiecībā uz saskarsmes tiesībām — arī noteikumi par saskarsmes izmantošanas kārtību, laiku un vietu, kā arī pienākumu un izdevumu sadali starp pusēm tiesību īstenošanai."
+    }
   },
   {
     "sentAt": "2026-09-07T04:02:34.404Z",
