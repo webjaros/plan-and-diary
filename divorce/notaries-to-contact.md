@@ -28,7 +28,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Hermanis Vidžups | waiting | wave 3, 7 Sep |
 | Laila Lapiņa | waiting | wave 3, 7 Sep |
 | Iluta Sauliete | waiting | wave 3, 7 Sep |
-| Inese Moroza | waiting | wave 3, 7 Sep |
+| Inese Moroza | yes | Remote with e-signature/Smart ID. Needs child custody, support, access agreements. 7 Sep 17:43 |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
 | Dace Elksne | waiting | wave 3, 7 Sep |
