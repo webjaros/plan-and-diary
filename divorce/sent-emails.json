@@ -351,7 +351,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "67f49ffd-fa14-40c4-a6bc-f97672d2b9a4",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-08T01:09:00+07:00",
+      "status": "yes",
+      "summary": "In principle they do the divorce. Earliest first consultation is 12 Oct 2026 because of workload. Write if that works; otherwise find another colleague.",
+      "text": "Labvakar, Principā šķiram. Bet ņemot vērā šī brīža noslodzi tuvākie laiki pirmajai konsultācijai pirms laulības šķiršanas, tuvākais iespējamais pieraksta laiks ir ne ātrāk kā 12.10.2026. Ja Jums tas der, tad rakstiet; ja nē – Jums jāmeklē kāds cits kolēģis."
+    }
   },
   {
     "sentAt": "2026-09-07T04:02:42.850Z",
@@ -363,7 +369,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "8901977a-526b-411b-b630-6356dcdefc5e",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-08T15:34:00+07:00",
+      "status": "no",
+      "summary": "Rūta Herberga for Stikute: no video divorce if there is a minor child. Child deed only in person; original marriage certificate must be submitted at the office. Cannot offer a videoconference appointment.",
+      "text": "Labdien! Ja ir nepilngadīgs bērns, tad šķiršanās videokonferencē nebūs iespējama, jo šo vienošanos par bērna aizgādību, saskarsmes tiesībām un uzturlīdzekļiem piedāvājam parakstīt tikai klātienē, ņemot vērā, ka dokuments ir detalizēts, var būt vairākas pēdējā brīža izmaiņas/precizējumi, ko videokonferences laikā ir sarežģīti veikt. Turklāt, lai šķirtu laulību pie notāra, notāram ir jāiesniedz laulības apliecības oriģināls, pat ja šķiršanu parakstītu videokonferencē, vismaz vienai no pusēm ir jāvar šo dokumentu iesniegt birojā pirms paredzētās videokonferences. Ņemot vērā iepriekš norādīto, nevaram jums piedāvāt pierakstu laulības šķiršanai videokonferences formā."
+    }
   },
   {
     "sentAt": "2026-09-07T04:02:45.392Z",
@@ -375,7 +387,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "a08ffd50-0c23-4eb0-836e-873802ff7cbe",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-08T16:46:00+07:00",
+      "status": "yes",
+      "summary": "Vita Vīksna for Metuzāle: remote videoconference on latvijasnotars.lv is possible. Because of the child, a first consultation is required to prepare the agreement. Earliest remote slots from 25 Sep.",
+      "text": "Attālināta vizīte videokonferences režīmā ir iespējama, izmantojot www.latvijasnotars.lv platformu. Tā kā Jums ir nepilngadīgs bērns, sākumā būs jāieplāno konsultācija, lai notāre varētu pārrunāt jautājumus, kas būs nepieciešami vienošanās dokumenta sagatavošanā. Tuvākie pieraksti attālināti ir no 25. septembra."
+    }
   },
   {
     "sentAt": "2026-09-07T04:02:47.988Z",

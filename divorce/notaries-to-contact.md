@@ -31,9 +31,9 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Inese Moroza | yes | Remote with e-signature/Smart ID. Follow-up sent 7 Sep 20:49: same household, 234 EUR?, total cost. |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
-| Dace Elksne | waiting | wave 3, 7 Sep |
-| Guna Stikute | waiting | wave 3, 7 Sep |
-| Ilze Metuzāle | waiting | wave 3, 7 Sep |
+| Dace Elksne | yes | In principle yes. Earliest consult 12 Oct 2026. Write if that date works. 8 Sep 01:09 |
+| Guna Stikute | no | No video if minor child; child deed in person; original certificate at the office. 8 Sep 15:34 |
+| Ilze Metuzāle | yes | Remote on latvijasnotars.lv. Consult first because of child. Slots from 25 Sep. 8 Sep 16:46 |
 | Kristīne Kreile | waiting | wave 3, 7 Sep |
 
 Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
@@ -284,6 +284,8 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Phone: +371 25665531, +371 67271066
 - Email: Dace.Elksne@LatvijasNotars.lv
 - Why: Gada notārs 2024
+- Status: yes
+- Reply (8 Sep 01:09): in principle they do the divorce. Earliest first consultation 12 Oct 2026. Write if that date works; otherwise find another colleague
 
 ### 23. Guna Stikute — Riga
 
@@ -293,6 +295,8 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Hours: Mon–Thu 9:00–17:00; Fri 9:00–16:00
 - Phone: +371 67331600, +371 25633091
 - Email: Guna.Stikute@LatvijasNotars.lv
+- Status: no
+- Reply (8 Sep 15:34): Rūta Herberga. No videoconference if there is a minor child; child deed only in person; original marriage certificate must be submitted at the office
 
 ### 24. Ilze Metuzāle — Riga
 
@@ -303,6 +307,8 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Phone: +371 67288031
 - Email: Ilze.Metuzale@LatvijasNotars.lv
 - Why: Gada notārs 2017/2018
+- Status: yes
+- Reply (8 Sep 16:46): Vita Vīksna. Remote videoconference on latvijasnotars.lv is possible. First consultation required because of the child. Earliest remote slots from 25 Sep
 
 ### 25. Kristīne Kreile — Riga
 
