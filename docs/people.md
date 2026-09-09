@@ -6,6 +6,9 @@ People must always be sorted alphabetically.
 ## Arina Kuprijanova
 * My legal wife.
 * Works in WebLab, but effectively doing nothing. I should finish this job contract.
+* Email: suslova.arina@gmail.com
+* Phone LV: +371 220 72573
+* Phone TH: +66 65 658 0204
 
 ## Artyom the boxer
 The boxing trainer I'm training with.

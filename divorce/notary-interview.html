@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First notary interview — probable questions</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --card: #ffffff;
+      --ink: #23201d;
+      --muted: #6f665d;
+      --line: #c9b9a6;
+      --primary: #7f4f24;
+      --yes: #2f6f4e;
+      --yes-soft: #dceee4;
+      --need: #8a5b14;
+      --need-soft: #f6e2b8;
+      --need-edge: #d4a017;
+      --shadow: 0 10px 30px rgb(38 28 17 / 10%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+      line-height: 1.45;
+    }
+    main { max-width: 820px; margin: 0 auto; padding: 40px 20px 80px; }
+    h1 { margin: 0 0 8px; letter-spacing: -0.04em; font-size: clamp(1.8rem, 4vw, 2.5rem); }
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+    .subtitle { color: var(--muted); margin: 0 0 20px; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .stat {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .stat .n { font-size: 1.8rem; font-weight: 650; letter-spacing: -0.04em; }
+    .stat .l { color: var(--muted); font-size: 0.9rem; }
+    .stat.need-stat .n { color: var(--need); }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+    .filters button {
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font: inherit;
+    }
+    body[data-filter="all"] [data-filter="all"],
+    body[data-filter="need"] [data-filter="need"],
+    body[data-filter="have"] [data-filter="have"] {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    body[data-filter="need"] .q.have,
+    body[data-filter="have"] .q.need { display: none; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      margin: 0 0 8px;
+      font-size: 0.92rem;
+    }
+    nav a { color: var(--primary); }
+    .q {
+      display: grid;
+      grid-template-columns: 2.4rem 1fr;
+      gap: 10px;
+      background: var(--card);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin: 0 0 8px;
+      box-shadow: var(--shadow);
+    }
+    .q.need {
+      background: var(--need-soft);
+      box-shadow: none;
+      outline: 2px solid var(--need-edge);
+    }
+    .num {
+      font-weight: 650;
+      color: var(--muted);
+      padding-top: 1px;
+    }
+    .q.need .num { color: var(--need); }
+    .ask { margin: 0 0 6px; }
+    .ans { margin: 0; color: var(--yes); font-size: 0.95rem; }
+    .q.need .ans { color: var(--need); font-weight: 600; }
+    .pill {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 650;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-left: 6px;
+      vertical-align: 1px;
+    }
+    .pill.have { background: var(--yes-soft); color: var(--yes); }
+    .pill.need { background: #fff4d6; color: var(--need); }
+    .note { color: var(--muted); font-size: 0.92rem; margin: 0 0 20px; }
+    .later {
+      background: #e7eef8;
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin: 0 0 8px;
+    }
+    .later .ask { margin: 0 0 6px; font-weight: 650; }
+    .later .ans { color: #29466b; }
+    @media (max-width: 640px) {
+      .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body data-filter="all">
+  <main>
+    <h1>First notary interview</h1>
+    <p class="subtitle">Excessive list of questions a Latvian notary may ask. Brief answers where we already have them. Gold rows need you.</p>
+    <div class="stats">
+      <div class="stat"><div class="n" id="total-n">172</div><div class="l">Questions</div></div>
+      <div class="stat"><div class="n" id="have-n">0</div><div class="l">Already answered</div></div>
+      <div class="stat need-stat"><div class="n" id="need-n">0</div><div class="l">Need your input</div></div>
+    </div>
+    <div class="filters">
+      <button type="button" data-filter="all">All</button>
+      <button type="button" data-filter="need">Need you</button>
+      <button type="button" data-filter="have">Already answered</button>
+    </div>
+    <nav>
+      <a href="#identity">Identity</a>
+      <a href="#why">Why Latvia</a>
+      <a href="#purpose">Purpose</a>
+      <a href="#consent">Consent</a>
+      <a href="#marriage">Marriage</a>
+      <a href="#border">Cross-border</a>
+      <a href="#children">Children</a>
+      <a href="#custody">Custody</a>
+      <a href="#home">Residence</a>
+      <a href="#access">Access</a>
+      <a href="#money">Maintenance</a>
+      <a href="#best">Best interests</a>
+      <a href="#property">Property</a>
+      <a href="#spouses">Spouses</a>
+      <a href="#docs">Documents</a>
+      <a href="#remote">Remote</a>
+      <a href="#future">Other people</a>
+      <a href="#process">Process</a>
+      <a href="#later">After this list</a>
+    </nav>
+
+    <h2 id="identity">Identity, capacity, language</h2>
+    <article class="q have"><div class="num">1</div><div><p class="ask">Full names, dates of birth, personas kodi — read them aloud.</p><p class="ans">Jaroslavs Kuprijanovs, 12.03.1983, 120383-10265. Arina Kuprijanova (Suslova), 23.02.1985, 230285-10646.</p></div></article>
+    <article class="q have"><div class="num">2</div><div><p class="ask">Are these still your current legal names? Any change after marriage?</p><p class="ans">Yes. She took Kuprijanova; maiden name Suslova.</p></div></article>
+    <article class="q have"><div class="num">3</div><div><p class="ask">Do you have eID / eParaksts / Smart-ID, and which kind?</p><p class="ans">Both: eParaksts.</p></div></article>
+    <article class="q have"><div class="num">4</div><div><p class="ask">Are the signing certificates valid, not expired, not blocked?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">5</div><div><p class="ask">Can you show the passport / eID on camera?</p><p class="ans">Yes. Scans of all three passports are already in papers/.</p></div></article>
+    <article class="q have"><div class="num">6</div><div><p class="ask">Does the face match the document?</p><p class="ans">Yes — you two, not a stand-in.</p></div></article>
+    <article class="q have"><div class="num">7</div><div><p class="ask">Are you the people in the marriage register?</p><p class="ans">Yes. Same names and codes as on LV AB 0374350.</p></div></article>
+    <article class="q have"><div class="num">8</div><div><p class="ask">Are you both of sound mind? Any guardianship over either of you?</p><p class="ans">No guardianship. Neither of you.</p></div></article>
+    <article class="q have" id="arina-medication"><div class="num">9</div><div><p class="ask">Alcohol or medication that affects understanding today?</p><p class="ans">Arina: sertraline (SSRI) and Tranmed (clorazepate, a benzodiazepine), as prescribed. Jaroslavs: none. If they ask: she takes them as prescribed and is clear for this call.</p></div></article>
+    <article class="q have"><div class="num">10</div><div><p class="ask">What language for the consult? For the deed — Latvian only?</p><p class="ans">LV, RU, or EN — any of those is fine. Deed can stay Latvian.</p></div></article>
+    <article class="q have"><div class="num">11</div><div><p class="ask">Do you both understand Latvian well enough to sign a Latvian deed?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">12</div><div><p class="ask">Do you need an interpreter?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">13</div><div><p class="ask">Who else is in the room? Is anyone coaching you off-camera?</p><p class="ans">Just the two of you.</p></div></article>
+    <article class="q have"><div class="num">14</div><div><p class="ask">Can each of you speak alone for a minute if asked?</p><p class="ans">Yes. Let Arina answer in her own words when they ask her.</p></div></article>
+
+    <h2 id="why">Why this notary, why Latvia, why not court</h2>
+    <article class="q have"><div class="num">15</div><div><p class="ask">Why a notary and not a court?</p><p class="ans">Agreed divorce. You both want it. Court is the path if a notary will not take a child case remotely.</p></div></article>
+    <article class="q have"><div class="num">16</div><div><p class="ask">Do you both agree to the divorce today, freely?</p><p class="ans">Yes. You talked in early Sep 2026; she had no objections.</p></div></article>
+    <article class="q have"><div class="num">17</div><div><p class="ask">Has either of you already filed in a Latvian or Thai court?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">18</div><div><p class="ask">Is there a pending case anywhere?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">19</div><div><p class="ask">Have you already seen another notary about this?</p><p class="ans">Emailed many. No file opened. Six said yes in principle; none booked yet.</p></div></article>
+    <article class="q have"><div class="num">20</div><div><p class="ask">Why this office?</p><p class="ans">First office that will do a fully remote divorce with a minor child while you are both in Thailand.</p></div></article>
+    <article class="q have"><div class="num">21</div><div><p class="ask">Who wrote the first email?</p><p class="ans">Jaroslavs, from j.kuprijanovs@weblab.lv.</p></div></article>
+    <article class="q have"><div class="num">22</div><div><p class="ask">Are you asking for something they cannot do after 1 March 2026?</p><p class="ans">No. You know the child deed must be a notarial act. That is why you are here.</p></div></article>
+
+    <h2 id="purpose">Purpose</h2>
+    <p class="note">Moroza already asked this. Do not invent a “broken down” story.</p>
+    <article class="q have"><div class="num">23</div><div><p class="ask">What is the aim of the divorce?</p><p class="ans">End the marriage as a legal status.</p></div></article>
+    <article class="q have"><div class="num">24</div><div><p class="ask">Has the marriage broken down (izirusi)?</p><p class="ans">Do not say that if it is not how you see it. Repeat the aim: end the legal status.</p></div></article>
+    <article class="q have"><div class="num">25</div><div><p class="ask">If you still live as a family, why end the legal status?</p><p class="ans">That is the point. Daily life stays; the register entry goes.</p></div></article>
+    <article class="q have"><div class="num">26</div><div><p class="ask">Is there another purpose — visa, tax, benefits, inheritance, a third person, a bank?</p><p class="ans">Said purpose is only to end the legal marriage. Do not add a side story.</p></div></article>
+    <article class="q have"><div class="num">27</div><div><p class="ask">Did someone tell you that you must divorce for a Thai or Latvian procedure?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">28</div><div><p class="ask">Are you divorcing only on paper and staying spouses in daily life?</p><p class="ans">Daily life stays a family. Legally you will not be spouses. Say both parts.</p></div></article>
+    <article class="q have"><div class="num">29</div><div><p class="ask">Will you present yourselves as married after the deed?</p><p class="ans">No, not to institutions. You will be divorced.</p></div></article>
+    <article class="q have"><div class="num">30</div><div><p class="ask">Is this to get around a rule (residence, school, insurance, Uzturlīdzekļu garantiju fonds)?</p><p class="ans">No. Do not apply for state child-support after this.</p></div></article>
+    <article class="q have"><div class="num">31</div><div><p class="ask">If the only reason is that it is cheaper to stay together, why divorce at all?</p><p class="ans">The cheap part is why you still share a home. The divorce is to end the legal status. Future plans are not decided.</p></div></article>
+    <article class="q have"><div class="num">32</div><div><p class="ask">Are you sure, or are you testing us?</p><p class="ans">Sure about the legal divorce. You want it finished this year.</p></div></article>
+
+    <h2 id="consent">Consent and pressure</h2>
+    <article class="q have"><div class="num">33</div><div><p class="ask">Do you both want this, or is one of you only agreeing?</p><p class="ans">Both. Early Sep 2026: no objections.</p></div></article>
+    <article class="q have"><div class="num">34</div><div><p class="ask">When did you last talk about it together?</p><p class="ans">Early September 2026. Walk through arina-alignment.md again before the call.</p></div></article>
+    <article class="q have"><div class="num">35</div><div><p class="ask">Is there a deadline someone else set?</p><p class="ans">Your own: this year. Earliest useful slot you asked for is 25 Sep.</p></div></article>
+    <article class="q have"><div class="num">36</div><div><p class="ask">Has there been violence, threats, or economic pressure?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">37</div><div><p class="ask">Protection order, police report, or bāriņtiesa file?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">38</div><div><p class="ask">Will you both sign, or is one person just going along?</p><p class="ans">Both sign, same video call.</p></div></article>
+    <article class="q have"><div class="num">39</div><div><p class="ask">Arina, say in your own words what you want.</p><p class="ans">She should say: end the official marriage; keep living as now with Liza.</p></div></article>
+    <article class="q have"><div class="num">40</div><div><p class="ask">Let her answer this one.</p><p class="ans">Do not talk over her. They will watch for that.</p></div></article>
+
+    <h2 id="marriage">Marriage facts</h2>
+    <article class="q have"><div class="num">41</div><div><p class="ask">Date, place, office, entry, certificate.</p><p class="ans">15.06.2012, Rīgas Ziemeļu Dzimtsarakstu nodaļa, ieraksts 568, LV AB 0374350.</p></div></article>
+    <article class="q have"><div class="num">42</div><div><p class="ask">First marriage for both?</p><p class="ans">Arina: yes, first marriage. Jaroslavs: second. She had a boyfriend and a son with him in the past; not a legal marriage. If they ask, that son is not a child of this marriage.</p></div></article>
+    <article class="q have"><div class="num">43</div><div><p class="ask">Any previous divorce?</p><p class="ans">Jaroslavs: yes, already divorced once. Arina: no.</p></div></article>
+    <article class="q have"><div class="num">44</div><div><p class="ask">Marriage contract (laulības līgums)?</p><p class="ans">No. Do not make one now. You are ending the marriage; a contract is for an ongoing one. “Each keeps what they have” belongs in this divorce, not a new līgums.</p></div></article>
+    <article class="q have"><div class="num">45</div><div><p class="ask">Last shared declared address in Latvia?</p><p class="ans">Ganību dambis 40a-21, Rīga.</p></div></article>
+    <article class="q have"><div class="num">46</div><div><p class="ask">Are you still in the Latvian population register? What address?</p><p class="ans">Yes. Both live outside Latvia 2+ years, but you updated the declared address not long ago. Last shared one: Ganību dambis 40a-21, Rīga.</p></div></article>
+    <article class="q have"><div class="num">47</div><div><p class="ask">How long have you lived in Thailand?</p><p class="ans">Since the end of May 2024.</p></div></article>
+    <article class="q have"><div class="num">48</div><div><p class="ask">Habitual residence — Thailand or Latvia?</p><p class="ans">Thailand. Both of you live there now.</p></div></article>
+    <article class="q have"><div class="num">49</div><div><p class="ask">Temporary stay or long-term?</p><p class="ans">Long-term.</p></div></article>
+    <article class="q have"><div class="num">50</div><div><p class="ask">Visa / retirement / education / other?</p><p class="ans">DTV (Destination Thailand Visa).</p></div></article>
+    <article class="q have"><div class="num">51</div><div><p class="ask">Do you plan to return to Latvia, and when?</p><p class="ans">Not in the nearest future. Do not add a date.</p></div></article>
+
+    <h2 id="border">Cross-border / Thai law</h2>
+    <p class="note">Sauliete and Bobrovska already refused on this. Have a short answer ready.</p>
+    <article class="q have"><div class="num">52</div><div><p class="ask">Because the child lives in Thailand, should Thai parental-responsibility law apply?</p><p class="ans">You are asking them to act under Latvian law: both citizens, Latvian marriage, Latvian child documents.</p></div></article>
+    <article class="q have"><div class="num">53</div><div><p class="ask">Will a Latvian child deed be recognised in Thailand?</p><p class="ans">Means: if a Thai school, hospital, or court must follow the Latvian paper about Liza, will they accept it? You have not checked. You do not need this for the Latvian divorce. If asked: we want the Latvian register first; we have not asked a Thai lawyer.</p></div></article>
+    <article class="q have"><div class="num">54</div><div><p class="ask">Have you asked a Thai lawyer?</p><p class="ans">Not yet.</p></div></article>
+    <article class="q have"><div class="num">55</div><div><p class="ask">Will you register the Latvian divorce in Thailand?</p><p class="ans">No plan to. You do not think Thai law requires it. You are not asking the notary to make it work in Thailand.</p></div></article>
+    <article class="q have"><div class="num">56</div><div><p class="ask">Does the child have Thai residence, school, or a Thai birth document as well?</p><p class="ans">Thai school and a Thai declared address. No Thai residence for Liza. Neither parent has Thai residence either (DTV).</p></div></article>
+    <article class="q have"><div class="num">57</div><div><p class="ask">Dual citizenship — child or either parent?</p><p class="ans">None. Latvian citizenship only, all three.</p></div></article>
+    <article class="q have"><div class="num">58</div><div><p class="ask">If they cannot assess Thai law, will you still want a Latvian deed only?</p><p class="ans">Yes. That is the whole request.</p></div></article>
+    <article class="q have"><div class="num">59</div><div><p class="ask">Who takes the risk if Thailand ignores this paper?</p><p class="ans">You two. You want the Latvian register corrected first.</p></div></article>
+
+    <h2 id="children">Children — who exists</h2>
+    <article class="q have"><div class="num">60</div><div><p class="ask">How many children? Only Elizabete?</p><p class="ans">One child in every letter: Elizabete Kuprijanova, 05.12.2015, 051215-25245, LVDA100813.</p></div></article>
+    <article class="q have"><div class="num">61</div><div><p class="ask">Any other child of this marriage, or of either of you, including adults?</p><p class="ans">This marriage: only Liza. Arina has a son from a past relationship that was not a legal marriage. Not Jaroslavs’s child. Say so if asked; he is not in this deed.</p></div></article>
+    <article class="q have"><div class="num">62</div><div><p class="ask">Any child on the way?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">63</div><div><p class="ask">Is Jaroslavs the father in the register? Any paternity dispute?</p><p class="ans">He is on the Latvian birth certificate. No dispute in our notes.</p></div></article>
+    <article class="q have"><div class="num">64</div><div><p class="ask">Has bāriņtiesa ever been involved?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">65</div><div><p class="ask">Does she have a guardian other than you two?</p><p class="ans">No, not in our notes. You both stay her parents.</p></div></article>
+    <article class="q have"><div class="num">66</div><div><p class="ask">Does she know you are divorcing?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">67</div><div><p class="ask">Special needs, disability, or a support decision?</p><p class="ans">No.</p></div></article>
+
+    <h2 id="custody">Custody (aizgādība)</h2>
+    <article class="q have"><div class="num">68</div><div><p class="ask">Joint custody, or one parent?</p><p class="ans">Joint.</p></div></article>
+    <article class="q have"><div class="num">69</div><div><p class="ask">If joint: who decides school, health, travel, religion, passport?</p><p class="ans">Both, as now. No one parent is the “decider.”</p></div></article>
+    <article class="q have"><div class="num">70</div><div><p class="ask">Must both consent to leave Thailand / enter Latvia?</p><p class="ans">Yes — both parents, same as now.</p></div></article>
+    <article class="q have"><div class="num">71</div><div><p class="ask">If you disagree later — mediation, court, which country?</p><p class="ans">You will make a new agreement. Do not name a country unless they force it.</p></div></article>
+    <article class="q have"><div class="num">72</div><div><p class="ask">Will one parent have daily care and the other only joint on paper?</p><p class="ans">No. Same household, both daily.</p></div></article>
+    <article class="q have"><div class="num">73</div><div><p class="ask">Any request to limit the other parent’s rights?</p><p class="ans">No.</p></div></article>
+
+    <h2 id="home">Residence (dzīvesvieta)</h2>
+    <article class="q have"><div class="num">74</div><div><p class="ask">Where will the child live after the divorce?</p><p class="ans">With both of you, same home.</p></div></article>
+    <article class="q have"><div class="num">75</div><div><p class="ask">Address — street, island, Thailand?</p><p class="ans">45/38 Village No. 2, Koh Phangan Subdistrict, Koh Phangan District, Surat Thani 84280, House 2.</p></div></article>
+    <article class="q have"><div class="num">76</div><div><p class="ask">Declared address in Latvia vs actual address?</p><p class="ans">All three are declared at the Koh Phangan house (75). Last Latvian address on file: Ganību dambis 40a-21, Rīga (updated recently). If they ask which one is in the Latvian register, say both facts.</p></div></article>
+    <article class="q have"><div class="num">77</div><div><p class="ask">Can a child have two residences in the deed?</p><p class="ans">You want one: the shared home. If they insist on one “primary,” it is still that home, not one parent.</p></div></article>
+    <article class="q have"><div class="num">78</div><div><p class="ask">Who is the primary household if they insist on one?</p><p class="ans">The common household. Not “with the mother” or “with the father.”</p></div></article>
+    <article class="q have"><div class="num">79</div><div><p class="ask">What if you later live in two homes?</p><p class="ans">You come back and change the child deed. Today’s paper is not a trap.</p></div></article>
+    <article class="q have"><div class="num">80</div><div><p class="ask">Who keeps the child’s passport and birth certificate day to day?</p><p class="ans">Arina.</p></div></article>
+
+    <h2 id="access">Access (saskarsme)</h2>
+    <article class="q have"><div class="num">81</div><div><p class="ask">What is the contact schedule?</p><p class="ans">None. You live together.</p></div></article>
+    <article class="q have"><div class="num">82</div><div><p class="ask">If you live together, why is there no schedule?</p><p class="ans">There is nothing to visit.</p></div></article>
+    <article class="q have"><div class="num">83</div><div><p class="ask">What happens if one of you moves out next month?</p><p class="ans">New child agreement then. You have not decided a later plan.</p></div></article>
+    <article class="q have"><div class="num">84</div><div><p class="ask">Holidays, birthdays, travel abroad — written or not?</p><p class="ans">No holiday/birthday calendar. Cross-border trips: Liza goes with both parents, or with one parent plus a written permission from the other. Ask them to put that in the deed.</p></div></article>
+    <article class="q have"><div class="num">85</div><div><p class="ask">Video calls if one parent is away?</p><p class="ans">Ordinary family life. No schedule needed unless they demand a sentence.</p></div></article>
+    <article class="q have"><div class="num">86</div><div><p class="ask">Can one parent take the child to Latvia without the other?</p><p class="ans">Only with both parents on the trip, or with a written permission paper from the other parent. Same rule as 84.</p></div></article>
+    <article class="q have"><div class="num">87</div><div><p class="ask">Overnight stays with grandparents / third persons?</p><p class="ans">All grandparents are in Europe. Not relevant now. No extra clause.</p></div></article>
+    <article class="q have"><div class="num">88</div><div><p class="ask">New partner — introduction to the child?</p><p class="ans">Do not raise it. If asked: “Nē. Mājā nav jauna partnera.” No rules in the deed about future partners — that slows the file and looks like a fight. Use this line only if it is true today.</p></div></article>
+    <article class="q have"><div class="num">89</div><div><p class="ask">Fallback clause if you stop sharing a household?</p><p class="ans">Yes if they want it: you will make a new deed. Do not invent a 50/50 calendar now.</p></div></article>
+
+    <h2 id="money">Maintenance (uzturlīdzekļi)</h2>
+    <p class="note">This block decides whether they take the case.</p>
+    <article class="q have"><div class="num">90</div><div><p class="ask">Who pays for the child now — one budget or two?</p><p class="ans">One household, one budget.</p></div></article>
+    <article class="q have"><div class="num">91</div><div><p class="ask">Monthly amount?</p><p class="ans">No transfer. Shared expenses.</p></div></article>
+    <article class="q have"><div class="num">92</div><div><p class="ask">Why not the legal minimum (234 EUR at age 10)?</p><p class="ans">Because you already pay one household. You will accept 234 in the text if they refuse a blank number.</p></div></article>
+    <article class="q have"><div class="num">93</div><div><p class="ask">In which currency do you actually spend?</p><p class="ans">Mostly in Thailand (THB). If they name a floor, the deed will still be EUR.</p></div></article>
+    <article class="q have"><div class="num">94</div><div><p class="ask">Who pays school, health, clothes, travel, phone?</p><p class="ans">The common household, as now.</p></div></article>
+    <article class="q have"><div class="num">95</div><div><p class="ask">Do you want no transfer because you share a household?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">96</div><div><p class="ask">Can they write “each covers expenses in the common household” with no number?</p><p class="ans">That is what you are asking. They may say no.</p></div></article>
+    <article class="q have"><div class="num">97</div><div><p class="ask">If the law requires a number, do you accept 234 EUR?</p><p class="ans">Yes, on paper.</p></div></article>
+    <article class="q have"><div class="num">98</div><div><p class="ask">From whom to whom — father to mother, or either way?</p><p class="ans">You are the only earner now. If they force a number and a direction: Jaroslavs → Arina. You still prefer no transfer while you share one household.</p></div></article>
+    <article class="q have"><div class="num">99</div><div><p class="ask">Which IBAN? Latvian or Thai? Whose name?</p><p class="ans">Name an account only if they say the deed cannot exist without one.</p></div></article>
+    <article class="q have"><div class="num">100</div><div><p class="ask">What if there is no Latvian account?</p><p class="ans">There is a Latvian account. You can use it if they insist on an IBAN.</p></div></article>
+    <article class="q have"><div class="num">101</div><div><p class="ask">How often — monthly, by which date?</p><p class="ans">Only if a number is in the deed. Then: monthly. Exact day — they can propose one.</p></div></article>
+    <article class="q have"><div class="num">102</div><div><p class="ask">Indexation / change when she turns 11 or 15?</p><p class="ans">Latvian floors step up with age. If they put 234 now, they may write that it follows the legal minimum later.</p></div></article>
+    <article class="q have"><div class="num">103</div><div><p class="ask">Extra costs (orthodontics, international school) — split how?</p><p class="ans">Common household, as now. No separate formula unless they demand one.</p></div></article>
+    <article class="q have"><div class="num">104</div><div><p class="ask">Until when — 18, or longer if in education?</p><p class="ans">Usual Latvian rule: while she is a minor; they may add education after 18. Accept the standard text.</p></div></article>
+    <article class="q have"><div class="num">105</div><div><p class="ask">What if one parent stops earning?</p><p class="ans">You still share a household. If that ends, you redo the deed.</p></div></article>
+    <article class="q have"><div class="num">106</div><div><p class="ask">Are you already in the Uzturlīdzekļu garantiju fonds system?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">107</div><div><p class="ask">Will either of you apply for state child-support after this?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">108</div><div><p class="ask">If you write 234 EUR and never pay it, do you understand it is still enforceable?</p><p class="ans">Yes. That is why you prefer no number, and why you stop if they require real monthly payments.</p></div></article>
+    <article class="q have"><div class="num">109</div><div><p class="ask">If you write 0, do you understand another notary or a court may say the deed is invalid?</p><p class="ans">Yes. That is the risk you already asked them about.</p></div></article>
+    <article class="q have"><div class="num">110</div><div><p class="ask">Can they add: while we share one household, no transfer; if we separate, 234 EUR starts?</p><p class="ans">Good if they offer it. Do not invent the payee or IBAN until then.</p></div></article>
+    <article class="q have"><div class="num">111</div><div><p class="ask">Proof of income — salary, company, Thailand, Latvia?</p><p class="ans">You earn salary and dividends. For this consult: “I earn a salary and I support the household” is enough. Do not volunteer dividends unless they ask “is there other income?” — then say yes. Extra income invites a higher number than 234.</p></div></article>
+    <article class="q have"><div class="num">112</div><div><p class="ask">Do you pay Latvian tax? Thai tax?</p><p class="ans">Latvian tax.</p></div></article>
+    <article class="q have"><div class="num">113</div><div><p class="ask">Any existing court maintenance order?</p><p class="ans">No.</p></div></article>
+
+    <h2 id="best">Child’s best interests — extras</h2>
+    <article class="q have"><div class="num">114</div><div><p class="ask">Where does she go to school? Language?</p><p class="ans">Thailand.</p></div></article>
+    <article class="q have"><div class="num">115</div><div><p class="ask">Doctor / insurance — Thai or Latvian?</p><p class="ans">International.</p></div></article>
+    <article class="q have"><div class="num">116</div><div><p class="ask">How is her Latvian language / link to Latvia?</p><p class="ans">She knows very little Latvian. Do not volunteer that. If asked: she lives in Thailand with both parents, Latvian citizen, language is limited. Not a bar to the divorce. See note below.</p></div></article>
+    <article class="q have"><div class="num">117</div><div><p class="ask">Who would she stay with if one parent is ill or dies?</p><p class="ans">The other parent.</p></div></article>
+    <article class="q have"><div class="num">118</div><div><p class="ask">Travel consent for one parent flying with her?</p><p class="ans">Joint custody: the other parent agrees. No extra drama.</p></div></article>
+
+    <h2 id="property">Property (manta)</h2>
+    <article class="q have"><div class="num">119</div><div><p class="ask">Any laulības līgums?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">120</div><div><p class="ask">Latvian real estate — flat, land, house?</p><p class="ans">You: none. Arina: a flat acquired before the marriage. That is her separate property. It stays hers. Do not put it in a split.</p></div></article>
+    <article class="q have"><div class="num">121</div><div><p class="ask">Real estate anywhere else?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">122</div><div><p class="ask">Cars, boats, company shares?</p><p class="ans">No cars or boats. You own the company you take salary from. 100% yours (129).</p></div></article>
+    <article class="q have"><div class="num">123</div><div><p class="ask">Joint bank accounts, savings, crypto, investments?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">124</div><div><p class="ask">Debts — mortgage, consumer, tax, to family?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">125</div><div><p class="ask">Who bought what during the marriage?</p><p class="ans">Each keeps what is already in their name. Name if asked: Arina’s pre-marriage flat; your company (100%).</p></div></article>
+    <article class="q have"><div class="num">126</div><div><p class="ask">Each keeps what they have — is that a division or “nothing to divide”?</p><p class="ans">You want: nothing to divide. No property deed unless they say you must.</p></div></article>
+    <article class="q have"><div class="num">127</div><div><p class="ask">Separate property deed, or only a line that there is no claim?</p><p class="ans">A line is enough if they allow it. A property deed costs more (same % / min 140 EUR).</p></div></article>
+    <article class="q have"><div class="num">128</div><div><p class="ask">Anything in a parent’s name that is actually jointly used?</p><p class="ans">No.</p></div></article>
+    <article class="q have"><div class="num">129</div><div><p class="ask">Business — spouse’s share?</p><p class="ans">You own 100%. No share for Arina.</p></div></article>
+    <article class="q have"><div class="num">130</div><div><p class="ask">Household goods — list or “no claims”?</p><p class="ans">No claims. Do not start a furniture list.</p></div></article>
+    <article class="q have"><div class="num">131</div><div><p class="ask">Gifts, inheritance — excluded?</p><p class="ans">Nothing you remember. No list.</p></div></article>
+    <article class="q have"><div class="num">132</div><div><p class="ask">Will either of you later claim a share in court?</p><p class="ans">Not the plan. If something big exists, name it now.</p></div></article>
+
+    <h2 id="spouses">Spouses vs each other</h2>
+    <article class="q have"><div class="num">133</div><div><p class="ask">Any laulātā uzturs (support between spouses)?</p><p class="ans">No. You are not asking for spousal maintenance.</p></div></article>
+    <article class="q have"><div class="num">134</div><div><p class="ask">Who stays on whose visa / lease / insurance after the divorce?</p><p class="ans">All three visas are valid about 3 more years. Rent and insurance stay as now: you pay. Do not ask the notary to write that as a duty unless you decide to (see After this list).</p></div></article>
+    <article class="q have"><div class="num">135</div><div><p class="ask">Surnames stay (Kuprijanova) or revert (Suslova)?</p><p class="ans">She keeps Kuprijanova.</p></div></article>
+    <article class="q have"><div class="num">136</div><div><p class="ask">Joint loans — who pays?</p><p class="ans">50/50 if any. None listed in 124.</p></div></article>
+    <article class="q have"><div class="num">137</div><div><p class="ask">Who pays the notary?</p><p class="ans">You. Invoice to you. Ballpark 300–500 EUR if no real-estate split.</p></div></article>
+
+    <h2 id="docs">Documents and originals</h2>
+    <article class="q have"><div class="num">138</div><div><p class="ask">Marriage certificate original — where is it? Can you post it?</p><p class="ans">You have it. It can be posted. Prefer an extract if they accept it (139).</p></div></article>
+    <article class="q have"><div class="num">139</div><div><p class="ask">Is a register extract (izraksts) enough?</p><p class="ans">Unknown — you will ask them. Prefer extract if they accept it.</p></div></article>
+    <article class="q have"><div class="num">140</div><div><p class="ask">Liza’s birth certificate original — do you have it, can you post it?</p><p class="ans">Yes. You have it. It can be posted, same as the marriage certificate.</p></div></article>
+    <article class="q have"><div class="num">141</div><div><p class="ask">Passports / eID both sides, and the child’s?</p><p class="ans">Scans of all three passports are ready.</p></div></article>
+    <article class="q have"><div class="num">142</div><div><p class="ask">Proof of address in Thailand?</p><p class="ans">Yes. You can get a TM30 when they ask. Do not send it until they request it.</p></div></article>
+    <article class="q have"><div class="num">143</div><div><p class="ask">Proof you are the same people as on the certificates?</p><p class="ans">Names and codes match. She is listed as Suslova on the marriage line.</p></div></article>
+    <article class="q have"><div class="num">144</div><div><p class="ask">Translations? Apostille?</p><p class="ans">Latvian documents for a Latvian notary: usually neither.</p></div></article>
+    <article class="q have"><div class="num">145</div><div><p class="ask">Can you upload scans before the signing session?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">146</div><div><p class="ask">Can one of you get the original to a Riga office?</p><p class="ans">The original of the marriage certificate (138). You can post it. Do not fly to Riga unless they refuse post and extract.</p></div></article>
+
+    <h2 id="remote">Remote procedure</h2>
+    <article class="q have"><div class="num">147</div><div><p class="ask">Both on one video call, same room or two rooms?</p><p class="ans">Same call. You live together, so same room is natural. They may still want each face on camera.</p></div></article>
+    <article class="q have"><div class="num">148</div><div><p class="ask">Does sitting together help or look like collusion?</p><p class="ans">It matches the story: one household. Still let her speak.</p></div></article>
+    <article class="q have"><div class="num">149</div><div><p class="ask">Camera, lighting, identity check.</p><p class="ans">Test latvijasnotars.lv, camera, mic, Bangkok time before 25 Sep.</p></div></article>
+    <article class="q have"><div class="num">150</div><div><p class="ask">eParaksts mobile vs eID card + reader?</p><p class="ans">Both use eParaksts. Say mobile vs card only if they ask which box to tick.</p></div></article>
+    <article class="q have"><div class="num">151</div><div><p class="ask">What if one signature fails mid-session?</p><p class="ans">Ask them for the backup on the call. Do not bluff.</p></div></article>
+    <article class="q have"><div class="num">152</div><div><p class="ask">Backup if Arina’s eParaksts is dead?</p><p class="ans">Tested. Hers works.</p></div></article>
+    <article class="q have"><div class="num">153</div><div><p class="ask">Time zone — 25 Sep, Bangkok / Riga?</p><p class="ans">You are UTC+7. Afternoon Bangkok is morning Riga. You said 25 Sep works.</p></div></article>
+    <article class="q have"><div class="num">154</div><div><p class="ask">Do you already have a latvijasnotars.lv login?</p><p class="ans">Not yet. Create one for each of you before the consult. Metuzāle uses that site. Doing it on the call wastes the slot.</p></div></article>
+    <article class="q have"><div class="num">155</div><div><p class="ask">Will you both create accounts before the consult?</p><p class="ans">Yes if they use that platform — they already said they do.</p></div></article>
+    <article class="q have"><div class="num">156</div><div><p class="ask">Second session for signing, or consult + draft by email first?</p><p class="ans">Metuzāle: consult first because of the child, then papers. Expect two steps + 30 days.</p></div></article>
+    <article class="q have"><div class="num">157</div><div><p class="ask">30-day cooling-off — do you understand you can withdraw?</p><p class="ans">Yes.</p></div></article>
+    <article class="q have"><div class="num">158</div><div><p class="ask">After 30 days, who books the final signing?</p><p class="ans">They will say. You both attend again.</p></div></article>
+    <article class="q have"><div class="num">159</div><div><p class="ask">What if one of you disappears after filing?</p><p class="ans">Then it stops. This only works if both stay in.</p></div></article>
+
+    <h2 id="future">Other people and future life</h2>
+    <article class="q have"><div class="num">160</div><div><p class="ask">Is there a new partner?</p><p class="ans">No. If asked: “Nē. Mājā nav jauna partnera.”</p></div></article>
+    <article class="q have"><div class="num">161</div><div><p class="ask">Will a new partner live in the same house?</p><p class="ans">Not now. Do not talk about the future.</p></div></article>
+    <article class="q have"><div class="num">162</div><div><p class="ask">Are you leaving Koh Phangan / Thailand soon?</p><p class="ans">Do not disclose Vietnam. If they ask whether this address is home: yes, this is where we live now. If we live somewhere else later, we make a new agreement (71). Naming Vietnam invites Thai/VN law and “where does the child live?”</p></div></article>
+    <article class="q have"><div class="num">163</div><div><p class="ask">If you move countries, does the deed still work?</p><p class="ans">You want a Latvian deed. If life changes, you make a new child agreement.</p></div></article>
+    <article class="q have"><div class="num">164</div><div><p class="ask">Who gets mail — which email, which phone?</p><p class="ans">Both of you on every letter. Jaroslavs: j.kuprijanovs@weblab.lv, +66 98 424 7577, +371 288 14757. Arina: suslova.arina@gmail.com, +371 220 72573, +66 65 658 0204.</p></div></article>
+    <article class="q have"><div class="num">165</div><div><p class="ask">May they write both of you on every letter?</p><p class="ans">Yes.</p></div></article>
+
+    <h2 id="process">Process hygiene</h2>
+    <article class="q have"><div class="num">166</div><div><p class="ask">Who pays, invoice to whom, VAT number?</p><p class="ans">You pay. Invoice to Jaroslavs Kuprijanovs. VAT number only if you want it on the invoice.</p></div></article>
+    <article class="q have"><div class="num">167</div><div><p class="ask">Estimate: divorce file + child deed + property deed + state fees + VAT.</p><p class="ans">~300–500 EUR if no real-estate split. Divorce file 88 EUR + VAT; child deed 0.5% of one year of maintenance, min 140 EUR; state fees small.</p></div></article>
+    <article class="q have"><div class="num">168</div><div><p class="ask">Do you want the property deed at all if there is nothing to split?</p><p class="ans">No, unless they say the divorce cannot go without it.</p></div></article>
+    <article class="q have"><div class="num">169</div><div><p class="ask">Any rush — why this year?</p><p class="ans">Yes: finish in 2026. That is why 25 Sep matters and 12 Oct is only a reserve.</p></div></article>
+    <article class="q have"><div class="num">170</div><div><p class="ask">Start the file after this call, or only after originals?</p><p class="ans">Follow their rule. You can send scans immediately.</p></div></article>
+    <article class="q have"><div class="num">171</div><div><p class="ask">Do you authorise email drafts of the child deed for comments?</p><p class="ans">Yes — both of you comment, not only Jaroslavs.</p></div></article>
+    <article class="q have"><div class="num">172</div><div><p class="ask">Will you both comment, or only Jaroslavs?</p><p class="ans">Both. They will want her voice on the child text.</p></div></article>
+
+    <h2 id="later">After this list — for you, not the notary</h2>
+    <p class="note">Parked so you can finish the gold rows first. Not a notary answer.</p>
+    <article class="later">
+      <p class="ask">Rent and insurance after the divorce</p>
+      <p class="ans">Today you cover house rent and insurance for everyone, as before. Decide later: keep that as a private habit only, or write it anywhere. If it goes into a deed, it can be enforced like a debt. 133 already says no spousal maintenance — a written rent/insurance duty is the same kind of lock.</p>
+    </article>
+    <article class="later">
+      <p class="ask">Vietnam for six months</p>
+      <p class="ans">A thought only. Do not tell the notary. If it becomes a real move, change the child deed then — do not preview it on the first call.</p>
+    </article>
+  </main>
+  <script>
+    const questions = [...document.querySelectorAll(".q")];
+    const need = questions.filter((node) => node.classList.contains("need")).length;
+    const have = questions.length - need;
+    document.getElementById("total-n").textContent = String(questions.length);
+    document.getElementById("have-n").textContent = String(have);
+    document.getElementById("need-n").textContent = String(need);
+    document.querySelectorAll(".filters button").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.body.dataset.filter = button.dataset.filter;
+      });
+    });
+  </script>
+</body>
+</html>
