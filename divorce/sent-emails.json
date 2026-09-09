@@ -315,6 +315,12 @@
       "via": "gmail",
       "template": "same-household-follow-up",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
+    },
+    "followUpReply": {
+      "receivedAt": "2026-09-07T20:56:00+07:00",
+      "status": "yes",
+      "summary": "Asks the purpose of the divorce: has the marriage really broken down, or is there another purpose?",
+      "text": "Tad jautājums kāds ir laulības šķiršanas mērķis. Vai laulība tiešām ir izirusi vai arī mērķis ir cits?"
     }
   },
   {
