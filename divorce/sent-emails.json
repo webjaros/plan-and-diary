@@ -39,6 +39,13 @@
       "status": "yes",
       "summary": "Yes, can divorce with them. Asks where the child will live, monthly maintenance amount and account, access for the other parent, and what was bought in the marriage / who keeps what.",
       "text": "Labdien! Jā, variet šķirties pie mums! Būs nepieciešams zināt pie kura paliks bērns dzīvot, uzturlīdzekļu summu mēnesī un kontu uz kuru tie jāskaita, kā arī kā esat sarunājuši tikties otram vecākam ar bērnu. Tāpat mantiskie jautājumi — ko esat nopirkuši laulības laikā un kas kam paliek!"
+    },
+    "followUp": {
+      "sentAt": "2026-09-09T10:08:00+07:00",
+      "via": "gmail",
+      "template": "kaupe-answers",
+      "summary": "Answered: child stays with both, no monthly transfer if allowed, no property split. Asked if they do it remotely. Waiting.",
+      "text": "Labdien!\n\nAbiem ir eParaksts. Vai šķirat attālināti, videokonferencē?\n\nBērns paliek ar abiem — turpināsim dzīvot kopā. Kopīga aizgādība. Ikmēneša pārskaitījuma nebūs, ja tas der; ja nē — kāds apmērs jānorāda aktā?\n\nMantas dalīšanas nav: katrs patur to, kas jau ir pie viņa.\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {
@@ -62,6 +69,7 @@
       "sentAt": "2026-09-07T03:53:00+07:00",
       "via": "gmail",
       "template": "same-household-follow-up",
+      "summary": "Same-household follow-up sent. Waiting.",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
@@ -212,6 +220,7 @@
       "sentAt": "2026-09-07T03:53:00+07:00",
       "via": "gmail",
       "template": "same-household-follow-up",
+      "summary": "Same-household follow-up sent. Waiting.",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
@@ -314,6 +323,7 @@
       "sentAt": "2026-09-07T20:49:00+07:00",
       "via": "gmail",
       "template": "same-household-follow-up",
+      "summary": "Same-household follow-up sent.",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
     },
     "followUpReply": {
@@ -368,6 +378,13 @@
       "status": "yes",
       "summary": "In principle they do the divorce. Earliest first consultation is 12 Oct 2026 because of workload. Write if that works; otherwise find another colleague.",
       "text": "Labvakar, Principā šķiram. Bet ņemot vērā šī brīža noslodzi tuvākie laiki pirmajai konsultācijai pirms laulības šķiršanas, tuvākais iespējamais pieraksta laiks ir ne ātrāk kā 12.10.2026. Ja Jums tas der, tad rakstiet; ja nē – Jums jāmeklē kāds cits kolēģis."
+    },
+    "followUp": {
+      "sentAt": "2026-09-09T10:08:00+07:00",
+      "via": "gmail",
+      "template": "elksne-reserve",
+      "summary": "Held 12 Oct as reserve. Asked same-household / 234 EUR and total cost. Waiting.",
+      "text": "Labdien!\n\n12.10.2026. der kā rezerve. Apstiprināsim tuvāk datumam, ja konsultācija joprojām būs vajadzīga.\n\nAbiem ir eParaksts. Turpināsim dzīvot kopā. Vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda 234 EUR? Lūdzu, arī kopējās izmaksas.\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {
@@ -404,6 +421,13 @@
       "status": "yes",
       "summary": "Vita Vīksna for Metuzāle: remote videoconference on latvijasnotars.lv is possible. Because of the child, a first consultation is required to prepare the agreement. Earliest remote slots from 25 Sep.",
       "text": "Attālināta vizīte videokonferences režīmā ir iespējama, izmantojot www.latvijasnotars.lv platformu. Tā kā Jums ir nepilngadīgs bērns, sākumā būs jāieplāno konsultācija, lai notāre varētu pārrunāt jautājumus, kas būs nepieciešami vienošanās dokumenta sagatavošanā. Tuvākie pieraksti attālināti ir no 25. septembra."
+    },
+    "followUp": {
+      "sentAt": "2026-09-09T10:08:00+07:00",
+      "via": "gmail",
+      "template": "metuzale-booking",
+      "summary": "Accepted 25 Sep. Asked same-household / 234 EUR, total cost, and how to book. Waiting.",
+      "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā. 25. septembra pieraksts mums der.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums pirms konsultācijas: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas un kā pieteikt konsultāciju.\n\nPaldies!\nJaroslavs Kuprijanovs"
     }
   },
   {

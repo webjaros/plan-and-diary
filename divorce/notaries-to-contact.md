@@ -11,7 +11,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Notary | Status | Reply |
 | --- | --- | --- |
 | Jānis Skrastiņš | waiting | wave 1, 25 Aug |
-| Aigars Kaupe | yes | Can divorce with them. Wants child residence, maintenance, access, property. 27 Aug 14:58 |
+| Aigars Kaupe | yes | Can divorce with them. Follow-up sent 9 Sep: child stays with both, no monthly transfer if allowed, no property split; asked if remote. |
 | Kristīne Šapčenko | yes | Remote yes if both have e-signature. Follow-up sent 7 Sep: same household, 234 EUR?, total cost. |
 | Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
 | Mārtiņš Limbēns | waiting | wave 1, 25 Aug |
@@ -31,9 +31,9 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Inese Moroza | yes | Remote yes. Asked purpose; answered 9 Sep: end legal status, stay together for now (economics), future open. |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
-| Dace Elksne | yes | In principle yes. Earliest consult 12 Oct 2026. Write if that date works. 8 Sep 01:09 |
+| Dace Elksne | yes | In principle yes. Held 12 Oct as reserve (9 Sep). Asked same household / 234 EUR and cost. |
 | Guna Stikute | no | No video if minor child; child deed in person; original certificate at the office. 8 Sep 15:34 |
-| Ilze Metuzāle | yes | Remote on latvijasnotars.lv. Consult first because of child. Slots from 25 Sep. 8 Sep 16:46 |
+| Ilze Metuzāle | yes | Remote on latvijasnotars.lv. Accepted 25 Sep (9 Sep). Asked same household / 234 EUR, cost, how to book. |
 | Kristīne Kreile | waiting | wave 3, 7 Sep |
 
 Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
@@ -61,6 +61,7 @@ Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 - Why: large office; Gada notārs 2018/2019
 - Status: yes
 - Reply (27 Aug 14:58): yes, can divorce with them. Needs: who the child lives with; monthly maintenance and account; how the other parent meets the child; what was bought in the marriage and who keeps what
+- Follow-up (9 Sep): eParaksts; asked if remote/video; child stays with both; joint custody; no monthly transfer if allowed; no property split
 
 ### 3. Kristīne Šapčenko — Riga
 
@@ -288,6 +289,7 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Why: Gada notārs 2024
 - Status: yes
 - Reply (8 Sep 01:09): in principle they do the divorce. Earliest first consultation 12 Oct 2026. Write if that date works; otherwise find another colleague
+- Follow-up (9 Sep): 12 Oct as reserve; eParaksts; same household; joint custody without monthly transfer vs 234 EUR; total cost
 
 ### 23. Guna Stikute — Riga
 
@@ -311,6 +313,7 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Why: Gada notārs 2017/2018
 - Status: yes
 - Reply (8 Sep 16:46): Vita Vīksna. Remote videoconference on latvijasnotars.lv is possible. First consultation required because of the child. Earliest remote slots from 25 Sep
+- Follow-up (9 Sep): 25 Sep works; eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost; how to book
 
 ### 25. Kristīne Kreile — Riga
 

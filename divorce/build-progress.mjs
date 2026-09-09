@@ -32,7 +32,7 @@ const lastActivity = (entry) => {
 const describe = (entry) => {
   if (entry.purposeReply) return "Purpose reply sent. Waiting.";
   if (entry.followUpReply) return entry.followUpReply.summary;
-  if (entry.followUp) return "Same-household follow-up sent. Waiting.";
+  if (entry.followUp) return entry.followUp.summary ?? "Follow-up sent. Waiting.";
   if (entry.reply?.status === "auto") return entry.reply.summary;
   if (entry.reply) return entry.reply.summary;
   return "First email sent. Waiting.";
@@ -81,8 +81,9 @@ const ballLabel = {
 };
 
 const tableRows = people
+  .filter((row) => row.status !== "no")
   .sort((a, b) => {
-    const order = { yes: 0, waiting: 1, no: 2 };
+    const order = { yes: 0, waiting: 1 };
     return (order[a.status] ?? 9) - (order[b.status] ?? 9) || String(b.when).localeCompare(String(a.when));
   })
   .map(
@@ -183,7 +184,7 @@ const html = `<!doctype html>
 <body>
   <main>
     <h1>Notary outreach</h1>
-    <p class="subtitle">Remote divorce first emails. ${escapeHtml(builtAt)} Bangkok. Rebuild with <code>node build-progress.mjs</code>.</p>
+    <p class="subtitle">Remote divorce first emails. ${escapeHtml(builtAt)} Bangkok. Refusals stay in the totals only. Rebuild with <code>node build-progress.mjs</code>.</p>
     <div class="stats">
       <div class="stat"><div class="n">${sent}</div><div class="l">Sent</div></div>
       <div class="stat"><div class="n">${replies}</div><div class="l">Replies</div></div>
