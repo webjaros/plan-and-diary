@@ -99,7 +99,7 @@ The notary must write a child deed. These are the answers we would give, if we b
 
 ## How we do it
 
-18. Remote video on latvijasnotars.lv. Both of us on the same call. Both sign with eParaksts. We do this from Thailand if a notary will take us.
+18. Remote video on latvijasnotars.lv (login is latvija.lv + eParaksts, not a separate notary account). Both of us on the same call. Both sign with eParaksts. We do this from Thailand if a notary will take us.
     - [ ] Yes
     - [ ] Talk
 
