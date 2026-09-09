@@ -17,10 +17,10 @@ To focus energy, I give up or pause many things I want to do at the same time. T
 - Business:
   - idea of my own airline tickets agency
   - idea of my own window installation business in Bay Area
-  - Warsettlers
+  - Warsettlers (AWS deleted; will not spend more time on it)
 - Total control of who my daughter is going to become and what her life is going to be
 - Games: Latgalia, Out of Fire, Reptiloid, competitive digger
-- Polygyny, at least until I am clear about the position of Arina in my life
+- Polygyny — paused until the relationship agreement with Arina is explicit, net income has averaged ≥600k THB/month for 12 months, and liquid reserves reach ≥10m THB. Three-wife implementation threshold: approximately 800k–1m THB/month plus 10–15m THB reserves.
 
 ## Also decided
 
@@ -35,3 +35,9 @@ To focus energy, I give up or pause many things I want to do at the same time. T
 ### 2026-09-07
 
 No combat sports for 2 years, until the end of 2028. Right now, 2 years seems a reasonable time to fix mobility, flexibility, stretching, and symmetry.
+
+### 2026-09-09
+
+Deleted the Warsettlers project from AWS. Will not waste time on it.
+
+Polygyny stays paused until: (1) the relationship agreement with Arina is explicit, (2) net income has averaged ≥600k THB/month for 12 months, (3) liquid reserves reach ≥10m THB. Three-wife implementation: about 800k–1m THB/month plus 10–15m THB reserves.
