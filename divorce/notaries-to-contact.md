@@ -28,7 +28,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Hermanis Vidžups | waiting | wave 3, 7 Sep |
 | Laila Lapiņa | waiting | wave 3, 7 Sep |
 | Iluta Sauliete | no | Will not take the case: says she must assess Thai parental-responsibility law and does not know it. 7 Sep 23:10 |
-| Inese Moroza | yes | Remote yes. After same-household follow-up: asks if the marriage has really broken down or the purpose is other. 7 Sep 20:56 |
+| Inese Moroza | yes | Remote yes. Asked purpose; answered 9 Sep: end legal status, stay together for now (economics), future open. |
 | Evita Mančinska | waiting | wave 3, 7 Sep |
 | Linda Eglīte | waiting | wave 3, 7 Sep |
 | Dace Elksne | yes | In principle yes. Earliest consult 12 Oct 2026. Write if that date works. 8 Sep 01:09 |
@@ -256,6 +256,7 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Reply (7 Sep 17:43): remote via videoconference with e-signature/Smart ID; child custody, access, and maintenance deed required
 - Follow-up (7 Sep 20:49): eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost
 - Follow-up reply (7 Sep 20:56): asks the purpose of the divorce — has the marriage really broken down, or is the purpose other?
+- Purpose reply (9 Sep 09:59): end legal status; keep living together for now because it is economically better; distant future not decided
 
 ### 20. Evita Mančinska — Riga
 
