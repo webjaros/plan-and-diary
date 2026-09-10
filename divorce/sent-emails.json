@@ -46,6 +46,12 @@
       "template": "kaupe-answers",
       "summary": "Answered: child stays with both, no monthly transfer if allowed, no property split. Asked if they do it remotely. Waiting.",
       "text": "Labdien!\n\nAbiem ir eParaksts. Vai šķirat attālināti, videokonferencē?\n\nBērns paliek ar abiem — turpināsim dzīvot kopā. Kopīga aizgādība. Ikmēneša pārskaitījuma nebūs, ja tas der; ja nē — kāds apmērs jānorāda aktā?\n\nMantas dalīšanas nav: katrs patur to, kas jau ir pie viņa.\n\nPaldies!\nJaroslavs Kuprijanovs"
+    },
+    "followUpReply": {
+      "receivedAt": "2026-09-10T18:27:00+07:00",
+      "status": "yes",
+      "summary": "Same address: no transfers needed. If an account is named / they live apart, pay at least the minimum. Remote yes; original marriage certificate must go to the office. Can prepare for the last week of September. Asks morning, afternoon, or evening.",
+      "text": "Labdien, ja dzīvojat vienā adresē, tad vispār pārskaitījumi nav jāveic. Tomēr, ja dodu kontu, jo paredzēts dzīvot [atsevišķi], maksā uzturlīdzekļus vismaz minimālajā apmērā. Varam online, tikai jāatsūta man uz biroju laulības apliecības oriģināls. Tam būs jāiet lietā. Vai varam gatavot visu uz septembra pēdējo nedēļu? Un vai ērtāk rīta, pēcpusdienas vai vakara laiks?"
     }
   },
   {
@@ -428,6 +434,12 @@
       "template": "metuzale-booking",
       "summary": "Accepted 25 Sep. Asked same-household / 234 EUR, total cost, and how to book. Waiting.",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā. 25. septembra pieraksts mums der.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums pirms konsultācijas: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas un kā pieteikt konsultāciju.\n\nPaldies!\nJaroslavs Kuprijanovs"
+    },
+    "followUpReply": {
+      "receivedAt": "2026-09-09T15:34:00+07:00",
+      "status": "yes",
+      "summary": "Vita Vīksna: 25 Sep not possible (notary away). Offers Fri 18 Sep 15:00 Latvian time (19:00 Bangkok). Both must book separately on DigiNotārs / latvijasnotars.lv. First visit is consult only; signing later. Original marriage certificate must reach the office before the signing visit. Consult 36.30 EUR. Read the videoconference instructions on the site.",
+      "text": "Diemžēl 25. septembrī notāre būs prombūtnē. Vai der 18. septembris plkst. 15:00 pēc Latvijas laika? Abiem — vīram un sievai — vizīte jāpiesaka atsevišķi DigiNotārs lapā www.latvijasnotars.lv. Lūdzu iepazīties ar videokonferences instrukciju. Pirmā tikšanās ir konsultācija; dokumentu parakstīšana notiks vēlāk. Ja šķiršana attālināti, laulības apliecības oriģināls jānogādā vai jānosūta uz biroju pirms parakstīšanas vizītes. Konsultācija 36,30 EUR."
     }
   },
   {
