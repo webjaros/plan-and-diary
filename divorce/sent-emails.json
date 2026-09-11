@@ -119,7 +119,13 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "5caf5569-52ca-42c0-8ba9-de92a5559ee1",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-11T11:48:00+07:00",
+      "status": "no",
+      "summary": "Cannot take the case because of workload. Says notaries in smaller cities have lighter queues and can offer videoconference sooner.",
+      "text": "Labdien! Ļoti lielas noslodzes dēļ šobrīd Jums nevaru piedāvāt. Pēc pieredzes varu teikt, ka notāriem mazākās pilsētās ir mazākas noslodzes un var piedāvāt videokonferences krietni ātrākos laikos. Ar cieņu, zvērināts notārs Mārtiņš Limbēns"
+    }
   },
   {
     "sentAt": "2026-08-27T04:36:59.467Z",

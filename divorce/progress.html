@@ -77,8 +77,8 @@
     }
     .bar span { display: block; height: 100%; }
     .bar .yes { background: var(--yes); width: 28%; }
-    .bar .no { background: var(--no); width: 24%; }
-    .bar .waiting { background: var(--wait); width: 48%; }
+    .bar .no { background: var(--no); width: 28%; }
+    .bar .waiting { background: var(--wait); width: 44%; }
     table { width: 100%; border-collapse: collapse; background: var(--card); box-shadow: var(--shadow); border-radius: 16px; overflow: hidden; }
     th, td { text-align: left; padding: 12px 14px; vertical-align: top; }
     th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--line); }
@@ -106,14 +106,14 @@
 <body data-filter="open">
   <main>
     <h1>Notary outreach</h1>
-    <p class="subtitle">Remote divorce first emails. 11 Sept 2026, 10:47 Bangkok. Click a card to filter. Click again to return. Rebuild with <code>node build-progress.mjs</code>.</p>
+    <p class="subtitle">Remote divorce first emails. 11 Sept 2026, 12:04 Bangkok. Click a card to filter. Click again to return. Rebuild with <code>node build-progress.mjs</code>.</p>
     <div class="stats">
       <button type="button" class="stat" data-filter="sent"><div class="n">25</div><div class="l">Sent</div></button>
-      <button type="button" class="stat" data-filter="replies"><div class="n">13</div><div class="l">Replies</div></button>
+      <button type="button" class="stat" data-filter="replies"><div class="n">14</div><div class="l">Replies</div></button>
       <button type="button" class="stat" data-filter="yes"><div class="n">7</div><div class="l">Yes</div></button>
-      <button type="button" class="stat" data-filter="no"><div class="n">6</div><div class="l">No</div></button>
+      <button type="button" class="stat" data-filter="no"><div class="n">7</div><div class="l">No</div></button>
     </div>
-    <div class="bar" title="yes 7 · no 6 · waiting 12">
+    <div class="bar" title="yes 7 · no 7 · waiting 11">
       <span class="yes"></span><span class="no"></span><span class="waiting"></span>
     </div>
     <table>
@@ -241,18 +241,18 @@
       <td class="when">27 Aug, 11:37</td>
     </tr>
 <tr data-status="waiting">
-      <td>Mārtiņš Limbēns</td>
-      <td><span class="pill waiting">waiting</span></td>
-      <td><span class="pill ball-them">On them</span></td>
-      <td>First email sent. Waiting.</td>
-      <td class="when">25 Aug, 12:50</td>
-    </tr>
-<tr data-status="waiting">
       <td>Jānis Skrastiņš</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">25 Aug, 12:49</td>
+    </tr>
+<tr data-status="no">
+      <td>Mārtiņš Limbēns</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Cannot take the case because of workload. Says notaries in smaller cities have lighter queues and can offer videoconference sooner.</td>
+      <td class="when">11 Sept, 11:48</td>
     </tr>
 <tr data-status="no">
       <td>Guna Stikute</td>

@@ -14,7 +14,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Aigars Kaupe | yes | Same address, no transfers. Confirmed last week of September, afternoon Latvian time. Original can be posted. 11 Sep 10:47 |
 | Kristīne Šapčenko | yes | Joint custody yes. Maintenance must be paid, min 234 EUR. Original before visit. ~500–600 EUR if both speak Latvian. 10 Sep 21:49 |
 | Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
-| Mārtiņš Limbēns | waiting | wave 1, 25 Aug |
+| Mārtiņš Limbēns | no | Workload; cannot take the case. Says smaller-city notaries have earlier video slots. 11 Sep 11:48 |
 | Ingūna Bobrovska | no | Remote not possible: cannot verify child-support amount in Thailand / Thai vs Latvian rules. 27 Aug |
 | Vitālijs Bogdāns | waiting | wave 2, 27 Aug |
 | Inga Ērgle | no | No videoconference. 28 Aug 13:37 |
@@ -100,6 +100,8 @@ Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 - Phone: +371 26625508
 - Email: Martins.Limbens@LatvijasNotars.lv
 - Why: only Daugavpils notary who also lists English
+- Status: no
+- Reply (11 Sep 11:48): cannot take the case because of workload. Says notaries in smaller cities have lighter queues and earlier videoconference times
 
 ## Wave 2 — 27 Aug 2026
 
