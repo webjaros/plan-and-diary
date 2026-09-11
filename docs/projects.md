@@ -1,68 +1,92 @@
 ## Description
+
 This document covers what currently occupies my mind. I want to structure it. I want to eliminate things that don't lead me to the future I want to have.
 
 ## The future I want to have
-* Several income sources
-* Preferably not so dependant on my time and mood, so blunt selling dev hours for hourly rate is not so appealing.
-* Preferably at least one income source is a game.
-* Highly preferably not to depend on location.
-* Highly preferably to leverage modern AI capabilities to their fullest.
+
+- Several income sources
+- Preferably not so dependant on my time and mood, so blunt selling dev hours for hourly rate is not so appealing.
+- Preferably at least one income source is a game.
+- Highly preferably not to depend on location.
+- Highly preferably to leverage modern AI capabilities to their fullest.
 
 ## WarSettlers
-* Customer's project.
-* To be finished in 1 week. I want to finish it ASAP to free up some cognitive energy.
-* A Travian-like game
+
+- Outside current focus.
+- Project deleted (AWS gone). Domain kept only until it expires. No more time on it.
+
+
 
 ## CeoFlights
-* On-going customer project. I maintain and develop it. 20-30 hours per month, 72 eur/hr before dividends tax.
-* This project's income has to be replaced ASAP.
-* Agris wants to replace me with inhouse developer or do everything himself with AI.
+
+- On-going customer project. I maintain and develop it. 20-30 hours per month, 72 eur/hr before dividends tax.
+- This project's income has to be replaced ASAP.
+- Agris wants to replace me with inhouse developer or do everything himself with AI.
+
+
 
 ## Reptiloid
-* Game
-* Small prototype was developed. Not playable now, but while making it I understood what has to be in MVP.
-* For soul
-* Quite a niche product
-* Somehow Plague Inc. like
+
+- Game
+- Small prototype was developed. Not playable now, but while making it I understood what has to be in MVP.
+- For soul
+- Quite a niche product
+- Somehow Plague Inc. like
+
+
 
 ## ETL
-* An idea of Excel transformation project
-* May be narrowed down to supplier files, or even more narrow - to Shopify files
+
+- Excel / Shopify transformation idea.
+- Outside current focus.
+
+
 
 ## Personal/company brand
-* Helping companies to automate and optimize their processes, expenses, ops.
+
+- Helping companies to automate and optimize their processes, expenses, ops.
+
+
 
 ## Personal and Family
-* Living, visas, house organization
-* Schooling and raising daughter
+
+- Living, visas, house organization
+- Schooling and raising daughter
+
+
 
 ## Physical Development
-* 30-40 minutes warmup every morning
-* 5-10km walking daily
-* Dance classes once a week
-* As of next week boxing 2-3 times a week
-* Some yoga and stretching every evening
+
+- 30-40 minutes warmup every morning
+- 5-10km walking daily
+- Dance classes once a week
+- As of next week boxing 2-3 times a week
+- Some yoga and stretching every evening
+
+
 
 ## Psyche recovery
+
 This must be every day, must be protected.
-* djembe, especially music jams
-* exploration of the island
-* walking without headset
-* "silly" games
-* massage
-* cooking
-* ecstatic dance
-* social things
-* meditation
+
+- djembe, especially music jams
+- exploration of the island
+- walking without headset
+- "silly" games
+- massage
+- cooking
+- ecstatic dance
+- social things
+- meditation
 
 ## Open questions
-* Should I try delegating Ceoflights things to a junior developer with AI?
-* Would it be more antifragile to have working women? It would be a viable solution until I find a way to earn money in semi-automated mode. Currently, everything depends on my ability to do the work.
-* What else should be done before talking about divorce with Arina?
-* I had a declared place of living in Vita Suslova's house for a couple of years. Even though I did not live there, there is a debt of 263 * 2 years for the rubbish takeout services. Considering the state of our relationship with Arina, should I cover this or not?
-* Should I make some project to leverage down trend in the real estate business on the island?
+
+- Would it be more antifragile to have working women? It would be a viable solution until I find a way to earn money in semi-automated mode. Currently, everything depends on my ability to do the work.
+- Should I make some project to leverage down trend in the real estate business on the island?
 
 ## Decisions 2026-05-16
-1. To choose Reptiloid for the sould project
-1. To choose ETL Shopify for test of the scalable income source. If marketing tests fail I can choose any other idea or pivot. If marketing will succeed, I am not locked in Shopify forever and I can create upsells and broaden the product  anytime later.
-1. I should be conscious about body recovery and about biomechanics, otherwise the physical activity plan is good enough for now.
+
+1. To choose Reptiloid for the soul project
+2. To choose ETL Shopify for test of the scalable income source. If marketing tests fail I can choose any other idea or pivot. If marketing will succeed, I am not locked in Shopify forever and I can create upsells and broaden the product  anytime later.
+3. I should be conscious about body recovery and about biomechanics, otherwise the physical activity plan is good enough for now.
+
