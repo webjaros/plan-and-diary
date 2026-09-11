@@ -25,11 +25,12 @@ const formatWhen = (iso) => {
 };
 
 const lastActivity = (entry) => {
-  const times = [entry.sentAt, entry.reply?.receivedAt, entry.followUp?.sentAt, entry.followUpReply?.receivedAt, entry.purposeReply?.sentAt];
+  const times = [entry.sentAt, entry.reply?.receivedAt, entry.followUp?.sentAt, entry.followUpReply?.receivedAt, entry.purposeReply?.sentAt, entry.slotReply?.sentAt];
   return times.filter(Boolean).sort().at(-1) ?? entry.sentAt;
 };
 
 const describe = (entry) => {
+  if (entry.slotReply) return entry.slotReply.summary ?? "Slot reply sent. Waiting.";
   if (entry.purposeReply) return "Purpose reply sent. Waiting.";
   if (entry.followUpReply) return entry.followUpReply.summary;
   if (entry.followUp) return entry.followUp.summary ?? "Follow-up sent. Waiting.";
@@ -40,8 +41,9 @@ const describe = (entry) => {
 
 const nextBall = (entry) => {
   const status = entry.reply?.status ?? "waiting";
+  if (entry.slotReply) return "them";
   if (entry.purposeReply) return "them";
-  if (entry.followUpReply && !entry.purposeReply) return "us";
+  if (entry.followUpReply && !entry.purposeReply && !entry.slotReply) return "us";
   if (entry.followUp && !entry.followUpReply) return "them";
   if (status === "yes" && !entry.followUp) return "us";
   if (status === "no") return "done";

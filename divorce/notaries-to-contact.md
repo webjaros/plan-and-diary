@@ -11,7 +11,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Notary | Status | Reply |
 | --- | --- | --- |
 | Jānis Skrastiņš | waiting | wave 1, 25 Aug |
-| Aigars Kaupe | yes | Same address: no transfers. Remote yes; original marriage cert to the office. Offers last week of September. Asks morning / afternoon / evening. 10 Sep 18:27 |
+| Aigars Kaupe | yes | Same address, no transfers. Confirmed last week of September, afternoon Latvian time. Original can be posted. 11 Sep 10:47 |
 | Kristīne Šapčenko | yes | Joint custody yes. Maintenance must be paid, min 234 EUR. Original before visit. ~500–600 EUR if both speak Latvian. 10 Sep 21:49 |
 | Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
 | Mārtiņš Limbēns | waiting | wave 1, 25 Aug |
@@ -63,6 +63,7 @@ Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 - Reply (27 Aug 14:58): yes, can divorce with them. Needs: who the child lives with; monthly maintenance and account; how the other parent meets the child; what was bought in the marriage and who keeps what
 - Follow-up (9 Sep): eParaksts; asked if remote/video; child stays with both; joint custody; no monthly transfer if allowed; no property split
 - Follow-up reply (10 Sep 18:27): same address → no transfers; if an account is named / they live apart, at least the minimum. Remote yes; original marriage certificate to the office. Can prepare for the last week of September. Asks morning, afternoon, or evening
+- Slot reply (11 Sep 10:47): same address, no transfers; original can be posted; last week of September, afternoon Latvian time
 
 ### 3. Kristīne Šapčenko — Riga
 
