@@ -81,13 +81,12 @@ const ballLabel = {
 };
 
 const tableRows = people
-  .filter((row) => row.status !== "no")
   .sort((a, b) => {
-    const order = { yes: 0, waiting: 1 };
+    const order = { yes: 0, waiting: 1, no: 2 };
     return (order[a.status] ?? 9) - (order[b.status] ?? 9) || String(b.when).localeCompare(String(a.when));
   })
   .map(
-    (row) => `<tr>
+    (row) => `<tr data-status="${escapeHtml(row.status)}">
       <td>${escapeHtml(row.name)}</td>
       <td><span class="pill ${escapeHtml(row.status)}">${escapeHtml(row.status)}</span></td>
       <td><span class="pill ball-${escapeHtml(row.ball)}">${escapeHtml(ballLabel[row.ball])}</span></td>
@@ -138,13 +137,34 @@ const html = `<!doctype html>
       margin-bottom: 16px;
     }
     .stat {
+      appearance: none;
+      display: block;
+      width: 100%;
+      border: 0;
       background: var(--card);
+      color: inherit;
+      font: inherit;
+      text-align: left;
       border-radius: 16px;
       padding: 18px 16px;
       box-shadow: var(--shadow);
+      cursor: pointer;
     }
+    .stat:hover { outline: 2px solid var(--line); }
     .stat .n { font-size: 2rem; font-weight: 650; letter-spacing: -0.04em; }
     .stat .l { color: var(--muted); font-size: 0.9rem; }
+    body[data-filter="sent"] .stat[data-filter="sent"],
+    body[data-filter="replies"] .stat[data-filter="replies"],
+    body[data-filter="yes"] .stat[data-filter="yes"],
+    body[data-filter="no"] .stat[data-filter="no"] {
+      outline: 2px solid var(--primary);
+    }
+    body[data-filter="open"] tbody tr[data-status="no"],
+    body[data-filter="replies"] tbody tr[data-status="waiting"],
+    body[data-filter="yes"] tbody tr[data-status="waiting"],
+    body[data-filter="yes"] tbody tr[data-status="no"],
+    body[data-filter="no"] tbody tr[data-status="yes"],
+    body[data-filter="no"] tbody tr[data-status="waiting"] { display: none; }
     .bar {
       display: flex;
       height: 14px;
@@ -181,15 +201,15 @@ const html = `<!doctype html>
     }
   </style>
 </head>
-<body>
+<body data-filter="open">
   <main>
     <h1>Notary outreach</h1>
-    <p class="subtitle">Remote divorce first emails. ${escapeHtml(builtAt)} Bangkok. Refusals stay in the totals only. Rebuild with <code>node build-progress.mjs</code>.</p>
+    <p class="subtitle">Remote divorce first emails. ${escapeHtml(builtAt)} Bangkok. Click a card to filter. Click again to return. Rebuild with <code>node build-progress.mjs</code>.</p>
     <div class="stats">
-      <div class="stat"><div class="n">${sent}</div><div class="l">Sent</div></div>
-      <div class="stat"><div class="n">${replies}</div><div class="l">Replies</div></div>
-      <div class="stat"><div class="n">${yes}</div><div class="l">Yes</div></div>
-      <div class="stat"><div class="n">${no}</div><div class="l">No</div></div>
+      <button type="button" class="stat" data-filter="sent"><div class="n">${sent}</div><div class="l">Sent</div></button>
+      <button type="button" class="stat" data-filter="replies"><div class="n">${replies}</div><div class="l">Replies</div></button>
+      <button type="button" class="stat" data-filter="yes"><div class="n">${yes}</div><div class="l">Yes</div></button>
+      <button type="button" class="stat" data-filter="no"><div class="n">${no}</div><div class="l">No</div></button>
     </div>
     <div class="bar" title="yes ${yes} · no ${no} · waiting ${waiting}">
       <span class="yes"></span><span class="no"></span><span class="waiting"></span>
@@ -203,6 +223,14 @@ const html = `<!doctype html>
       </tbody>
     </table>
   </main>
+  <script>
+    document.querySelectorAll(".stats button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const next = button.dataset.filter;
+        document.body.dataset.filter = document.body.dataset.filter === next ? "open" : next;
+      });
+    });
+  </script>
 </body>
 </html>
 `;

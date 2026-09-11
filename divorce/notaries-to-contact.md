@@ -12,7 +12,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | --- | --- | --- |
 | Jānis Skrastiņš | waiting | wave 1, 25 Aug |
 | Aigars Kaupe | yes | Same address: no transfers. Remote yes; original marriage cert to the office. Offers last week of September. Asks morning / afternoon / evening. 10 Sep 18:27 |
-| Kristīne Šapčenko | yes | Remote yes if both have e-signature. Follow-up sent 7 Sep: same household, 234 EUR?, total cost. |
+| Kristīne Šapčenko | yes | Joint custody yes. Maintenance must be paid, min 234 EUR. Original before visit. ~500–600 EUR if both speak Latvian. 10 Sep 21:49 |
 | Inese Purvinska | no | No videoconference. Find a notary who does. 25 Aug 13:34 |
 | Mārtiņš Limbēns | waiting | wave 1, 25 Aug |
 | Ingūna Bobrovska | no | Remote not possible: cannot verify child-support amount in Thailand / Thai vs Latvian rules. 27 Aug |
@@ -34,7 +34,7 @@ Do not bump people who have not answered. Send a new first email to the next unu
 | Dace Elksne | yes | In principle yes. Held 12 Oct as reserve (9 Sep). Asked same household / 234 EUR and cost. |
 | Guna Stikute | no | No video if minor child; child deed in person; original certificate at the office. 8 Sep 15:34 |
 | Ilze Metuzāle | yes | Vita: 25 Sep away. Offers 18 Sep 15:00 Latvian time. Both book separately on DigiNotārs. Consult 36.30 EUR. Original marriage cert before signing visit. |
-| Kristīne Kreile | waiting | wave 3, 7 Sep |
+| Kristīne Kreile | yes | Consult needed (Thailand). Video if e-paraksts/Smart-ID. Original marriage cert to them. 10 Sep 21:35 |
 
 Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 
@@ -76,6 +76,7 @@ Status: `waiting` · `no` · `yes` · auto-ack is still `waiting`
 - Status: yes
 - Reply (28 Aug 21:58): if both have e-signature, they can dissolve the marriage remotely
 - Follow-up (7 Sep): eParaksts + video; same household; joint custody without monthly transfer vs 234 EUR; total cost
+- Follow-up reply (10 Sep 21:49): joint custody is desirable; maintenance must be paid, current minimum 234 EUR; original marriage certificate to the office before the visit; ~500–600 EUR if both speak Latvian
 
 ### 4. Inese Purvinska — Daugavpils
 
@@ -326,6 +327,8 @@ Same first email. Skipped Aizvieto (Gita Rubīna away until 18 Sep). Did not re-
 - Phone: +371 67821655
 - Email: Kristine.Kreile@LatvijasNotars.lv
 - Why: already advertises videoconference Fridays
+- Status: yes
+- Reply (10 Sep 21:35): consult needed because you live in Thailand. Video if e-paraksts or qualified Smart-ID. Original marriage certificate must be sent to them. Video rules: https://www.latvijasnotars.lv/pages/nosaciumi-videokonsultacijas-norisei
 
 ## Backups
 

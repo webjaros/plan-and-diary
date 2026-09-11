@@ -77,6 +77,12 @@
       "template": "same-household-follow-up",
       "summary": "Same-household follow-up sent. Waiting.",
       "text": "Labdien!\n\nJā, abiem ir eParaksts, un varam pieslēgties videokonferencei latvijasnotars.lv platformā.\n\nTurpināsim dzīvot kopā vienā mājsaimniecībā. Viens jautājums: vai der kopīga aizgādība un uzturlīdzekļi bez ikmēneša pārskaitījuma, vai aktā jānorāda minimālais apmērs 234 EUR?\n\nLūdzu, norādiet arī kopējās izmaksas šajā situācijā (notāra atlīdzība, nodevas, PVN).\n\nPaldies!\nJaroslavs Kuprijanovs"
+    },
+    "followUpReply": {
+      "receivedAt": "2026-09-10T21:49:00+07:00",
+      "status": "yes",
+      "summary": "Joint custody is desirable. Maintenance must be paid; current minimum 234 EUR. Original marriage certificate to the office before the visit. If both speak Latvian, total about 500–600 EUR.",
+      "text": "Labdien. Kopīga aizgādība ir pat vēlama bērna interesēs, uzturlīdzekļi ir jāmaksā, minimums uz šo brīdi — 234 EUR. Līdz vizītei uz biroju jāatsūta laulības apliecības oriģināls. Ja abi pārvaldiet latviešu valodu, tad kopējās izmaksas varētu būt ~500–600 EUR."
     }
   },
   {
@@ -452,6 +458,12 @@
     "from": "Jaroslavs Kuprijanovs <j.kuprijanovs@weblab.lv>",
     "test": false,
     "resendId": "d8c099b3-c928-4dbf-9791-be17daa96fcd",
-    "error": null
+    "error": null,
+    "reply": {
+      "receivedAt": "2026-09-10T21:35:00+07:00",
+      "status": "yes",
+      "summary": "Need a consult because you live in Thailand. Video possible if e-paraksts or qualified Smart-ID. Original marriage certificate must be sent to them. Video-consult rules: https://www.latvijasnotars.lv/pages/nosaciumi-videokonsultacijas-norisei",
+      "text": "Labdien! Informējam, ka Jums būtu nepieciešams pieteikt konsultācijas vizīti pie notāres, sakarā ar to, ka Jūsu dzīvesvieta ir Taizemē. Vai Jums ir e-paraksts vai kvalificēts Smart-ID? Mēs varētu vizītes noturēt videokonferencē, bet Jums pie mums būtu jāatsūta laulības apliecības oriģināls. Sīkāk par videokonferenci: https://www.latvijasnotars.lv/pages/nosaciumi-videokonsultacijas-norisei Ar cieņu, zvērinātas notāres Kristīnes Kreiles birojs. Tālr. 67821655."
+    }
   }
 ]

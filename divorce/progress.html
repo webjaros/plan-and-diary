@@ -39,13 +39,34 @@
       margin-bottom: 16px;
     }
     .stat {
+      appearance: none;
+      display: block;
+      width: 100%;
+      border: 0;
       background: var(--card);
+      color: inherit;
+      font: inherit;
+      text-align: left;
       border-radius: 16px;
       padding: 18px 16px;
       box-shadow: var(--shadow);
+      cursor: pointer;
     }
+    .stat:hover { outline: 2px solid var(--line); }
     .stat .n { font-size: 2rem; font-weight: 650; letter-spacing: -0.04em; }
     .stat .l { color: var(--muted); font-size: 0.9rem; }
+    body[data-filter="sent"] .stat[data-filter="sent"],
+    body[data-filter="replies"] .stat[data-filter="replies"],
+    body[data-filter="yes"] .stat[data-filter="yes"],
+    body[data-filter="no"] .stat[data-filter="no"] {
+      outline: 2px solid var(--primary);
+    }
+    body[data-filter="open"] tbody tr[data-status="no"],
+    body[data-filter="replies"] tbody tr[data-status="waiting"],
+    body[data-filter="yes"] tbody tr[data-status="waiting"],
+    body[data-filter="yes"] tbody tr[data-status="no"],
+    body[data-filter="no"] tbody tr[data-status="yes"],
+    body[data-filter="no"] tbody tr[data-status="waiting"] { display: none; }
     .bar {
       display: flex;
       height: 14px;
@@ -55,9 +76,9 @@
       background: #ddd4c8;
     }
     .bar span { display: block; height: 100%; }
-    .bar .yes { background: var(--yes); width: 24%; }
+    .bar .yes { background: var(--yes); width: 28%; }
     .bar .no { background: var(--no); width: 24%; }
-    .bar .waiting { background: var(--wait); width: 52%; }
+    .bar .waiting { background: var(--wait); width: 48%; }
     table { width: 100%; border-collapse: collapse; background: var(--card); box-shadow: var(--shadow); border-radius: 16px; overflow: hidden; }
     th, td { text-align: left; padding: 12px 14px; vertical-align: top; }
     th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--line); }
@@ -82,17 +103,17 @@
     }
   </style>
 </head>
-<body>
+<body data-filter="open">
   <main>
     <h1>Notary outreach</h1>
-    <p class="subtitle">Remote divorce first emails. 10 Sept 2026, 18:56 Bangkok. Refusals stay in the totals only. Rebuild with <code>node build-progress.mjs</code>.</p>
+    <p class="subtitle">Remote divorce first emails. 11 Sept 2026, 10:41 Bangkok. Click a card to filter. Click again to return. Rebuild with <code>node build-progress.mjs</code>.</p>
     <div class="stats">
-      <div class="stat"><div class="n">25</div><div class="l">Sent</div></div>
-      <div class="stat"><div class="n">12</div><div class="l">Replies</div></div>
-      <div class="stat"><div class="n">6</div><div class="l">Yes</div></div>
-      <div class="stat"><div class="n">6</div><div class="l">No</div></div>
+      <button type="button" class="stat" data-filter="sent"><div class="n">25</div><div class="l">Sent</div></button>
+      <button type="button" class="stat" data-filter="replies"><div class="n">13</div><div class="l">Replies</div></button>
+      <button type="button" class="stat" data-filter="yes"><div class="n">7</div><div class="l">Yes</div></button>
+      <button type="button" class="stat" data-filter="no"><div class="n">6</div><div class="l">No</div></button>
     </div>
-    <div class="bar" title="yes 6 · no 6 · waiting 13">
+    <div class="bar" title="yes 7 · no 6 · waiting 12">
       <span class="yes"></span><span class="no"></span><span class="waiting"></span>
     </div>
     <table>
@@ -100,141 +121,191 @@
         <tr><th>Notary</th><th>Status</th><th>Ball</th><th>Last note</th><th>When</th></tr>
       </thead>
       <tbody>
-        <tr>
+        <tr data-status="yes">
+      <td>Kristīne Šapčenko</td>
+      <td><span class="pill yes">yes</span></td>
+      <td><span class="pill ball-us">On us</span></td>
+      <td>Joint custody is desirable. Maintenance must be paid; current minimum 234 EUR. Original marriage certificate to the office before the visit. If both speak Latvian, total about 500–600 EUR.</td>
+      <td class="when">10 Sept, 21:49</td>
+    </tr>
+<tr data-status="yes">
+      <td>Kristīne Kreile</td>
+      <td><span class="pill yes">yes</span></td>
+      <td><span class="pill ball-us">On us</span></td>
+      <td>Need a consult because you live in Thailand. Video possible if e-paraksts or qualified Smart-ID. Original marriage certificate must be sent to them. Video-consult rules: https://www.latvijasnotars.lv/pages/nosaciumi-videokonsultacijas-norisei</td>
+      <td class="when">10 Sept, 21:35</td>
+    </tr>
+<tr data-status="yes">
       <td>Aigars Kaupe</td>
       <td><span class="pill yes">yes</span></td>
       <td><span class="pill ball-us">On us</span></td>
       <td>Same address: no transfers needed. If an account is named / they live apart, pay at least the minimum. Remote yes; original marriage certificate must go to the office. Can prepare for the last week of September. Asks morning, afternoon, or evening.</td>
       <td class="when">10 Sept, 18:27</td>
     </tr>
-<tr>
+<tr data-status="yes">
       <td>Ilze Metuzāle</td>
       <td><span class="pill yes">yes</span></td>
       <td><span class="pill ball-us">On us</span></td>
       <td>Vita Vīksna: 25 Sep not possible (notary away). Offers Fri 18 Sep 15:00 Latvian time (19:00 Bangkok). Both must book separately on DigiNotārs / latvijasnotars.lv. First visit is consult only; signing later. Original marriage certificate must reach the office before the signing visit. Consult 36.30 EUR. Read the videoconference instructions on the site.</td>
       <td class="when">9 Sept, 15:34</td>
     </tr>
-<tr>
+<tr data-status="yes">
       <td>Dace Elksne</td>
       <td><span class="pill yes">yes</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>Held 12 Oct as reserve. Asked same-household / 234 EUR and total cost. Waiting.</td>
       <td class="when">9 Sept, 10:08</td>
     </tr>
-<tr>
+<tr data-status="yes">
       <td>Inese Moroza</td>
       <td><span class="pill yes">yes</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>Purpose reply sent. Waiting.</td>
       <td class="when">9 Sept, 09:59</td>
     </tr>
-<tr>
-      <td>Kristīne Šapčenko</td>
-      <td><span class="pill yes">yes</span></td>
-      <td><span class="pill ball-them">On them</span></td>
-      <td>Same-household follow-up sent. Waiting.</td>
-      <td class="when">7 Sept, 03:53</td>
-    </tr>
-<tr>
+<tr data-status="yes">
       <td>Inese Jaunzeme</td>
       <td><span class="pill yes">yes</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>Same-household follow-up sent. Waiting.</td>
       <td class="when">7 Sept, 03:53</td>
     </tr>
-<tr>
-      <td>Kristīne Kreile</td>
-      <td><span class="pill waiting">waiting</span></td>
-      <td><span class="pill ball-them">On them</span></td>
-      <td>First email sent. Waiting.</td>
-      <td class="when">7 Sept, 11:02</td>
-    </tr>
-<tr>
+<tr data-status="waiting">
       <td>Linda Eglīte</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">7 Sept, 11:02</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Evita Mančinska</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">7 Sept, 11:02</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Laila Lapiņa</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">7 Sept, 11:02</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Hermanis Vidžups</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">7 Sept, 11:02</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Irēna Ziringa</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Eduards Virko</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Rihards Mintāls</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Ilze Popele</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Evija Birzule</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Vitālijs Bogdāns</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">27 Aug, 11:37</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Mārtiņš Limbēns</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">25 Aug, 12:50</td>
     </tr>
-<tr>
+<tr data-status="waiting">
       <td>Jānis Skrastiņš</td>
       <td><span class="pill waiting">waiting</span></td>
       <td><span class="pill ball-them">On them</span></td>
       <td>First email sent. Waiting.</td>
       <td class="when">25 Aug, 12:49</td>
     </tr>
+<tr data-status="no">
+      <td>Guna Stikute</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Rūta Herberga for Stikute: no video divorce if there is a minor child. Child deed only in person; original marriage certificate must be submitted at the office. Cannot offer a videoconference appointment.</td>
+      <td class="when">8 Sept, 15:34</td>
+    </tr>
+<tr data-status="no">
+      <td>Iluta Sauliete</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Will not take the case. Divorce at a notary needs a child deed; because the family lives in Thailand they say they must assess Thai parental-responsibility law and they do not have that knowledge.</td>
+      <td class="when">7 Sept, 23:10</td>
+    </tr>
+<tr data-status="no">
+      <td>Inga Ērgle</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Does not perform this service by videoconference.</td>
+      <td class="when">28 Aug, 13:37</td>
+    </tr>
+<tr data-status="no">
+      <td>Arlita Mintāle</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Remote/digital signing in an online visit is not possible for technical reasons. Documents can only be signed in person. Suggested another notary office for digital signing.</td>
+      <td class="when">27 Aug, 15:55</td>
+    </tr>
+<tr data-status="no">
+      <td>Ingūna Bobrovska</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Assistant: remote divorce not possible. Cannot verify the necessary child-support amount in another country; does not know if Thai rules are compatible with Latvian rules.</td>
+      <td class="when">27 Aug, 11:36</td>
+    </tr>
+<tr data-status="no">
+      <td>Inese Purvinska</td>
+      <td><span class="pill no">no</span></td>
+      <td><span class="pill ball-done">Closed</span></td>
+      <td>Does not provide videoconference services. Told us to contact a notary who does.</td>
+      <td class="when">25 Aug, 13:34</td>
+    </tr>
       </tbody>
     </table>
   </main>
+  <script>
+    document.querySelectorAll(".stats button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const next = button.dataset.filter;
+        document.body.dataset.filter = document.body.dataset.filter === next ? "open" : next;
+      });
+    });
+  </script>
 </body>
 </html>
